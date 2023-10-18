@@ -1,4 +1,4 @@
-package com.lovetest.find.real.love.finder.base
+package com.project.tathanhson.basicnote.base
 
 import android.annotation.SuppressLint
 import android.content.Intent

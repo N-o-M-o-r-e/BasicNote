@@ -1,4 +1,4 @@
-package com.lovetest.find.real.love.finder.base
+package com.project.tathanhson.basicnote.base
 
 import android.content.Intent
 import android.content.pm.ActivityInfo
@@ -55,6 +55,7 @@ abstract class BaseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         Hawk.init(applicationContext).build()
 
+        var checkOnSaveInstanceState = savedInstanceState
         val TAG = "AAAAAAAAAAAA"
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         with(window) {
