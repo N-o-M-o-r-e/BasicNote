@@ -14,7 +14,7 @@ android {
         targetSdk 33
         versionCode 1
         versionName "1.0"
-        resConfigs 'en', 'ca', 'cs', 'da', 'de', 'el', 'es', 'fr', 'hu', 'in', 'it', 'ja', 'nb', 'nl', 'nn', 'pl', 'pt-rBR', 'pt-rPT', 'ru', 'sk', 'sv', 'tl', 'tr', 'uk', 'vi', 'zh-rCN'
+//        resConfigs 'en', 'hi','vi','ko','zh','th'
         vectorDrawables.generatedDensities = []
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -40,6 +40,12 @@ android {
     }
     kotlinOptions {
         jvmTarget = '17'
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
     }
 
     buildFeatures{

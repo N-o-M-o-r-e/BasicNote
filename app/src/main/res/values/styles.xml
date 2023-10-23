@@ -125,5 +125,37 @@
         <item name="cornerSize">16dp</item>
     </style>
 
+<!--    font-->
+    <style name="Inter_Bold">
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="Inter_Regular">
+        <item name="fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="Inter_SemiBold">
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+
+    <style name="Inter_Medium">
+        <item name="fontFamily">@font/inter_medium</item>
+    </style>
+
+    <style name="Inter_Thin">
+        <item name="fontFamily">@font/inter_thin</item>
+    </style>
+
+
+
+    <style name="Status_Bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">68dp</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="android:paddingHorizontal">16dp</item>
+
+    </style>
 
 </resources>

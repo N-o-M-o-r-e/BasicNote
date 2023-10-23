@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">BasicNote</string>
 
@@ -143,6 +144,4 @@
     <string name="intro_01">Record your tasks, thoughts, and problems that need solving</string>
     <string name="des_02">Display notes right on your phone screen</string>
     <string name="des_03">Set a password to keep your notes private and secure</string>
-
-
 </resources>
