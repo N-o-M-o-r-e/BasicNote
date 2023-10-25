@@ -146,6 +146,22 @@
         <item name="fontFamily">@font/inter_thin</item>
     </style>
 
+    <style name="Nunito_Bold">
+        <item name="fontFamily">@font/nunito_bold</item>
+    </style>
+
+    <style name="Nunito_SemiBold">
+        <item name="fontFamily">@font/nunito_semibold</item>
+    </style>
+
+    <style name="Nunito_Regular">
+        <item name="fontFamily">@font/nunito_regular</item>
+    </style>
+
+    <style name="Nunito_Medium">
+        <item name="fontFamily">@font/nunito_medium</item>
+    </style>
+
 
 
     <style name="Status_Bar">

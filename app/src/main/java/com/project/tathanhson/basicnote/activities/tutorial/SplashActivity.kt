@@ -26,7 +26,7 @@ class SplashActivity :
             }else{
                 startActivity(Intent(this, LanguageActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK))
             }
-        },3000)
+        },1000)
     }
 
 }

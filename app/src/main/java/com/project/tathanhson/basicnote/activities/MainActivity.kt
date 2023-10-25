@@ -47,13 +47,23 @@ class MainActivity :
     }
 
     override fun listeners() {
+        binding.btnAdd.setOnClickListener {
+            binding.viewAddItem.visibility = View.VISIBLE
+        }
+
+        binding.viewAddItem.setOnClickListener {
+            binding.viewAddItem.visibility = View.GONE
+        }
+
         binding.TakeNote.setOnClickListener {
             val intent = Intent(this, TakeNoteView::class.java)
             startActivity(intent)
+            binding.viewAddItem.visibility = View.GONE
         }
         binding.MakeList.setOnClickListener {
             val intent = Intent(this, MakeList::class.java)
             startActivity(intent)
+            binding.viewAddItem.visibility = View.GONE
         }
     }
     
@@ -82,6 +92,7 @@ class MainActivity :
 
         var fragmentIdToLoad: Int? = null
         binding.NavigationView.setNavigationItemSelectedListener { item ->
+//            fragmentIdToLoad = item.itemId
             fragmentIdToLoad = item.itemId
             binding.DrawerLayout.closeDrawer(GravityCompat.START)
             return@setNavigationItemSelectedListener true
@@ -115,11 +126,11 @@ class MainActivity :
 
     private fun handleDestinationChange(destination: NavDestination) {
         if (destination.id == R.id.Notes) {
-//            binding.TakeNote.show()
-//            binding.MakeList.show()
+            binding.TakeNote.visibility = View.VISIBLE
+            binding.MakeList.visibility = View.VISIBLE
         } else {
-//            binding.TakeNote.hide()
-//            binding.MakeList.hide()
+            binding.TakeNote.visibility = View.GONE
+            binding.MakeList.visibility = View.GONE
         }
 
         binding.EnterSearchKeyword.isVisible = (destination.id == R.id.Search)
