@@ -9,10 +9,9 @@ import com.project.tathanhson.basicnote.miscellaneous.add
 class Notes : NoteViewFragment() {
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        menu.add(
-            R.string.search,
-            R.drawable.search
-        ) { findNavController().navigate(R.id.NotesToSearch) }
+        menu.add(R.string.search,R.drawable.search) {
+            findNavController().navigate(R.id.NotesToSearch)
+        }
     }
 
 

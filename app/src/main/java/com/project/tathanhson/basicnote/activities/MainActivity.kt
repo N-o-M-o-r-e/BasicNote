@@ -1,5 +1,6 @@
 package com.project.tathanhson.basicnote.activities
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.view.View
 import androidx.activity.viewModels
@@ -35,6 +36,7 @@ class MainActivity :
         
     }
 
+    @SuppressLint("ResourceAsColor")
     override fun initView() {
         setSupportActionBar(binding.Toolbar)
         setupMenu()
@@ -65,6 +67,8 @@ class MainActivity :
             startActivity(intent)
             binding.viewAddItem.visibility = View.GONE
         }
+
+
     }
     
     private fun setupMenu() {
@@ -98,6 +102,19 @@ class MainActivity :
             return@setNavigationItemSelectedListener true
         }
 
+        binding.Notes.setOnClickListener {
+            navController.navigate(requireNotNull(R.id.Notes), null)
+        }
+        binding.Labels.setOnClickListener {
+            navController.navigate(requireNotNull(R.id.Labels), null)
+        }
+        binding.Archived.setOnClickListener {
+            navController.navigate(requireNotNull(R.id.Archived), null)
+        }
+        binding.Settings.setOnClickListener {
+            navController.navigate(requireNotNull(R.id.Settings), null)
+        }
+
         binding.DrawerLayout.addDrawerListener(object : DrawerLayout.SimpleDrawerListener() {
 
             override fun onDrawerClosed(drawerView: View) {
@@ -112,6 +129,7 @@ class MainActivity :
                         }
                         popUpTo(navController.graph.startDestination) { inclusive = false }
                     }
+
                     navController.navigate(requireNotNull(fragmentIdToLoad), null, options)
                 }
             }
