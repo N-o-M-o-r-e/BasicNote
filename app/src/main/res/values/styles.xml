@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Base.AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorSecondary">?attr/colorPrimary</item>
@@ -125,53 +125,39 @@
         <item name="cornerSize">16dp</item>
     </style>
 
-<!--    font-->
-    <style name="Inter_Bold">
-        <item name="fontFamily">@font/inter_bold</item>
-    </style>
-
-    <style name="Inter_Regular">
-        <item name="fontFamily">@font/inter_regular</item>
-    </style>
-
-    <style name="Inter_SemiBold">
-        <item name="fontFamily">@font/inter_semibold</item>
-    </style>
-
-    <style name="Inter_Medium">
-        <item name="fontFamily">@font/inter_medium</item>
-    </style>
-
-    <style name="Inter_Thin">
-        <item name="fontFamily">@font/inter_thin</item>
-    </style>
-
-    <style name="Nunito_Bold">
+<!--    font style -->
+    <style name="NUNITO_BOLD">
         <item name="fontFamily">@font/nunito_bold</item>
     </style>
-
-    <style name="Nunito_SemiBold">
+    <style name="NUNITO_SEMIBLOD">
         <item name="fontFamily">@font/nunito_semibold</item>
     </style>
-
-    <style name="Nunito_Regular">
+    <style name="NUNITO_REGULAR">
         <item name="fontFamily">@font/nunito_regular</item>
     </style>
-
-    <style name="Nunito_Medium">
+    <style name="NUNITO_MEDIUM">
         <item name="fontFamily">@font/nunito_medium</item>
     </style>
 
 
-
     <style name="Status_Bar">
+        <item name="android:background">@color/Color_Background_StatusBar</item>
+        <item name="elevation">2dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">68dp</item>
         <item name="layout_constraintStart_toStartOf">parent</item>
         <item name="layout_constraintEnd_toEndOf">parent</item>
         <item name="layout_constraintTop_toTopOf">parent</item>
-        <item name="android:paddingHorizontal">16dp</item>
-
+        <item name="android:paddingHorizontal" tools:ignore="NewApi">16dp</item>
     </style>
+
+    <style name="PinCode" parent="NUNITO_MEDIUM">
+        <item name="android:elevation">8dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#383655</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
 
 </resources>

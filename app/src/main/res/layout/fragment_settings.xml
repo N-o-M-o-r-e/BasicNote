@@ -87,6 +87,7 @@
             style="@style/PreferenceHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="gone"
             android:text="@string/about" />
 
         <TextView
@@ -94,6 +95,8 @@
             style="@style/Preference"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="gone"
+
             android:text="@string/github" />
 
         <TextView
@@ -101,6 +104,8 @@
             style="@style/Preference"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="gone"
+
             android:text="@string/libraries" />
 
         <TextView
@@ -108,6 +113,8 @@
             style="@style/Preference"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="gone"
+
             android:text="@string/rate" />
 
         <TextView
@@ -115,6 +122,8 @@
             style="@style/Preference"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="gone"
+
             android:text="@string/send_feedback" />
 
     </LinearLayout>

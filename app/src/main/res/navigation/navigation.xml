@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/Notes"
-        android:name="com.project.tathanhson.basicnote.fragment.Notes"
+        android:name="com.sntthanh.notebasic.fragments.Notes"
         android:label="@string/app_name">
 
         <action
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/Labels"
-        android:name="com.project.tathanhson.basicnote.fragment.Labels"
+        android:name="com.sntthanh.notebasic.fragments.Labels"
         android:label="@string/labels">
 
         <action
@@ -34,26 +34,26 @@
 
     <fragment
         android:id="@+id/Deleted"
-        android:name="com.project.tathanhson.basicnote.fragment.Deleted"
+        android:name="com.sntthanh.notebasic.fragments.Deleted"
         android:label="@string/deleted" />
 
     <fragment
         android:id="@+id/Archived"
-        android:name="com.project.tathanhson.basicnote.fragment.Archived"
+        android:name="com.sntthanh.notebasic.fragments.Archived"
         android:label="@string/archived" />
 
     <fragment
         android:id="@+id/Settings"
-        android:name="com.project.tathanhson.basicnote.fragment.Settings"
+        android:name="com.sntthanh.notebasic.fragments.Settings"
         android:label="@string/settings" />
 
     <fragment
         android:id="@+id/Search"
-        android:name="com.project.tathanhson.basicnote.fragment.Search" />
+        android:name="com.sntthanh.notebasic.fragments.Search" />
 
     <fragment
         android:id="@+id/DisplayLabel"
-        android:name="com.project.tathanhson.basicnote.fragment.DisplayLabel"
+        android:name="com.sntthanh.notebasic.fragments.DisplayLabel"
         android:label="{SelectedLabel}" />
 
 </navigation>

@@ -9,7 +9,9 @@
     <color name="LightBlue500">#03A9F4</color>
     <color name="LightBlue100">#B3E5fC</color>
 
+
     <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
     <color name="Transparent">#00000000</color>
 
     <color name="Grey100">#F5F5F5</color>
@@ -27,13 +29,18 @@
     <color name="Blossom">#F5E2DC</color>
     <color name="Clay">#E9E3D3</color>
 
-    <color name="Color_Background">#F8F8F8</color>
-    <color name="Color_Ripple">#BF9AFF</color>
-
-    <color name="Color_Choose">#D0D0D0</color>
-
     <color name="dark_dot">#273B46</color>
     <color name="light_dot">#E6E6E6</color>
 
+    <color name="Color_Text">#804DD7</color>
+
+    <color name="Color_Ripple">#BF9AFF</color>
+    <color name="Color_Background">#F8F8F8</color>
+
+    <color name="Color_Background_StatusBar">#F9F5FF</color>
+
+    <color name="Color_Choose">#D0D0D0</color>
     <color name="text_color">#1E2E36</color>
+
+
 </resources>

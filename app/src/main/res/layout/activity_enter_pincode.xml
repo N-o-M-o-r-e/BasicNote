@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Color_Background"
+        tools:context=".activities.security.pincode.CreatePincodeActivity">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/statusBar"
+            style="@style/Status_Bar"
+            tools:ignore="MissingConstraints">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_back"
+                android:layout_gravity="center"
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/NUNITO_BOLD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter passcode"
+            android:textColor="@color/Color_Text"
+            android:textSize="24dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="@+id/statusBar"
+            app:layout_constraintStart_toStartOf="@+id/statusBar"
+            app:layout_constraintTop_toBottomOf="@+id/statusBar" />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter 4-Digit Pin for your Diary"
+            style="@style/NUNITO_REGULAR"
+            android:textColor="#2C2680"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            app:layout_constraintStart_toStartOf="@+id/tvTitle"
+            app:layout_constraintEnd_toEndOf="@+id/tvTitle"
+            />
+
+        <LinearLayout
+            android:id="@+id/viewDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvDes"
+            app:layout_constraintStart_toStartOf="@id/tvDes"
+            app:layout_constraintEnd_toEndOf="@+id/tvDes">
+
+            <View
+                android:id="@+id/dot01"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/background_view_dot" />
+
+            <View
+                android:id="@+id/dot02"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/background_view_dot" />
+
+            <View
+                android:id="@+id/dot03"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/background_view_dot" />
+
+            <View
+                android:id="@+id/dot04"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/background_view_dot" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/viewPinCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/viewDot">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_1"
+                style="@style/PinCode"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/background_button_passcode"
+                android:text="1"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toStartOf="@id/pc_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:text="2"
+                style="@style/PinCode"
+                android:background="@drawable/background_button_passcode"
+                app:layout_constraintTop_toTopOf="@+id/pc_1"
+                app:layout_constraintStart_toEndOf="@id/pc_1"
+                app:layout_constraintEnd_toStartOf="@id/pc_3"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_3"
+                style="@style/PinCode"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/background_button_passcode"
+                android:text="3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/pc_2"
+                app:layout_constraintTop_toTopOf="@id/pc_1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_4"
+                style="@style/PinCode"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/background_button_passcode"
+                android:text="4"
+                app:layout_constraintStart_toStartOf="@id/pc_1"
+                app:layout_constraintTop_toBottomOf="@id/pc_1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_5"
+                style="@style/PinCode"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/background_button_passcode"
+                android:text="5"
+                app:layout_constraintStart_toStartOf="@id/pc_2"
+                app:layout_constraintTop_toTopOf="@+id/pc_4" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_6"
+                style="@style/PinCode"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/background_button_passcode"
+                android:text="6"
+                app:layout_constraintStart_toStartOf="@id/pc_3"
+                app:layout_constraintTop_toTopOf="@+id/pc_4" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_7"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:text="7"
+                style="@style/PinCode"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/background_button_passcode"
+                app:layout_constraintTop_toBottomOf="@id/pc_4"
+                app:layout_constraintStart_toStartOf="@id/pc_4" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_8"
+                style="@style/PinCode"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/background_button_passcode"
+                android:text="8"
+                app:layout_constraintStart_toStartOf="@id/pc_5"
+                app:layout_constraintTop_toTopOf="@+id/pc_7" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_9"
+                style="@style/PinCode"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/background_button_passcode"
+                android:text="9"
+                app:layout_constraintStart_toStartOf="@id/pc_6"
+                app:layout_constraintTop_toTopOf="@+id/pc_7" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_0"
+                style="@style/PinCode"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/background_button_passcode"
+                android:text="0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/pc_8"
+                app:layout_constraintTop_toBottomOf="@+id/pc_8" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pc_clear"
+                style="@style/PinCode"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/background_button_passcode"
+                app:layout_constraintBottom_toBottomOf="@+id/pc_0"
+                app:layout_constraintStart_toStartOf="@+id/pc_9"
+                app:layout_constraintTop_toTopOf="@+id/pc_0" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_clear"
+                android:elevation="4dp"
+                app:layout_constraintBottom_toBottomOf="@+id/pc_clear"
+                app:layout_constraintEnd_toEndOf="@+id/pc_clear"
+                app:layout_constraintStart_toStartOf="@+id/pc_clear"
+                app:layout_constraintTop_toTopOf="@+id/pc_clear" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/switchToPattern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch to Pattern"
+            style="@style/NUNITO_SEMIBLOD"
+            android:textColor="@color/white"
+            android:paddingHorizontal="60dp"
+            android:paddingVertical="12dp"
+            android:layout_marginTop="32dp"
+            android:drawablePadding="8dp"
+            android:elevation="8dp"
+            android:drawableStart="@drawable/ic_switch"
+            android:background="@drawable/background_button"
+            app:layout_constraintTop_toBottomOf="@+id/viewPinCode"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/btnForgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:text="Did you forget your password?"
+            style="@style/NUNITO_BOLD"
+            android:textColor="@color/Color_Text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/switchToPattern"
+            app:layout_constraintStart_toStartOf="@+id/switchToPattern"
+            app:layout_constraintTop_toBottomOf="@+id/switchToPattern" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

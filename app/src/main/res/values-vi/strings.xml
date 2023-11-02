@@ -1,147 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BasicNote</string>
-
-    <!-- Tiêu đề Fragment -->
+    <!-- Fragment Titles -->
     <string name="notes">Ghi chú</string>
     <string name="labels">Nhãn</string>
-    <string name="deleted">Đã xóa</string>
-    <string name="archived">Đã lưu trữ</string>
+    <string name="deleted">Thùng rác</string>
+    <string name="archived">Lưu trữ</string>
     <string name="settings">Cài đặt</string>
 
-    <!-- Tùy chọn Menu -->
+    <!-- Menu Options -->
     <string name="share">Chia sẻ</string>
     <string name="filter">Lọc</string>
     <string name="search">Tìm kiếm</string>
     <string name="delete">Xóa</string>
     <string name="restore">Khôi phục</string>
     <string name="archive">Lưu trữ</string>
-    <string name="unarchive">Hủy lưu trữ</string>
-    <string name="add_images">Thêm hình ảnh</string>
-    <string name="delete_all">Xóa tất cả</string>
-    <string name="change_color">Thay đổi màu sắc</string>
+    <string name="unarchive">Bỏ lưu trữ</string>
+    <string name="delete_all">Xóa toàn bộ</string>
+    <string name="change_color">Đổi màu</string>
     <string name="delete_forever">Xóa vĩnh viễn</string>
 
-    <!-- Ghim -->
+    <!-- Pinning -->
     <string name="pin">Ghim</string>
     <string name="unpin">Bỏ ghim</string>
     <string name="pinned">Đã ghim</string>
-    <string name="others">Khác</string>
+    <string name="others">Còn lại</string>
 
-    <!-- Gợi ý hộp thoại Chọn -->
+    <!-- Chooser dialog hints -->
     <string name="view_note">Xem ghi chú…</string>
 
-    <!-- Hộp thoại -->
+    <!-- Dialogs -->
     <string name="save">Lưu</string>
     <string name="edit">Sửa</string>
     <string name="cancel">Hủy</string>
     <string name="open_link">Mở liên kết</string>
-    <string name="make_list">Tạo danh sách</string>
+    <string name="make_list">Liệt kê</string>
     <string name="take_note">Ghi chú</string>
     <string name="add_label">Thêm nhãn</string>
     <string name="export">Xuất</string>
-    <string name="view_file">Xem tệp</string>
+    <string name="view_file">Xem tập tin</string>
     <string name="save_to_device">Lưu vào thiết bị</string>
-    <string name="edit_label">Sửa nhãn</string>
-    <string name="label_exists">Nhãn đã tồn tại</string>
+    <string name="edit_label">Đổi nhãn</string>
+    <string name="label_exists">Danh sách nhãn sử dụng</string>
     <string name="delete_label">Xóa nhãn?</string>
-    <string name="create_new">Chưa có nhãn nào. Bạn muốn tạo một nhãn không?</string>
-    <string name="delete_all_notes">Xóa tất cả ghi chú?</string>
-    <string name="delete_note_forever">Xóa ghi chú vĩnh viễn?</string>
-    <string name="your_notes_associated">Các ghi chú của bạn đính kèm với nhãn này sẽ không bị xóa</string>
+    <string name="create_new">Chưa có nhãn nào. Thử tạo mới?</string>
+    <string name="delete_all_notes">Xóa toàn bộ ghi chú?</string>
+    <string name="delete_note_forever">Xóa vĩnh viễn ghi chú?</string>
+    <string name="your_notes_associated">Những ghi chú có sử dụng nhãn này sẽ không bị xóa.</string>
 
-    <!-- Danh sách và Ghi chú -->
+    <!-- Lists and Notes -->
     <string name="note">Ghi chú</string>
-    <string name="item">Mục</string>
+    <string name="item">Liệt kê</string>
     <string name="date">Ngày</string>
-    <string name="title">Tiêu đề</string>
-    <string name="add_item">Thêm Mục</string>
-    <string name="drag_handle">Kéo để di chuyển</string>
-    <string name="bold">In đậm</string>
+    <string name="title">Tựa đề</string>
+    <string name="add_item">Thêm nội dung</string>
+    <string name="drag_handle">Kéo thả</string>
+    <string name="bold">Đậm</string>
     <string name="link">Liên kết</string>
     <string name="italic">Nghiêng</string>
-    <string name="strikethrough">Gạch ngang</string>
+    <string name="strikethrough">Gạch giữa</string>
     <string name="clear_formatting">Xóa định dạng</string>
-    <string name="monospace">Monospace</string>
 
-    <!-- Các loại khác nhau -->
+    <!-- Miscellaneous -->
     <string name="saved_to_device">Đã lưu vào thiết bị</string>
-    <string name="saved_to_notally">Đã lưu vào Notally</string>
-    <string name="empty_note">Ghi chú trống</string>
-    <string name="empty_list">Danh sách trống</string>
-
-    <!-- Thông báo -->
+    <string name="saved_to_notally">Đã lưu trong Notally</string>
+    <string name="empty_note">Nội dung ghi chú trống</string>
+    <string name="empty_list">Nội dung liệt kê trống</string>
     <string name="cant_open_link">Không thể mở liên kết</string>
-    <string name="invalid_image">Hình ảnh không hợp lệ</string>
-    <string name="invalid_backup">Sao lưu không hợp lệ</string>
+    <string name="invalid_backup">Bản sao lưu không hợp lệ</string>
     <string name="imported_backup">Đã nhập bản sao lưu</string>
-    <string name="something_went_wrong">Có điều gì đó không ổn. Vui lòng thử lại.</string>
-    <string name="image_format_not_supported">Định dạng hình ảnh không được hỗ trợ</string>
-    <string name="install_an_email">Cài đặt ứng dụng email để gửi phản hồi</string>
-    <string name="install_a_browser">Cài đặt trình duyệt để mở liên kết này</string>
+    <string name="something_went_wrong">Có lỗi xảy ra. Vui lòng thử lại.</string>
+    <string name="install_an_email">Cài đặt một ứng dụng email để gửi phản hồi</string>
+    <string name="install_a_browser">Cài đặt một trình duyệt để mở link này</string>
 
-    <!-- Trang Cài đặt -->
+    <!-- Settings Page -->
     <string name="appearance">Giao diện</string>
 
-    <string name="view">Xem</string>
+    <string name="view">Kiểu xem</string>
     <string name="list">Danh sách</string>
     <string name="grid">Lưới</string>
 
     <string name="theme">Chủ đề</string>
     <string name="dark">Tối</string>
     <string name="light">Sáng</string>
-    <string name="follow_system">Theo hệ thống</string>
+    <string name="follow_system">Mặc định hệ thống</string>
 
-    <string name="date_format">Định dạng ngày</string>
-    <string name="none">Không có</string>
+    <string name="date_format">Định dạng ngày tháng</string>
+    <string name="none">Không</string>
 
-    <string name="text_size">Kích thước văn bản</string>
+    <string name="text_size">Cỡ chữ</string>
     <string name="small">Nhỏ</string>
-    <string name="medium">Trung bình</string>
+    <string name="medium">Vừa</string>
     <string name="large">Lớn</string>
 
-    <string name="content_density">Mật độ nội dung</string>
-    <string name="max_items_to_display">Số mục tối đa hiển thị trong danh sách</string>
-    <string name="max_lines_to_display">Số dòng tối đa hiển thị trong ghi chú</string>
+    <string name="content_density">Mật độ hiển thị nội dung</string>
+    <string name="max_items_to_display">Số lượng mục liệt kê tối đa</string>
+    <string name="max_lines_to_display">Số lượng dòng ghi chú tối đa</string>
 
     <string name="backup">Sao lưu</string>
 
-    <!-- Tự động sao lưu -->
+    <!-- Auto backup -->
     <string name="auto_backup">Sao lưu tự động</string>
-    <string name="tap_to_set_up">Chạm để thiết lập</string>
-    <string name="notes_will_be">Ghi chú sẽ được sao lưu vào bộ nhớ trong điện thoại của bạn hàng ngày.\n\nĐiều này có thể không hoạt động nếu bạn đã bật chế độ tiết kiệm năng lượng</string>
+    <string name="tap_to_set_up">Nhấn để thiết lập</string>
+    <string name="notes_will_be">Ghi chú sẽ được sao lưu vào bộ nhớ trong\ của thiết bị hằng ngày.\n\nBạn hãy lưu ý tắt chế độ tiết kiệm pin trước.</string>
     <string name="choose_folder">Chọn thư mục</string>
     <string name="disable_auto_backup">Tắt sao lưu tự động</string>
     <string name="choose_another_folder">Chọn thư mục khác</string>
-    <string name="cant_find_folder">Không thể tìm thấy thư mục. Có thể nó đã được di chuyển hoặc xóa</string>
+    <string name="cant_find_folder">Không tìm thấy thư mục. Có thể do đã dời hoặc xóa.</string>
 
-    <string name="export_backup">Xuất sao lưu</string>
-    <string name="import_backup">Nhập sao lưu</string>
+    <string name="export_backup">Xuất dữ liệu</string>
+    <string name="import_backup">Nhập dữ liệu</string>
 
-    <string name="about">Về ứng dụng</string>
-    <string name="libraries">Thư viện</string>
-    <string name="rate">Đánh giá ứng dụng này</string>
+    <string name="about">Giới thiệu</string>
+    <string name="libraries">Thư viện sử dụng</string>
+    <string name="rate">Đánh giá app</string>
     <string name="send_feedback">Gửi phản hồi</string>
-
-    <string name="github" translatable="false">GitHub</string>
-
-    <!-- Tiện ích -->
-    <string name="single_note">Ghi chú duy nhất</string>
-    <string name="select_note">Chọn ghi chú</string>
-    <!-- TODO: Xóa hoặc thay đổi văn bản giữ chỗ này -->
-    <string name="hello_blank_fragment">Xin chào fragment trống</string>
-
-    <!-- Ngôn ngữ -->
-    <string name="vietnamese">Tiếng Việt</string>
-    <string name="english">Tiếng Anh</string>
-    <string name="korean">Tiếng Hàn</string>
-    <string name="chinese">Tiếng Trung</string>
-    <string name="hindi">Tiếng Hin-đi</string>
-    <string name="thai">Tiếng Thái</string>
-    <string name="russian">Tiếng Nga</string>
-    <string name="next">Next</string>
-    <string name="continue_">Continue</string>
-    <string name="intro_01">Record your tasks, thoughts, and problems that need solving</string>
-    <string name="des_02">Display notes right on your phone screen</string>
-    <string name="des_03">Set a password to keep your notes private and secure</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="english">English</string>
+    <string name="chinese">Chinese</string>
+    <string name="russian">Rusian</string>
+    <string name="thai">Thailand</string>
+    <string name="hindi">Hindi</string>
 </resources>
