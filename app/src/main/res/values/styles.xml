@@ -141,7 +141,7 @@
 
 
     <style name="Status_Bar">
-        <item name="android:background">@color/Color_Background_StatusBar</item>
+        <item name="android:background">@drawable/background_status_bar</item>
         <item name="elevation">2dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">68dp</item>

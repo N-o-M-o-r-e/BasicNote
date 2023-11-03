@@ -12,7 +12,7 @@
         android:layout_width="240dp"
         android:layout_height="240dp"
         android:scaleType="fitXY"
-        android:layout_margin="24dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,17 +20,31 @@
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/loading_splash" />
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView02"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/leaf" />
+
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView"
+        style="@style/NUNITO_BOLD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        style="@style/NUNITO_BOLD"
-        android:textSize="32sp"
-        android:textColor="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogoApp"
-        app:layout_constraintStart_toStartOf="@id/imgLogoApp"
-        app:layout_constraintEnd_toEndOf="@id/imgLogoApp"
         android:text="Basic Note"
-        />
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="@id/imgLogoApp"
+        app:layout_constraintStart_toStartOf="@id/imgLogoApp"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogoApp" />
 
     <ImageView
         android:id="@+id/imgLogoApp"

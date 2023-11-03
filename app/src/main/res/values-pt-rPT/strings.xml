@@ -98,4 +98,6 @@
     <string name="russian">Rusian</string>
     <string name="thai">Thailand</string>
     <string name="hindi">Hindi</string>
+    <string name="success">Success</string>
+    <string name="wrong_answer_please_reply_again">Wrong answer please reply again!</string>
 </resources>

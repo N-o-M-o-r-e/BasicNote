@@ -97,4 +97,7 @@ dependencies {
 
     //Pattern Lock View
     implementation 'io.github.itsxtt:pattern-lock:0.2.0'
+
+    //Spinner
+    implementation "com.github.skydoves:powerspinner:1.2.7"
 }

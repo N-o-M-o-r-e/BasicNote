@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name" translatable="false">Basic Note</string>
 
     <!-- Fragment Titles -->
@@ -7,6 +7,18 @@
     <string name="deleted">Deleted</string>
     <string name="archived">Archived</string>
     <string name="settings">Settings</string>
+
+    <string-array name="questions" tools:ignore="InconsistentArrays">
+        <item>What city were you born in?</item>
+        <item>What is your lucky number?</item>
+        <item>What is your favorite color?</item>
+        <item>What is your childhood nickname?</item>
+        <item>What is your favorite food?</item>
+        <item>Who is your close friend?</item>
+        <item>What was your favorite school teacher’s name?</item>
+        <item>What is your zodiac sign?</item>
+        <item>What is your favorite book title?</item>
+    </string-array>
 
     <!-- Menu Options -->
     <string name="share">Share</string>
@@ -135,4 +147,6 @@
     <string name="hindi">Hindi</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="success">Success</string>
+    <string name="wrong_answer_please_reply_again">Wrong answer please reply again!</string>
 </resources>
