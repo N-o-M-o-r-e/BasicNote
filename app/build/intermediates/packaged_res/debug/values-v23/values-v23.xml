@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chinese">Chinese</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="russian">Rusian</string>
+    <string name="success">Success</string>
+    <string name="thai">Thailand</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="wrong_answer_please_reply_again">Wrong answer please reply again!</string>
+    <style name="AppTheme" parent="Base.AppTheme">
+        <item name="colorPrimary">@color/LightBlue500</item>
+
+        <item name="alternateFabTint">@color/LightBlue500</item>
+        <item name="alternateFabBackground">@color/Blue50</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
