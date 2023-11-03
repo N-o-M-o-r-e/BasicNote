@@ -16,7 +16,7 @@ class AnswerActivity :
     }
 
     override fun initView() {
-
+        binding.spinnerView.text = HawkCommon.getHawkQuestion()
     }
 
     override fun listenLiveData() {

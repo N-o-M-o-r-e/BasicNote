@@ -11,6 +11,7 @@
     <string name="cancel">キャンセル</string>
     <string name="cant_open_link">リンクを開けません</string>
     <string name="change_color">色を変更</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">書式を削除</string>
     <string name="content_density">プレビュー</string>
@@ -67,6 +68,7 @@
     <string name="saved_to_device">端末に保存されました</string>
     <string name="saved_to_notally">Notallyに保存されました</string>
     <string name="search">検索</string>
+    <string name="security">Security</string>
     <string name="settings">設定</string>
     <string name="share">共有</string>
     <string name="something_went_wrong">不具合が発生しました やり直してください</string>

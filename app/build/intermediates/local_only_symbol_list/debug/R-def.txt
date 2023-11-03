@@ -48,12 +48,14 @@ drawable background_button_01
 drawable background_button_02
 drawable background_button_passcode
 drawable background_language_uncheck
+drawable background_nav
 drawable background_selected_item
 drawable background_spinner
 drawable background_status_bar
 drawable background_view_dot
 drawable background_view_dot_select
 drawable bacmkground_edittext
+drawable button_add
 drawable checkbox
 drawable checkbox_16
 drawable checkbox_fill
@@ -64,6 +66,9 @@ drawable delete_all
 drawable drag_handle
 drawable edit
 drawable home
+drawable ic_add_list
+drawable ic_add_note
+drawable ic_archived
 drawable ic_arrow_bot
 drawable ic_arrown_bottom
 drawable ic_back
@@ -71,8 +76,11 @@ drawable ic_china
 drawable ic_clear
 drawable ic_english
 drawable ic_hindi
+drawable ic_home
+drawable ic_labels
 drawable ic_russian
 drawable ic_select
+drawable ic_settings
 drawable ic_switch
 drawable ic_thailand
 drawable ic_tick
@@ -101,6 +109,7 @@ id AddItem
 id Archived
 id AutoBackup
 id CardView
+id ChangePasscode
 id CheckBox
 id ChipGroup
 id Date
@@ -120,6 +129,7 @@ id ExportBackup
 id GitHub
 id ImageView
 id ImportBackup
+id Info
 id ItemsRemaining
 id LabelGroup
 id Labels
@@ -150,6 +160,7 @@ id Toolbar
 id Value
 id View
 id appCompatTextView
+id btnAdd
 id btnBack
 id btnContinue
 id btnDone
@@ -169,6 +180,7 @@ id imgLogoApp
 id languageName
 id language_icon
 id layoutRoot
+id line3
 id lottieAnimationView
 id lottieAnimationView02
 id pc_0
@@ -190,9 +202,12 @@ id title
 id toolbar
 id tvDes
 id tvError
+id tvLanguage
 id tvRealtime
 id tvTitle
+id view
 id view2
+id viewAddItem
 id viewDot
 id viewPager2
 id viewPinCode
@@ -262,6 +277,7 @@ string cancel
 string cant_find_folder
 string cant_open_link
 string change_color
+string change_passcode
 string chinese
 string choose_another_folder
 string choose_folder
@@ -333,6 +349,7 @@ string save_to_device
 string saved_to_device
 string saved_to_notally
 string search
+string security
 string select_note
 string send_feedback
 string settings

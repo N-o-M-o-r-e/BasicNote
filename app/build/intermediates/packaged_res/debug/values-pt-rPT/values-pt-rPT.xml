@@ -10,6 +10,7 @@
     <string name="bold">Negrito</string>
     <string name="cancel">Cancelar</string>
     <string name="cant_open_link">Não foi possível abrir o link</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Limpar formatação</string>
     <string name="content_density">Densidade do conteúdo</string>
@@ -65,6 +66,7 @@
     <string name="saved_to_device">Guardado no dispositivo</string>
     <string name="saved_to_notally">Guardar no Notally</string>
     <string name="search">Pesquisar</string>
+    <string name="security">Security</string>
     <string name="settings">Definições</string>
     <string name="share">Partilhar</string>
     <string name="something_went_wrong">Algo correu mal. Por favor, tente novamente.</string>

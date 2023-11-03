@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.View
 import com.sntthanh.notebasic.R
 import com.sntthanh.notebasic.activities.MainActivity
+import com.sntthanh.notebasic.activities.security.question.AnswerActivity
 import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding
 import com.sntthanh.notebasic.databinding.ActivityEnterPincodeBinding
@@ -25,6 +26,9 @@ class EnterPincodeActivity :
     }
 
     override fun listeners() {
+        binding.btnForgetPassword.setOnClickListener {
+            goToNewActivity(AnswerActivity::class.java)
+        }
         listenersInputPass()
     }
 
@@ -100,7 +104,11 @@ class EnterPincodeActivity :
             4-> {
                 binding.dot04.setBackgroundResource(R.drawable.background_view_dot_select)
                 if (listPass == HawkCommon.getHawkListPinCode()){
-                    startActivity(Intent(this, MainActivity::class.java))
+                    if (intent.getBooleanExtra("SETTING", true)){
+                        goToNewActivity(CreatePincodeActivity::class.java)
+                    }else{
+                        startActivity(Intent(this, MainActivity::class.java))
+                    }
                     finish()
                 }else{
                     binding.tvDes.visibility = View.INVISIBLE

@@ -11,6 +11,7 @@
     <string name="cancel">Отменить</string>
     <string name="cant_open_link">Невозможно открыть ссылку</string>
     <string name="change_color">Изменить цвет</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Стандартный стиль</string>
     <string name="content_density">Плотность контента</string>
@@ -68,6 +69,7 @@
     <string name="saved_to_device">Сохранено на устройстве</string>
     <string name="saved_to_notally">Сохранено в Notally</string>
     <string name="search">Поиск</string>
+    <string name="security">Security</string>
     <string name="settings">Настройки</string>
     <string name="share">Поделиться</string>
     <string name="something_went_wrong">Что-то пошло не так. Пожалуйста, повторите попытку</string>

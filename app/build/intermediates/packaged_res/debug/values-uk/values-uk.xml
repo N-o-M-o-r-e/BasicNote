@@ -10,6 +10,7 @@
     <string name="bold">Напівжирний</string>
     <string name="cancel">Відмінити</string>
     <string name="cant_open_link">Неможливо відкрити посилання</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Очистити форматування</string>
     <string name="content_density">Щільність вмісту</string>
@@ -60,6 +61,7 @@
     <string name="saved_to_device">Збережено на пристрій</string>
     <string name="saved_to_notally">Збережено в Notally</string>
     <string name="search">Пошук</string>
+    <string name="security">Security</string>
     <string name="settings">Налаштування</string>
     <string name="share">Надіслати</string>
     <string name="something_went_wrong">Щось пішло не так. Будь ласка спробуйте ще раз.</string>

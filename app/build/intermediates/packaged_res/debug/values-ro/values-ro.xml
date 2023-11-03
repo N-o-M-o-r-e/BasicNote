@@ -14,6 +14,7 @@
     <string name="cant_find_folder">Nu găsesc dosarul. E posibil să fie mutat sau șters</string>
     <string name="cant_open_link">Nu se poate deschide link-ul</string>
     <string name="change_color">Schimbă culoarea</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="choose_another_folder">Alegeți un alt dosar</string>
     <string name="choose_folder">Alegeți dosarul</string>
@@ -83,6 +84,7 @@
     <string name="saved_to_device">Salvat pe dispozitiv</string>
     <string name="saved_to_notally">Salvat pe Notally</string>
     <string name="search">Căutare</string>
+    <string name="security">Security</string>
     <string name="select_note">Selectați nota</string>
     <string name="send_feedback">Trimite feedback</string>
     <string name="settings">Setări</string>

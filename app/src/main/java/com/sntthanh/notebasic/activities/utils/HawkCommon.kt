@@ -15,4 +15,7 @@ object HawkCommon {
     fun getHawkQuestion(): String = Hawk.get("QUESTION_CHOOSE","")
     fun putHawkAnswer(answer: String) { Hawk.put("ANSWER", answer)}
     fun getHawkAnswer() : String = Hawk.get("ANSWER", "")
+    fun putHawkName(name: String) { Hawk.put("NAME", name)}
+    fun getHawkName() : String = Hawk.get("NAME", "")
+
 }

@@ -11,6 +11,7 @@
     <string name="cancel">Annuleren</string>
     <string name="cant_open_link">Kan link niet openen</string>
     <string name="change_color">Wijzig kleur</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Opmaak verwijderen</string>
     <string name="content_density">Inhoudsdichtheid</string>
@@ -67,6 +68,7 @@
     <string name="saved_to_device">Opgeslagen op apparaat</string>
     <string name="saved_to_notally">Opgeslagen in Notally</string>
     <string name="search">Zoeken</string>
+    <string name="security">Security</string>
     <string name="send_feedback">Stuur feedback</string>
     <string name="settings">Instellingen</string>
     <string name="share">Delen</string>

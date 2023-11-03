@@ -13,6 +13,7 @@
     <string name="cant_find_folder">Không tìm thấy thư mục. Có thể do đã dời hoặc xóa.</string>
     <string name="cant_open_link">Không thể mở liên kết</string>
     <string name="change_color">Đổi màu</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="choose_another_folder">Chọn thư mục khác</string>
     <string name="choose_folder">Chọn thư mục</string>
@@ -79,6 +80,7 @@
     <string name="saved_to_device">Đã lưu vào thiết bị</string>
     <string name="saved_to_notally">Đã lưu trong Notally</string>
     <string name="search">Tìm kiếm</string>
+    <string name="security">Security</string>
     <string name="send_feedback">Gửi phản hồi</string>
     <string name="settings">Cài đặt</string>
     <string name="share">Chia sẻ</string>

@@ -10,6 +10,7 @@
     <string name="bold">Fet</string>
     <string name="cancel">Avbryt</string>
     <string name="cant_open_link">Kan inte öppna länken</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Rensa formatering</string>
     <string name="content_density">Innehållstäthet</string>
@@ -58,6 +59,7 @@
     <string name="saved_to_device">Sparad till enhet</string>
     <string name="saved_to_notally">Sparad till Notally</string>
     <string name="search">Sök</string>
+    <string name="security">Security</string>
     <string name="settings">Inställningar</string>
     <string name="share">Dela</string>
     <string name="something_went_wrong">Ett fel uppstod. Var vänligt försök igen.</string>

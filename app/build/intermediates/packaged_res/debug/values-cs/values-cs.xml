@@ -13,6 +13,7 @@
     <string name="cant_find_folder">Složka nebyla nalezena. Možná byla přesunuta nebo smazána.</string>
     <string name="cant_open_link">Odkaz nelze otevřit</string>
     <string name="change_color">Změnit barvu</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="choose_another_folder">Vybrat jinou složku</string>
     <string name="choose_folder">Vybrat složku</string>
@@ -80,6 +81,7 @@
     <string name="saved_to_device">Uloženo do zařízení</string>
     <string name="saved_to_notally">Uloženo do Notally</string>
     <string name="search">Hledat</string>
+    <string name="security">Security</string>
     <string name="send_feedback">Odeslat zpětnou vazbu</string>
     <string name="settings">Nastavení</string>
     <string name="share">Sdílet</string>

@@ -13,6 +13,7 @@
     <string name="cant_find_folder">Finn ikkje mappa. Den kan ha blitt flytta eller sletta</string>
     <string name="cant_open_link">Kan ikkje opna lenkja</string>
     <string name="change_color">Endra farge</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="choose_another_folder">Vel ei anna mappe</string>
     <string name="choose_folder">Vel mappe</string>
@@ -80,6 +81,7 @@
     <string name="saved_to_device">Lagra til eininga</string>
     <string name="saved_to_notally">Lagra i Notally</string>
     <string name="search">Søk</string>
+    <string name="security">Security</string>
     <string name="send_feedback">Send tilbakemelding</string>
     <string name="settings">Innstillingar</string>
     <string name="share">Del</string>

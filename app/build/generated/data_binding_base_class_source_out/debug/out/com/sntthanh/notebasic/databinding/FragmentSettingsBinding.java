@@ -23,6 +23,9 @@ public final class FragmentSettingsBinding implements ViewBinding {
   public final PreferenceBinding AutoBackup;
 
   @NonNull
+  public final TextView ChangePasscode;
+
+  @NonNull
   public final PreferenceBinding DateFormat;
 
   @NonNull
@@ -33,6 +36,9 @@ public final class FragmentSettingsBinding implements ViewBinding {
 
   @NonNull
   public final TextView ImportBackup;
+
+  @NonNull
+  public final TextView Info;
 
   @NonNull
   public final TextView Libraries;
@@ -58,19 +64,26 @@ public final class FragmentSettingsBinding implements ViewBinding {
   @NonNull
   public final PreferenceBinding View;
 
+  @NonNull
+  public final TextView tvLanguage;
+
   private FragmentSettingsBinding(@NonNull NestedScrollView rootView,
-      @NonNull PreferenceBinding AutoBackup, @NonNull PreferenceBinding DateFormat,
-      @NonNull TextView ExportBackup, @NonNull TextView GitHub, @NonNull TextView ImportBackup,
+      @NonNull PreferenceBinding AutoBackup, @NonNull TextView ChangePasscode,
+      @NonNull PreferenceBinding DateFormat, @NonNull TextView ExportBackup,
+      @NonNull TextView GitHub, @NonNull TextView ImportBackup, @NonNull TextView Info,
       @NonNull TextView Libraries, @NonNull PreferenceSeekbarBinding MaxItems,
       @NonNull PreferenceSeekbarBinding MaxLines, @NonNull TextView Rate,
       @NonNull TextView SendFeedback, @NonNull PreferenceBinding TextSize,
-      @NonNull PreferenceBinding Theme, @NonNull PreferenceBinding View) {
+      @NonNull PreferenceBinding Theme, @NonNull PreferenceBinding View,
+      @NonNull TextView tvLanguage) {
     this.rootView = rootView;
     this.AutoBackup = AutoBackup;
+    this.ChangePasscode = ChangePasscode;
     this.DateFormat = DateFormat;
     this.ExportBackup = ExportBackup;
     this.GitHub = GitHub;
     this.ImportBackup = ImportBackup;
+    this.Info = Info;
     this.Libraries = Libraries;
     this.MaxItems = MaxItems;
     this.MaxLines = MaxLines;
@@ -79,6 +92,7 @@ public final class FragmentSettingsBinding implements ViewBinding {
     this.TextSize = TextSize;
     this.Theme = Theme;
     this.View = View;
+    this.tvLanguage = tvLanguage;
   }
 
   @Override
@@ -115,6 +129,12 @@ public final class FragmentSettingsBinding implements ViewBinding {
       }
       PreferenceBinding binding_AutoBackup = PreferenceBinding.bind(AutoBackup);
 
+      id = R.id.ChangePasscode;
+      TextView ChangePasscode = ViewBindings.findChildViewById(rootView, id);
+      if (ChangePasscode == null) {
+        break missingId;
+      }
+
       id = R.id.DateFormat;
       View DateFormat = ViewBindings.findChildViewById(rootView, id);
       if (DateFormat == null) {
@@ -137,6 +157,12 @@ public final class FragmentSettingsBinding implements ViewBinding {
       id = R.id.ImportBackup;
       TextView ImportBackup = ViewBindings.findChildViewById(rootView, id);
       if (ImportBackup == null) {
+        break missingId;
+      }
+
+      id = R.id.Info;
+      TextView Info = ViewBindings.findChildViewById(rootView, id);
+      if (Info == null) {
         break missingId;
       }
 
@@ -193,9 +219,16 @@ public final class FragmentSettingsBinding implements ViewBinding {
       }
       PreferenceBinding binding_View = PreferenceBinding.bind(View);
 
+      id = R.id.tvLanguage;
+      TextView tvLanguage = ViewBindings.findChildViewById(rootView, id);
+      if (tvLanguage == null) {
+        break missingId;
+      }
+
       return new FragmentSettingsBinding((NestedScrollView) rootView, binding_AutoBackup,
-          binding_DateFormat, ExportBackup, GitHub, ImportBackup, Libraries, binding_MaxItems,
-          binding_MaxLines, Rate, SendFeedback, binding_TextSize, binding_Theme, binding_View);
+          ChangePasscode, binding_DateFormat, ExportBackup, GitHub, ImportBackup, Info, Libraries,
+          binding_MaxItems, binding_MaxLines, Rate, SendFeedback, binding_TextSize, binding_Theme,
+          binding_View, tvLanguage);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

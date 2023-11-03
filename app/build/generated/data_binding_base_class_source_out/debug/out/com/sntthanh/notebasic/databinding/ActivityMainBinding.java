@@ -5,14 +5,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.appbar.MaterialToolbar;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.sntthanh.notebasic.R;
 import java.lang.NullPointerException;
@@ -24,13 +27,19 @@ public final class ActivityMainBinding implements ViewBinding {
   private final DrawerLayout rootView;
 
   @NonNull
+  public final ImageView Archived;
+
+  @NonNull
   public final DrawerLayout DrawerLayout;
 
   @NonNull
   public final EditText EnterSearchKeyword;
 
   @NonNull
-  public final FloatingActionButton MakeList;
+  public final ImageView Labels;
+
+  @NonNull
+  public final AppCompatButton MakeList;
 
   @NonNull
   public final FragmentContainerView NavHostFragment;
@@ -39,23 +48,52 @@ public final class ActivityMainBinding implements ViewBinding {
   public final NavigationView NavigationView;
 
   @NonNull
-  public final FloatingActionButton TakeNote;
+  public final ImageView Notes;
+
+  @NonNull
+  public final ImageView Settings;
+
+  @NonNull
+  public final AppCompatButton TakeNote;
 
   @NonNull
   public final MaterialToolbar Toolbar;
 
-  private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull DrawerLayout DrawerLayout,
-      @NonNull EditText EnterSearchKeyword, @NonNull FloatingActionButton MakeList,
+  @NonNull
+  public final TextView btnAdd;
+
+  @NonNull
+  public final View line3;
+
+  @NonNull
+  public final View view;
+
+  @NonNull
+  public final ConstraintLayout viewAddItem;
+
+  private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull ImageView Archived,
+      @NonNull DrawerLayout DrawerLayout, @NonNull EditText EnterSearchKeyword,
+      @NonNull ImageView Labels, @NonNull AppCompatButton MakeList,
       @NonNull FragmentContainerView NavHostFragment, @NonNull NavigationView NavigationView,
-      @NonNull FloatingActionButton TakeNote, @NonNull MaterialToolbar Toolbar) {
+      @NonNull ImageView Notes, @NonNull ImageView Settings, @NonNull AppCompatButton TakeNote,
+      @NonNull MaterialToolbar Toolbar, @NonNull TextView btnAdd, @NonNull View line3,
+      @NonNull View view, @NonNull ConstraintLayout viewAddItem) {
     this.rootView = rootView;
+    this.Archived = Archived;
     this.DrawerLayout = DrawerLayout;
     this.EnterSearchKeyword = EnterSearchKeyword;
+    this.Labels = Labels;
     this.MakeList = MakeList;
     this.NavHostFragment = NavHostFragment;
     this.NavigationView = NavigationView;
+    this.Notes = Notes;
+    this.Settings = Settings;
     this.TakeNote = TakeNote;
     this.Toolbar = Toolbar;
+    this.btnAdd = btnAdd;
+    this.line3 = line3;
+    this.view = view;
+    this.viewAddItem = viewAddItem;
   }
 
   @Override
@@ -85,6 +123,12 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Archived;
+      ImageView Archived = ViewBindings.findChildViewById(rootView, id);
+      if (Archived == null) {
+        break missingId;
+      }
+
       DrawerLayout DrawerLayout = (DrawerLayout) rootView;
 
       id = R.id.EnterSearchKeyword;
@@ -93,8 +137,14 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.Labels;
+      ImageView Labels = ViewBindings.findChildViewById(rootView, id);
+      if (Labels == null) {
+        break missingId;
+      }
+
       id = R.id.MakeList;
-      FloatingActionButton MakeList = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton MakeList = ViewBindings.findChildViewById(rootView, id);
       if (MakeList == null) {
         break missingId;
       }
@@ -111,8 +161,20 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.Notes;
+      ImageView Notes = ViewBindings.findChildViewById(rootView, id);
+      if (Notes == null) {
+        break missingId;
+      }
+
+      id = R.id.Settings;
+      ImageView Settings = ViewBindings.findChildViewById(rootView, id);
+      if (Settings == null) {
+        break missingId;
+      }
+
       id = R.id.TakeNote;
-      FloatingActionButton TakeNote = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton TakeNote = ViewBindings.findChildViewById(rootView, id);
       if (TakeNote == null) {
         break missingId;
       }
@@ -123,8 +185,33 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((DrawerLayout) rootView, DrawerLayout, EnterSearchKeyword,
-          MakeList, NavHostFragment, NavigationView, TakeNote, Toolbar);
+      id = R.id.btnAdd;
+      TextView btnAdd = ViewBindings.findChildViewById(rootView, id);
+      if (btnAdd == null) {
+        break missingId;
+      }
+
+      id = R.id.line3;
+      View line3 = ViewBindings.findChildViewById(rootView, id);
+      if (line3 == null) {
+        break missingId;
+      }
+
+      id = R.id.view;
+      View view = ViewBindings.findChildViewById(rootView, id);
+      if (view == null) {
+        break missingId;
+      }
+
+      id = R.id.viewAddItem;
+      ConstraintLayout viewAddItem = ViewBindings.findChildViewById(rootView, id);
+      if (viewAddItem == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((DrawerLayout) rootView, Archived, DrawerLayout,
+          EnterSearchKeyword, Labels, MakeList, NavHostFragment, NavigationView, Notes, Settings,
+          TakeNote, Toolbar, btnAdd, line3, view, viewAddItem);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

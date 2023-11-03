@@ -13,6 +13,7 @@
     <string name="cant_find_folder">Nie mogę odnaleźć katalogu. Być może został przeniesiony lub usunięty</string>
     <string name="cant_open_link">Nie można otworzyć odnośnika</string>
     <string name="change_color">Zmień kolor</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="choose_another_folder">Wybierz inny katalog</string>
     <string name="choose_folder">Wybierz katalog</string>
@@ -80,6 +81,7 @@
     <string name="saved_to_device">Zapisano w urządzeniu</string>
     <string name="saved_to_notally">Zapisano w Notally</string>
     <string name="search">Szukaj</string>
+    <string name="security">Security</string>
     <string name="send_feedback">Wyślij opinię</string>
     <string name="settings">Ustawienia</string>
     <string name="share">Udostępnij</string>

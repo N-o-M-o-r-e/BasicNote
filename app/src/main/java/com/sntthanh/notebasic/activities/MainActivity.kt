@@ -1,10 +1,8 @@
 package com.sntthanh.notebasic.activities
 
 import android.content.Intent
-import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.core.view.isVisible
 import androidx.core.widget.doAfterTextChanged
@@ -48,25 +46,37 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
     }
 
     override fun listeners() {
+        binding.btnAdd.setOnClickListener {
+            binding.viewAddItem.visibility = View.VISIBLE
+        }
+
+        binding.viewAddItem.setOnClickListener {
+            binding.viewAddItem.visibility = View.GONE
+        }
+
         binding.TakeNote.setOnClickListener {
             val intent = Intent(this, TakeNote::class.java)
             startActivity(intent)
+            binding.viewAddItem.visibility = View.GONE
         }
+
         binding.MakeList.setOnClickListener {
             val intent = Intent(this, MakeList::class.java)
             startActivity(intent)
+            binding.viewAddItem.visibility = View.GONE
         }
+
     }
+
+
 
     private fun setupMenu() {
         val menu = binding.NavigationView.menu
         menu.add(0, R.id.Notes, 0, R.string.notes).setCheckable(true).setIcon(R.drawable.home)
         menu.add(1, R.id.Labels, 0, R.string.labels).setCheckable(true).setIcon(R.drawable.label)
         menu.add(2, R.id.Deleted, 0, R.string.deleted).setCheckable(true).setIcon(R.drawable.delete)
-        menu.add(2, R.id.Archived, 0, R.string.archived).setCheckable(true)
-            .setIcon(R.drawable.archive)
-        menu.add(3, R.id.Settings, 0, R.string.settings).setCheckable(true)
-            .setIcon(R.drawable.settings)
+        menu.add(2, R.id.Archived, 0, R.string.archived).setCheckable(true).setIcon(R.drawable.archive)
+        menu.add(3, R.id.Settings, 0, R.string.settings).setCheckable(true).setIcon(R.drawable.settings)
     }
 
 
@@ -84,18 +94,20 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
             return@setNavigationItemSelectedListener true
         }
 
+        clickNavigationItem()
+
         binding.DrawerLayout.addDrawerListener(object : DrawerLayout.SimpleDrawerListener() {
 
             override fun onDrawerClosed(drawerView: View) {
                 if (fragmentIdToLoad != null && navController.currentDestination?.id != fragmentIdToLoad) {
                     val options = navOptions {
                         launchSingleTop = true
-                        anim {
-                            exit = androidx.navigation.ui.R.anim.nav_default_exit_anim
-                            enter = androidx.navigation.ui.R.anim.nav_default_enter_anim
-                            popExit = androidx.navigation.ui.R.anim.nav_default_pop_exit_anim
-                            popEnter = androidx.navigation.ui.R.anim.nav_default_pop_enter_anim
-                        }
+//                        anim {
+//                            exit = androidx.navigation.ui.R.anim.nav_default_exit_anim
+//                            enter = androidx.navigation.ui.R.anim.nav_default_enter_anim
+//                            popExit = androidx.navigation.ui.R.anim.nav_default_pop_exit_anim
+//                            popEnter = androidx.navigation.ui.R.anim.nav_default_pop_enter_anim
+//                        }
                         popUpTo(navController.graph.startDestination) { inclusive = false }
                     }
                     navController.navigate(requireNotNull(fragmentIdToLoad), null, options)
@@ -110,13 +122,33 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
         }
     }
 
+    private fun clickNavigationItem() {
+        binding.Notes.setOnClickListener {
+            navController.navigate(requireNotNull(R.id.Notes), null)
+            binding.btnAdd.visibility = View.VISIBLE
+        }
+        binding.Labels.setOnClickListener {
+            navController.navigate(requireNotNull(R.id.Labels), null)
+            binding.btnAdd.visibility = View.INVISIBLE
+        }
+        binding.Archived.setOnClickListener {
+            navController.navigate(requireNotNull(R.id.Archived), null)
+            binding.btnAdd.visibility = View.INVISIBLE
+        }
+        binding.Settings.setOnClickListener {
+            navController.navigate(requireNotNull(R.id.Settings), null)
+            binding.btnAdd.visibility = View.INVISIBLE
+        }
+    }
+
+
     private fun handleDestinationChange(destination: NavDestination) {
         if (destination.id == R.id.Notes) {
-            binding.TakeNote.show()
-            binding.MakeList.show()
+            binding.TakeNote.visibility = View.VISIBLE
+            binding.MakeList.visibility = View.VISIBLE
         } else {
-            binding.TakeNote.hide()
-            binding.MakeList.hide()
+            binding.TakeNote.visibility = View.GONE
+            binding.MakeList.visibility = View.GONE
         }
 
         binding.EnterSearchKeyword.isVisible = (destination.id == R.id.Search)

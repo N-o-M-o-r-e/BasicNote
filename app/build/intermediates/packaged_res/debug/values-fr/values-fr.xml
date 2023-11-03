@@ -12,6 +12,7 @@
     <string name="cancel">Annuler</string>
     <string name="cant_open_link">Ouverture du lien impossible</string>
     <string name="change_color">Changer la couleur</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Supprimer le formatage</string>
     <string name="content_density">Densité d\'affichage</string>
@@ -68,6 +69,7 @@
     <string name="saved_to_device">Sauvegardé sur l\'appareil</string>
     <string name="saved_to_notally">Sauvegardé sur Notally</string>
     <string name="search">Rechercher</string>
+    <string name="security">Security</string>
     <string name="settings">Paramètres</string>
     <string name="share">Partager</string>
     <string name="something_went_wrong">Quelque chose a mal tourné. Veuillez réessayer.</string>

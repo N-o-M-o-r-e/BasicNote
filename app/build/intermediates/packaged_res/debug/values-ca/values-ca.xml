@@ -10,6 +10,7 @@
     <string name="bold">Negreta</string>
     <string name="cancel">Cancel·lar</string>
     <string name="cant_open_link">No es pot obrir l\'enllaç</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Netejar la formatació</string>
     <string name="content_density">Densitat del contingut</string>
@@ -60,6 +61,7 @@
     <string name="saved_to_device">Desat al dispositiu</string>
     <string name="saved_to_notally">Desat a Notally</string>
     <string name="search">Cercar</string>
+    <string name="security">Security</string>
     <string name="settings">Configuració</string>
     <string name="share">Comparteix</string>
     <string name="something_went_wrong">Alguna cosa ha anat malament. Torna-ho a provar.</string>

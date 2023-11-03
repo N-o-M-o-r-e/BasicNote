@@ -11,6 +11,7 @@
     <string name="cancel">Batal</string>
     <string name="cant_open_link">Tidak bisa membuka tautan</string>
     <string name="change_color">Ubah warna</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Hapus pemformatan</string>
     <string name="content_density">Kerapatan konten</string>
@@ -70,6 +71,7 @@
     <string name="saved_to_device">Disimpan ke perangkat</string>
     <string name="saved_to_notally">Disimpan ke Notally</string>
     <string name="search">Cari</string>
+    <string name="security">Security</string>
     <string name="settings">Pengaturan</string>
     <string name="share">Bagikan</string>
     <string name="something_went_wrong">Telah terjadi kesalahan. Silakan coba lagi.</string>

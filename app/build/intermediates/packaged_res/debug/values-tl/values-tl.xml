@@ -10,6 +10,7 @@
     <string name="bold">Bold</string>
     <string name="cancel">Kanselahin</string>
     <string name="cant_open_link">Hindi mabuksan ang link</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Tanggalin ang formatting</string>
     <string name="content_density">Siksikan ng laman</string>
@@ -60,6 +61,7 @@
     <string name="saved_to_device">Nakasalba sa device</string>
     <string name="saved_to_notally">Nakasalba sa Notally</string>
     <string name="search">Hanapin</string>
+    <string name="security">Security</string>
     <string name="settings">Mga Setting</string>
     <string name="share">Ibahagi</string>
     <string name="something_went_wrong">May nangyari na mali. Pakiulit muli.</string>

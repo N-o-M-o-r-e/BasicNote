@@ -2034,6 +2034,7 @@ drawable background_button_01
 drawable background_button_02
 drawable background_button_passcode
 drawable background_language_uncheck
+drawable background_nav
 drawable background_selected_item
 drawable background_spinner
 drawable background_status_bar
@@ -2048,6 +2049,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_add
 drawable checkbox
 drawable checkbox_16
 drawable checkbox_fill
@@ -2064,6 +2066,9 @@ drawable dot_background
 drawable drag_handle
 drawable edit
 drawable home
+drawable ic_add_list
+drawable ic_add_note
+drawable ic_archived
 drawable ic_arrow_bot
 drawable ic_arrow_down_24dp
 drawable ic_arrown_bottom
@@ -2073,13 +2078,16 @@ drawable ic_clear
 drawable ic_clock_black_24dp
 drawable ic_english
 drawable ic_hindi
+drawable ic_home
 drawable ic_keyboard_black_24dp
+drawable ic_labels
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_russian
 drawable ic_select
+drawable ic_settings
 drawable ic_switch
 drawable ic_thailand
 drawable ic_tick
@@ -2159,6 +2167,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id CardView
+id ChangePasscode
 id CheckBox
 id ChipGroup
 id Date
@@ -2179,6 +2188,7 @@ id FUNCTION
 id GitHub
 id ImageView
 id ImportBackup
+id Info
 id ItemsRemaining
 id LabelGroup
 id Labels
@@ -2306,6 +2316,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAdd
 id btnBack
 id btnContinue
 id btnDone
@@ -2737,6 +2748,7 @@ id transition_transform
 id triangle
 id tvDes
 id tvError
+id tvLanguage
 id tvRealtime
 id tvTitle
 id unchecked
@@ -2745,7 +2757,9 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id view
 id view2
+id viewAddItem
 id viewDot
 id viewPager2
 id viewPinCode
@@ -3042,6 +3056,7 @@ string cancel
 string cant_find_folder
 string cant_open_link
 string change_color
+string change_passcode
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3205,6 +3220,7 @@ string saved_to_device
 string saved_to_notally
 string search
 string search_menu_title
+string security
 string select_note
 string selected
 string send_feedback

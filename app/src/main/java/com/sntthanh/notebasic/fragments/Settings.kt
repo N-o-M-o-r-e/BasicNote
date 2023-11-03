@@ -17,6 +17,10 @@ import androidx.fragment.app.activityViewModels
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.sntthanh.notebasic.MenuDialog
 import com.sntthanh.notebasic.R
+import com.sntthanh.notebasic.activities.info.InfoUserActivity
+import com.sntthanh.notebasic.activities.security.pincode.EnterPincodeActivity
+import com.sntthanh.notebasic.activities.security.question.AnswerActivity
+import com.sntthanh.notebasic.activities.tutorial.LanguageActivity
 import com.sntthanh.notebasic.databinding.FragmentSettingsBinding
 import com.sntthanh.notebasic.databinding.PreferenceBinding
 import com.sntthanh.notebasic.databinding.PreferenceSeekbarBinding
@@ -70,6 +74,21 @@ class Settings : Fragment() {
             exportBackup()
         }
 
+        binding.ChangePasscode.setOnClickListener {
+            val intent = Intent(activity, EnterPincodeActivity::class.java)
+            intent.putExtra("SETTING", true)
+            startActivity(intent)
+        }
+
+        binding.Info.setOnClickListener {
+            val intent = Intent(activity, InfoUserActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.tvLanguage.setOnClickListener {
+            val intent = Intent(activity, LanguageActivity::class.java)
+            startActivity(intent)
+        }
 
         binding.GitHub.setOnClickListener {
             openLink("https://github.com/OmGodse/Notally")

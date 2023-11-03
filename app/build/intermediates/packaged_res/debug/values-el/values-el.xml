@@ -11,6 +11,7 @@
     <string name="cancel">Ακύρωση</string>
     <string name="cant_open_link">Αδύνατο το άνοιγμα συνδέσμου</string>
     <string name="change_color">Αλλαγή χρώματος</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Απαλοιφή μορφοποίησης</string>
     <string name="content_density">Πυκνότητα περιεχομένου</string>
@@ -66,6 +67,7 @@
     <string name="saved_to_device">Αποθηκεύτηκε στην συσκευή</string>
     <string name="saved_to_notally">Αποθηκεύτηκε στο Notally</string>
     <string name="search">Αναζήτηση</string>
+    <string name="security">Security</string>
     <string name="settings">Ρυθμίσεις</string>
     <string name="share">Κοινοποίηση</string>
     <string name="something_went_wrong">Κάτι πήγε στραβά. Παρακαλώ προσπαθήστε ξανά.</string>

@@ -13,6 +13,7 @@
     <string name="cant_find_folder">找不到该文件夹。可能被移动或删除了。</string>
     <string name="cant_open_link">打不开链接</string>
     <string name="change_color">更改色彩</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="choose_another_folder">选择另一个文件夹</string>
     <string name="choose_folder">选择文件夹</string>
@@ -80,6 +81,7 @@
     <string name="saved_to_device">已保存到设备</string>
     <string name="saved_to_notally">已保存至 Notally</string>
     <string name="search">搜索</string>
+    <string name="security">Security</string>
     <string name="send_feedback">发送反馈</string>
     <string name="settings">设置</string>
     <string name="share">分享</string>

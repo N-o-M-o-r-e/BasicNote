@@ -13,6 +13,7 @@
     <string name="cant_find_folder">Kann den Ordner nicht finden. Er kann verschoben oder gelöscht worden sein</string>
     <string name="cant_open_link">Link konnte nicht geöffnet werden</string>
     <string name="change_color">Farbe ändern</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="choose_another_folder">Anderen Ordner wählen</string>
     <string name="choose_folder">Ordner wählen</string>
@@ -80,6 +81,7 @@
     <string name="saved_to_device">Auf dem Gerät gespeichert</string>
     <string name="saved_to_notally">In Notally gespeichert</string>
     <string name="search">Suchen</string>
+    <string name="security">Security</string>
     <string name="send_feedback">Feedback senden</string>
     <string name="settings">Einstellungen</string>
     <string name="share">Teilen</string>

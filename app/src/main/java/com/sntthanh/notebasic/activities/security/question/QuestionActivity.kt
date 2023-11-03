@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.util.Log
 import android.view.MotionEvent
 import android.widget.Toast
+import com.sntthanh.notebasic.activities.MainActivity
 import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding
 import com.sntthanh.notebasic.databinding.ActivityQuestionBinding
@@ -66,10 +67,12 @@ class QuestionActivity :
                         "The answer has been saved!",
                         Toast.LENGTH_SHORT
                     ).show()
-//                    goToNewActivity(GalleryVaultActivity::class.java, true)
+                    goToNewActivity(MainActivity::class.java, true)
                     Log.e("AAAAAAAAA", "listeners: ${HawkCommon.getHawkAnswer()}")
                 }
             }
+            Log.e("AAAAAAAAAAAAAA", "qs "+HawkCommon.getHawkQuestion() )
+            Log.e("AAAAAAAAAAAAAA", "as "+HawkCommon.getHawkAnswer() )
         }
     }
 }

@@ -10,6 +10,7 @@
     <string name="bold">Fed</string>
     <string name="cancel">Annullér</string>
     <string name="cant_open_link">Kan ikke åbne link</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Ryd formatering</string>
     <string name="content_density">Indhold densitet</string>
@@ -63,6 +64,7 @@
     <string name="saved_to_device">Gemt på enheden</string>
     <string name="saved_to_notally">Gemt i Notally</string>
     <string name="search">Søg</string>
+    <string name="security">Security</string>
     <string name="settings">Indstillinger</string>
     <string name="share">Del</string>
     <string name="something_went_wrong">Noget gik galt. Prøv igen.</string>

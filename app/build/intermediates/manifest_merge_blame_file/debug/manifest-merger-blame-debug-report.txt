@@ -7,9 +7,9 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="21"
-9-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml
+9-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="33" />
-10-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml
+10-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml
 11
 12    <uses-permission android:name="android.permission.WAKE_LOCK" />
 12-->[androidx.work:work-runtime:2.8.1] C:\Users\sntth\.gradle\caches\transforms-3\435353ae5c1c22c410f82117f67f7aca\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
@@ -30,209 +30,209 @@
 19-->[androidx.core:core:1.9.0] C:\Users\sntth\.gradle\caches\transforms-3\72bf7f5b051590e94dd543548151345b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:13:5-118:19
+21-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:13:5-118:19
 22        android:name="com.sntthanh.notebasic.NoteBasicApplication"
-22-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:14:9-45
+22-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:14:9-45
 23        android:allowBackup="true"
-23-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:15:9-35
+23-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:15:9-35
 24        android:appCategory="productivity"
-24-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:16:9-43
+24-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:16:9-43
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 25-->[androidx.core:core:1.9.0] C:\Users\sntth\.gradle\caches\transforms-3\72bf7f5b051590e94dd543548151345b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 26        android:dataExtractionRules="@xml/data_rules"
-26-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:17:9-54
+26-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:17:9-54
 27        android:debuggable="true"
 28        android:fullBackupContent="@xml/backup_content"
-28-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:18:9-56
+28-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:18:9-56
 29        android:icon="@mipmap/notally"
-29-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:19:9-39
+29-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:19:9-39
 30        android:label="@string/app_name"
-30-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:20:9-41
+30-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:20:9-41
 31        android:localeConfig="@xml/locales"
-31-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:21:9-44
+31-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:21:9-44
 32        android:roundIcon="@mipmap/notally_round"
-32-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:22:9-50
+32-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:22:9-50
 33        android:supportsRtl="true"
 33-->[com.tbuonomo:dotsindicator:5.0] C:\Users\sntth\.gradle\caches\transforms-3\ce1fdfd9c21e6498902e2fedca53e15a\transformed\dotsindicator-5.0-debug\AndroidManifest.xml:7:18-44
 34        android:testOnly="true"
 35        android:theme="@style/AppTheme" >
-35-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:23:9-40
+35-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:23:9-40
 36        <activity
-36-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:24:9-26:40
+36-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:24:9-26:40
 37            android:name="com.sntthanh.notebasic.activities.info.InfoUserActivity"
-37-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:25:13-61
+37-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:25:13-61
 38            android:exported="false" />
-38-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:26:13-37
+38-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:26:13-37
 39        <activity
-39-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:27:9-29:40
+39-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:27:9-29:40
 40            android:name="com.sntthanh.notebasic.activities.security.question.AnswerActivity"
-40-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:28:13-72
+40-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:28:13-72
 41            android:exported="false" />
-41-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:29:13-37
+41-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:29:13-37
 42        <activity
-42-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:30:9-32:48
+42-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:30:9-32:48
 43            android:name="com.sntthanh.notebasic.activities.security.question.QuestionActivity"
-43-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:31:13-74
+43-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:31:13-74
 44            android:exported="true" />
-44-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:32:13-36
+44-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:32:13-36
 45        <activity
-45-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:33:9-35:40
+45-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:33:9-35:40
 46            android:name="com.sntthanh.notebasic.activities.security.pincode.EnterPincodeActivity"
-46-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:34:13-77
+46-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:34:13-77
 47            android:exported="false" />
-47-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:35:13-37
+47-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:35:13-37
 48        <activity
-48-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:36:9-38:40
+48-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:36:9-38:40
 49            android:name="com.sntthanh.notebasic.activities.security.pincode.ConfilmPincodeActivity"
-49-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:37:13-79
+49-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:37:13-79
 50            android:exported="false" />
-50-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:38:13-37
+50-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:38:13-37
 51        <activity
-51-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:39:9-41:39
+51-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:39:9-41:39
 52            android:name="com.sntthanh.notebasic.activities.security.pincode.CreatePincodeActivity"
-52-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:40:13-78
+52-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:40:13-78
 53            android:exported="true" />
-53-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:41:13-36
+53-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:41:13-36
 54        <activity
-54-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:42:9-44:40
+54-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:42:9-44:40
 55            android:name="com.sntthanh.notebasic.activities.tutorial.IntroActivity"
-55-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:43:13-62
+55-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:43:13-62
 56            android:exported="false" />
-56-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:44:13-37
+56-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:44:13-37
 57        <activity
-57-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:45:9-47:40
+57-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:45:9-47:40
 58            android:name="com.sntthanh.notebasic.activities.tutorial.LanguageActivity"
-58-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:46:13-65
+58-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:46:13-65
 59            android:exported="false" />
-59-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:47:13-37
+59-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:47:13-37
 60        <activity
-60-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:48:9-56:20
+60-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:48:9-56:20
 61            android:name="com.sntthanh.notebasic.activities.tutorial.SplashActivity"
-61-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:49:13-63
+61-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:49:13-63
 62            android:exported="true" >
-62-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:50:13-36
+62-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:50:13-36
 63            <intent-filter>
-63-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:51:13-55:29
+63-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:51:13-55:29
 64                <action android:name="android.intent.action.MAIN" />
-64-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:52:17-69
-64-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:52:25-66
+64-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:52:17-69
+64-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:52:25-66
 65
 66                <category android:name="android.intent.category.LAUNCHER" />
-66-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:54:17-77
-66-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:54:27-74
+66-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:54:17-77
+66-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:54:27-74
 67            </intent-filter>
 68        </activity>
 69        <activity
-69-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:57:9-59:40
+69-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:57:9-59:40
 70            android:name="com.sntthanh.notebasic.RealTimeActivity"
-70-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:58:13-45
+70-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:58:13-45
 71            android:exported="false" />
-71-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:59:13-37
+71-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:59:13-37
 72
 73        <provider
 74            android:name="androidx.core.content.FileProvider"
-74-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:62:13-62
+74-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:62:13-62
 75            android:authorities="com.sntthanh.notebasic.debug.provider"
-75-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:63:13-60
+75-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:63:13-60
 76            android:exported="false"
-76-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:64:13-37
+76-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:64:13-37
 77            android:grantUriPermissions="true" >
-77-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:65:13-47
+77-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:65:13-47
 78            <meta-data
-78-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:66:13-68:58
+78-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:66:13-68:58
 79                android:name="android.support.FILE_PROVIDER_PATHS"
-79-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:67:17-67
+79-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:67:17-67
 80                android:resource="@xml/provider_paths" />
-80-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:68:17-55
+80-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:68:17-55
 81        </provider>
 82
 83        <activity
-83-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:71:9-78:20
+83-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:71:9-78:20
 84            android:name="com.sntthanh.notebasic.activities.MainActivity"
-84-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:72:13-52
+84-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:72:13-52
 85            android:exported="true"
-85-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:73:13-36
+85-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:73:13-36
 86            android:theme="@style/MainActivity" >
-86-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:74:13-48
+86-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:74:13-48
 87            <meta-data
-87-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:75:13-77:53
+87-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:75:13-77:53
 88                android:name="android.app.shortcuts"
-88-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:76:17-53
+88-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:76:17-53
 89                android:resource="@xml/shortcuts" />
-89-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:77:17-50
+89-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:77:17-50
 90        </activity>
 91        <activity
-91-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:79:9-81:58
+91-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:79:9-81:58
 92            android:name="com.sntthanh.notebasic.activities.MakeList"
-92-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:80:13-48
+92-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:80:13-48
 93            android:windowSoftInputMode="adjustResize" />
-93-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:81:13-55
+93-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:81:13-55
 94        <activity
-94-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:82:9-93:20
+94-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:82:9-93:20
 95            android:name="com.sntthanh.notebasic.activities.TakeNote"
-95-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:83:13-48
+95-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:83:13-48
 96            android:exported="true"
-96-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:84:13-36
+96-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:84:13-36
 97            android:windowSoftInputMode="adjustResize" >
-97-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:85:13-55
+97-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:85:13-55
 98            <intent-filter>
-98-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:86:13-92:29
+98-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:86:13-92:29
 99                <action android:name="android.intent.action.SEND" />
-99-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:87:17-69
-99-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:87:25-66
+99-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:87:17-69
+99-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:87:25-66
 100
 101                <category android:name="android.intent.category.DEFAULT" />
-101-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:89:17-76
-101-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:89:27-73
+101-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:89:17-76
+101-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:89:27-73
 102
 103                <data android:mimeType="text/plain" />
-103-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:91:17-55
-103-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:91:23-52
+103-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:91:17-55
+103-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:91:23-52
 104            </intent-filter>
 105        </activity>
 106        <activity
-106-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:94:9-100:20
+106-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:94:9-100:20
 107            android:name="com.sntthanh.notebasic.activities.ConfigureWidget"
-107-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:95:13-55
+107-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:95:13-55
 108            android:exported="false" >
-108-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:96:13-37
+108-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:96:13-37
 109            <intent-filter>
-109-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:97:13-99:29
+109-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:97:13-99:29
 110                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
-110-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:98:17-87
-110-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:98:25-84
+110-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:98:17-87
+110-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:98:25-84
 111            </intent-filter>
 112        </activity>
 113
 114        <receiver
-114-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:102:9-113:20
+114-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:102:9-113:20
 115            android:name="com.sntthanh.notebasic.widget.WidgetProvider"
-115-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:103:13-50
+115-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:103:13-50
 116            android:exported="false"
-116-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:104:13-37
+116-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:104:13-37
 117            android:label="@string/single_note" >
-117-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:105:13-48
+117-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:105:13-48
 118            <intent-filter>
-118-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:106:13-108:29
+118-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:106:13-108:29
 119                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-119-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:107:17-84
-119-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:107:25-81
+119-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:107:17-84
+119-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:107:25-81
 120            </intent-filter>
 121
 122            <meta-data
-122-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:110:13-112:50
+122-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:110:13-112:50
 123                android:name="android.appwidget.provider"
-123-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:111:17-58
+123-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:111:17-58
 124                android:resource="@xml/widget" />
-124-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:112:17-47
+124-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:112:17-47
 125        </receiver>
 126
 127        <service
-127-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:115:9-117:72
+127-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:115:9-117:72
 128            android:name="com.sntthanh.notebasic.widget.WidgetService"
-128-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:116:13-49
+128-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:116:13-49
 129            android:permission="android.permission.BIND_REMOTEVIEWS" />
-129-->C:\Android Studio\Project\BasicNote\app\src\main\AndroidManifest.xml:117:13-69
+129-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:117:13-69
 130
 131        <activity
 131-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\sntth\.gradle\caches\transforms-3\28330af38e192d5533d05ec9acc4ad6c\transformed\ui-tooling-1.4.0\AndroidManifest.xml:23:9-25:39

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="english">English</string>
     <string name="hindi">Hindi</string>
@@ -7,6 +8,7 @@
     <string name="intro02">Display notes right on your phone screen</string>
     <string name="intro03">Set a password to keep your notes private and secure</string>
     <string name="russian">Rusian</string>
+    <string name="security">Security</string>
     <string name="success">Success</string>
     <string name="thai">Thailand</string>
     <string name="vietnamese">Vietnamese</string>

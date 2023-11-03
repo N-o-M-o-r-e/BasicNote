@@ -11,6 +11,7 @@
     <string name="cancel">İptal</string>
     <string name="cant_open_link">Bağlantı açılmadı</string>
     <string name="change_color">Rengi değiştir</string>
+    <string name="change_passcode">Change passcode</string>
     <string name="chinese">Chinese</string>
     <string name="clear_formatting">Biçimlendirmeyi temizle</string>
     <string name="content_density">İçerik yoğunluğu</string>
@@ -67,6 +68,7 @@
     <string name="saved_to_device">Cihaza kaydedildi</string>
     <string name="saved_to_notally">Notally’ye kaydedildi</string>
     <string name="search">Ara</string>
+    <string name="security">Security</string>
     <string name="settings">Ayarlar</string>
     <string name="share">Paylaş</string>
     <string name="something_went_wrong">Bir terslik oldu. Lütfen tekrar deneyin.</string>
