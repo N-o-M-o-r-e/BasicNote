@@ -26,5 +26,19 @@
             app:lottie_loop="true"
             app:lottie_rawRes="@raw/intro01" />
 
+        <TextView
+            style="@style/NUNITO_SEMIBLOD"
+            android:layout_marginBottom="24dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/text_color"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="@string/intro01"/>
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

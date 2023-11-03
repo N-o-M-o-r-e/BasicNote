@@ -3,6 +3,7 @@ package com.sntthanh.notebasic.activities.tutorial
 import android.content.Intent
 import androidx.viewpager2.widget.ViewPager2
 import com.sntthanh.notebasic.activities.MainActivity
+import com.sntthanh.notebasic.activities.info.InfoUserActivity
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding
 import com.sntthanh.notebasic.databinding.ActivityIntroBinding
 import com.sntthanh.notebasic.recyclerview.adapters.IntroPagerAdapter
@@ -25,7 +26,7 @@ class IntroActivity :
             if (currentItem < adapter.itemCount - 1) {
                 viewPager.currentItem = currentItem + 1
             } else {
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, InfoUserActivity::class.java)
                 startActivity(intent)
             }
         }

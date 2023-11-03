@@ -18,12 +18,12 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.sntthanh.notebasic.R
 import com.sntthanh.notebasic.activities.TakeNote
+import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding
 import com.sntthanh.notebasic.databinding.ActivityMainBinding
 import com.sntthanh.notebasic.viewmodels.BaseNoteModel
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(ActivityMainBinding::inflate) {
 
-    private lateinit var binding: ActivityMainBinding
     private lateinit var navController: NavController
     private lateinit var configuration: AppBarConfiguration
 
@@ -33,20 +33,21 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(configuration)
     }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
+    override fun initData() {
         setSupportActionBar(binding.Toolbar)
-        setupFAB()
+    }
+
+    override fun initView() {
+
+    }
+
+    override fun listenLiveData() {
         setupMenu()
         setupNavigation()
         setupSearch()
     }
 
-
-    private fun setupFAB() {
+    override fun listeners() {
         binding.TakeNote.setOnClickListener {
             val intent = Intent(this, TakeNote::class.java)
             startActivity(intent)

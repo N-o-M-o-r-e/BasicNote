@@ -6,12 +6,25 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
+
     <RelativeLayout
+        android:background="@color/Color_Background"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+            android:scaleType="fitXY"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/background_dark"
+            />
+
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/Toolbar"
+            style="@style/Status_Bar"
+            android:background="#33804DD7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:contentInsetEnd="16dp">

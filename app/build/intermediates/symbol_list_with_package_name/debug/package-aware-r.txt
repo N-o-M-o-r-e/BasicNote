@@ -2039,6 +2039,7 @@ drawable background_spinner
 drawable background_status_bar
 drawable background_view_dot
 drawable background_view_dot_select
+drawable bacmkground_edittext
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2081,6 +2082,7 @@ drawable ic_russian
 drawable ic_select
 drawable ic_switch
 drawable ic_thailand
+drawable ic_tick
 drawable ic_vietnam
 drawable label
 drawable logo_app
@@ -2360,6 +2362,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id des
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2396,6 +2399,7 @@ id easeOut
 id east
 id edit_query
 id edtAnswer
+id edtName
 id elastic
 id enabled
 id end
@@ -2443,6 +2447,7 @@ id ignore
 id ignoreRequest
 id image
 id imageButton
+id imageView
 id imgLogoApp
 id immediateStop
 id included
@@ -2838,6 +2843,7 @@ layout activity_configure_widget
 layout activity_confilm_pincode
 layout activity_create_pin_code
 layout activity_enter_pincode
+layout activity_info_user
 layout activity_intro
 layout activity_language
 layout activity_main
@@ -3092,6 +3098,9 @@ string in_progress
 string indeterminate
 string install_a_browser
 string install_an_email
+string intro01
+string intro02
+string intro03
 string invalid_backup
 string invalid_image
 string italic

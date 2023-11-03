@@ -39,6 +39,9 @@
     <string name="import_backup">Impor cadangan</string>
     <string name="imported_backup">Cadangan yang diimpor</string>
     <string name="install_a_browser">Pasang peramban untuk membuka tautan ini</string>
+    <string name="intro01">Record your tasks, thoughts, and problems that need solving</string>
+    <string name="intro02">Display notes right on your phone screen</string>
+    <string name="intro03">Set a password to keep your notes private and secure</string>
     <string name="invalid_backup">Cadangan tidak valid</string>
     <string name="italic">Miring</string>
     <string name="item">Item</string>

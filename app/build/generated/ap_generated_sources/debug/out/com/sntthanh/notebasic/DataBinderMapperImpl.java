@@ -10,6 +10,7 @@ import com.sntthanh.notebasic.databinding.ActivityAnswerBindingImpl;
 import com.sntthanh.notebasic.databinding.ActivityConfilmPincodeBindingImpl;
 import com.sntthanh.notebasic.databinding.ActivityCreatePinCodeBindingImpl;
 import com.sntthanh.notebasic.databinding.ActivityEnterPincodeBindingImpl;
+import com.sntthanh.notebasic.databinding.ActivityInfoUserBindingImpl;
 import com.sntthanh.notebasic.databinding.ActivityIntroBindingImpl;
 import com.sntthanh.notebasic.databinding.ActivityLanguageBindingImpl;
 import com.sntthanh.notebasic.databinding.ActivityQuestionBindingImpl;
@@ -35,25 +36,28 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYENTERPINCODE = 4;
 
-  private static final int LAYOUT_ACTIVITYINTRO = 5;
+  private static final int LAYOUT_ACTIVITYINFOUSER = 5;
 
-  private static final int LAYOUT_ACTIVITYLANGUAGE = 6;
+  private static final int LAYOUT_ACTIVITYINTRO = 6;
 
-  private static final int LAYOUT_ACTIVITYQUESTION = 7;
+  private static final int LAYOUT_ACTIVITYLANGUAGE = 7;
 
-  private static final int LAYOUT_FRAGMENTINTRO01 = 8;
+  private static final int LAYOUT_ACTIVITYQUESTION = 8;
 
-  private static final int LAYOUT_FRAGMENTINTRO02 = 9;
+  private static final int LAYOUT_FRAGMENTINTRO01 = 9;
 
-  private static final int LAYOUT_FRAGMENTINTRO03 = 10;
+  private static final int LAYOUT_FRAGMENTINTRO02 = 10;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(10);
+  private static final int LAYOUT_FRAGMENTINTRO03 = 11;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(11);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_answer, LAYOUT_ACTIVITYANSWER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_confilm_pincode, LAYOUT_ACTIVITYCONFILMPINCODE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_create_pin_code, LAYOUT_ACTIVITYCREATEPINCODE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_enter_pincode, LAYOUT_ACTIVITYENTERPINCODE);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_info_user, LAYOUT_ACTIVITYINFOUSER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_intro, LAYOUT_ACTIVITYINTRO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_language, LAYOUT_ACTIVITYLANGUAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_question, LAYOUT_ACTIVITYQUESTION);
@@ -94,6 +98,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityEnterPincodeBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_enter_pincode is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ACTIVITYINFOUSER: {
+          if ("layout/activity_info_user_0".equals(tag)) {
+            return new ActivityInfoUserBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_info_user is invalid. Received: " + tag);
         }
         case  LAYOUT_ACTIVITYINTRO: {
           if ("layout/activity_intro_0".equals(tag)) {
@@ -184,13 +194,14 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(10);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(11);
 
     static {
       sKeys.put("layout/activity_answer_0", com.sntthanh.notebasic.R.layout.activity_answer);
       sKeys.put("layout/activity_confilm_pincode_0", com.sntthanh.notebasic.R.layout.activity_confilm_pincode);
       sKeys.put("layout/activity_create_pin_code_0", com.sntthanh.notebasic.R.layout.activity_create_pin_code);
       sKeys.put("layout/activity_enter_pincode_0", com.sntthanh.notebasic.R.layout.activity_enter_pincode);
+      sKeys.put("layout/activity_info_user_0", com.sntthanh.notebasic.R.layout.activity_info_user);
       sKeys.put("layout/activity_intro_0", com.sntthanh.notebasic.R.layout.activity_intro);
       sKeys.put("layout/activity_language_0", com.sntthanh.notebasic.R.layout.activity_language);
       sKeys.put("layout/activity_question_0", com.sntthanh.notebasic.R.layout.activity_question);

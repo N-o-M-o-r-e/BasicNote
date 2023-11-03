@@ -48,6 +48,9 @@
     <string name="imported_backup">Backup importat</string>
     <string name="install_a_browser">Instalați un browser pentru a deschide acest link</string>
     <string name="install_an_email">Instalați o aplicație de e-mail pentru a trimite feedback</string>
+    <string name="intro01">Record your tasks, thoughts, and problems that need solving</string>
+    <string name="intro02">Display notes right on your phone screen</string>
+    <string name="intro03">Set a password to keep your notes private and secure</string>
     <string name="invalid_backup">Backup invalid</string>
     <string name="invalid_image">Imagine invalidă</string>
     <string name="italic">Italic</string>

@@ -33,6 +33,9 @@
     <string name="follow_system">Podľa systému</string>
     <string name="grid">Mriežka</string>
     <string name="hindi">Hindi</string>
+    <string name="intro01">Record your tasks, thoughts, and problems that need solving</string>
+    <string name="intro02">Display notes right on your phone screen</string>
+    <string name="intro03">Set a password to keep your notes private and secure</string>
     <string name="italic">Kurzíva</string>
     <string name="item">Položka</string>
     <string name="label_exists">Štítok už existuje</string>

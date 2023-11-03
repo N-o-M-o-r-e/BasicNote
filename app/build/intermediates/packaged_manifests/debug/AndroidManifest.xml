@@ -34,12 +34,14 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.sntthanh.notebasic.activities.info.InfoUserActivity"
+            android:exported="false" />
+        <activity
             android:name="com.sntthanh.notebasic.activities.security.question.AnswerActivity"
             android:exported="false" />
         <activity
             android:name="com.sntthanh.notebasic.activities.security.question.QuestionActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.sntthanh.notebasic.activities.security.pincode.EnterPincodeActivity"
             android:exported="false" />

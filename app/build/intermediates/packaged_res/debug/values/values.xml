@@ -15,7 +15,7 @@
     <attr format="reference" name="alternateFabTint"/>
     <color name="Black">#000000</color>
     <color name="Blossom">#F5E2DC</color>
-    <color name="Blue50">#E3F2FD</color>
+    <color name="Blue50">#804DD7</color>
     <color name="Clay">#E9E3D3</color>
     <color name="Color_Background">#F8F8F8</color>
     <color name="Color_Background_StatusBar">#F9F5FF</color>
@@ -30,7 +30,7 @@
     <color name="Grey100">#F5F5F5</color>
     <color name="Indigo100">#C5CAE9</color>
     <color name="LightBlue100">#B3E5fC</color>
-    <color name="LightBlue500">#03A9F4</color>
+    <color name="LightBlue500">#804DD7</color>
     <color name="Mint">#E2F6D3</color>
     <color name="Orange">#FFCC80</color>
     <color name="Sage">#B4DED4</color>
@@ -97,6 +97,9 @@
     <string name="imported_backup">Imported backup</string>
     <string name="install_a_browser">Install a browser to open this link</string>
     <string name="install_an_email">Install an email app to send feedback</string>
+    <string name="intro01">Record your tasks, thoughts, and problems that need solving</string>
+    <string name="intro02">Display notes right on your phone screen</string>
+    <string name="intro03">Set a password to keep your notes private and secure</string>
     <string name="invalid_backup">Invalid backup</string>
     <string name="invalid_image">Invalid image</string>
     <string name="italic">Italic</string>

@@ -93,4 +93,7 @@
     <string name="hindi">Hindi</string>
     <string name="success">Success</string>
     <string name="wrong_answer_please_reply_again">Wrong answer please reply again!</string>
+    <string name="intro01">Record your tasks, thoughts, and problems that need solving</string>
+    <string name="intro02">Display notes right on your phone screen</string>
+    <string name="intro03">Set a password to keep your notes private and secure</string>
 </resources>

@@ -22,13 +22,14 @@
         android:roundIcon="@mipmap/notally_round"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activities.info.InfoUserActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.security.question.AnswerActivity"
             android:exported="false" />
         <activity
             android:name=".activities.security.question.QuestionActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".activities.security.pincode.EnterPincodeActivity"
             android:exported="false" />
@@ -37,7 +38,7 @@
             android:exported="false" />
         <activity
             android:name=".activities.security.pincode.CreatePincodeActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".activities.tutorial.IntroActivity"
             android:exported="false" />
@@ -46,14 +47,13 @@
             android:exported="false" />
         <activity
             android:name=".activities.tutorial.SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".RealTimeActivity"
             android:exported="false" />

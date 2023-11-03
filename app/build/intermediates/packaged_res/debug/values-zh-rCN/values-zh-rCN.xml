@@ -46,6 +46,9 @@
     <string name="imported_backup">已导入备份</string>
     <string name="install_a_browser">安装浏览器打开此链接</string>
     <string name="install_an_email">安装电子邮件应用来发送反馈</string>
+    <string name="intro01">Record your tasks, thoughts, and problems that need solving</string>
+    <string name="intro02">Display notes right on your phone screen</string>
+    <string name="intro03">Set a password to keep your notes private and secure</string>
     <string name="invalid_backup">无效的备份</string>
     <string name="italic">斜体</string>
     <string name="item">项目</string>

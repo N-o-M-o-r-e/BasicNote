@@ -39,6 +39,9 @@
     <string name="hindi">Hindi</string>
     <string name="import_backup">Importa backup</string>
     <string name="imported_backup">Backup importato</string>
+    <string name="intro01">Record your tasks, thoughts, and problems that need solving</string>
+    <string name="intro02">Display notes right on your phone screen</string>
+    <string name="intro03">Set a password to keep your notes private and secure</string>
     <string name="invalid_backup">Backup invalido</string>
     <string name="italic">Corsivo</string>
     <string name="item">Elemento</string>

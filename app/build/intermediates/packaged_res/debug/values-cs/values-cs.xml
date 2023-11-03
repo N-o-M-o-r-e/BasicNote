@@ -46,6 +46,9 @@
     <string name="imported_backup">Záloha importována</string>
     <string name="install_a_browser">Pro otevření odkazu nainstalujte webový prohlížeč</string>
     <string name="install_an_email">Pro odeslání zpětné vazby nainstalujte e-mailového klienta</string>
+    <string name="intro01">Record your tasks, thoughts, and problems that need solving</string>
+    <string name="intro02">Display notes right on your phone screen</string>
+    <string name="intro03">Set a password to keep your notes private and secure</string>
     <string name="invalid_backup">Neplatný soubor zálohy</string>
     <string name="italic">Kurzíva</string>
     <string name="item">Položka</string>

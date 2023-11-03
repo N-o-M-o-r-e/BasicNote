@@ -53,6 +53,7 @@ drawable background_spinner
 drawable background_status_bar
 drawable background_view_dot
 drawable background_view_dot_select
+drawable bacmkground_edittext
 drawable checkbox
 drawable checkbox_16
 drawable checkbox_fill
@@ -74,6 +75,7 @@ drawable ic_russian
 drawable ic_select
 drawable ic_switch
 drawable ic_thailand
+drawable ic_tick
 drawable ic_vietnam
 drawable label
 drawable logo_app
@@ -153,13 +155,16 @@ id btnContinue
 id btnDone
 id btnForgetPassword
 id btnOk
+id des
 id dot01
 id dot02
 id dot03
 id dot04
 id dots_indicator
 id edtAnswer
+id edtName
 id imageButton
+id imageView
 id imgLogoApp
 id languageName
 id language_icon
@@ -197,6 +202,7 @@ layout activity_configure_widget
 layout activity_confilm_pincode
 layout activity_create_pin_code
 layout activity_enter_pincode
+layout activity_info_user
 layout activity_intro
 layout activity_language
 layout activity_main
@@ -292,6 +298,9 @@ string import_backup
 string imported_backup
 string install_a_browser
 string install_an_email
+string intro01
+string intro02
+string intro03
 string invalid_backup
 string invalid_image
 string italic

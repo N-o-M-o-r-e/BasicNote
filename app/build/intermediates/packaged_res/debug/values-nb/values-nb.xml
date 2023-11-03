@@ -46,6 +46,9 @@
     <string name="imported_backup">Importert sikkerhetskopi</string>
     <string name="install_a_browser">Installer en nettleser for å åpne lenken</string>
     <string name="install_an_email">Installer en e-postapp for å sende en tilbakemelding</string>
+    <string name="intro01">Record your tasks, thoughts, and problems that need solving</string>
+    <string name="intro02">Display notes right on your phone screen</string>
+    <string name="intro03">Set a password to keep your notes private and secure</string>
     <string name="invalid_backup">Ugyldig sikkerhetskopi</string>
     <string name="italic">Kursiv</string>
     <string name="item">Element</string>

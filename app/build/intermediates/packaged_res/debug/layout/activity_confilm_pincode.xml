@@ -44,6 +44,7 @@
             android:layout_height="wrap_content"
             android:text="Please input confilm 4-Digit Pin Code for your Diary"
             style="@style/NUNITO_REGULAR"
+            android:layout_marginHorizontal="24dp"
             android:textColor="#383655"
             android:textSize="14sp"
             android:layout_marginTop="4dp"
