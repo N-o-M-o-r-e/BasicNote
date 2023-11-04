@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-77:\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "com.sntthanh.notebasic.app-mergeDebugResources-2:/values-night-v8/values-night-v8.xml",
             "map": [
-                {
-                    "source": "E:\\Note\\NoteBasic\\app\\src\\main\\res\\values-night\\strings.xml",
-                    "from": {
-                        "startLines": "4,3,7,10,11,12,5,8,6,2,9",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "153,108,285,465,562,640,198,326,242,57,371",
-                        "endColumns": "43,43,39,95,76,88,42,43,41,49,92",
-                        "endOffsets": "192,147,320,556,634,724,236,365,279,102,459"
-                    },
-                    "to": {
-                        "startLines": "14,15,16,17,18,19,20,21,22,23,24",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "534,578,622,662,758,835,924,967,1011,1053,1103",
-                        "endColumns": "43,43,39,95,76,88,42,43,41,49,92",
-                        "endOffsets": "573,617,657,753,830,919,962,1006,1048,1098,1191"
-                    }
-                },
                 {
                     "source": "C:\\Users\\sntth\\.gradle\\caches\\transforms-3\\1d0dbfcef90cda565c748f8104a7e8bb\\transformed\\material-1.4.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -30,15 +13,15 @@
                         "endOffsets": "138,262,364,466,582,684,798,926,1042,1164,1300,1420,1554,1674,1786,1912,2036,2166,2288,2426,2560,2676,2796"
                     },
                     "to": {
-                        "startLines": "37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,54,55,56,57,58,59,60",
+                        "startLines": "39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2089,2177,2301,2403,2505,2621,2723,2837,2965,3081,3203,3339,3459,3593,3713,3825,4040,4164,4294,4416,4554,4688,4804",
+                        "startOffsets": "2195,2283,2407,2509,2611,2727,2829,2943,3071,3187,3309,3445,3565,3699,3819,3931,4146,4270,4400,4522,4660,4794,4910",
                         "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,123,129,121,137,133,115,119",
-                        "endOffsets": "2172,2296,2398,2500,2616,2718,2832,2960,3076,3198,3334,3454,3588,3708,3820,3946,4159,4289,4411,4549,4683,4799,4919"
+                        "endOffsets": "2278,2402,2504,2606,2722,2824,2938,3066,3182,3304,3440,3560,3694,3814,3926,4052,4265,4395,4517,4655,4789,4905,5025"
                     }
                 },
                 {
-                    "source": "E:\\Note\\NoteBasic\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "source": "C:\\Android Studio\\Project\\BasicNote\\app\\src\\main\\res\\values-night\\colors.xml",
                     "from": {
                         "startLines": "12,13,3,2,10,11,7,9,4,8,5,6",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "E:\\Note\\NoteBasic\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Android Studio\\Project\\BasicNote\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -63,91 +46,6 @@
                         "endLines": "7",
                         "endColumns": "12",
                         "endOffsets": "319"
-                    },
-                    "to": {
-                        "startLines": "25",
-                        "startColumns": "4",
-                        "startOffsets": "1196",
-                        "endLines": "29",
-                        "endColumns": "12",
-                        "endOffsets": "1452"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\sntth\\.gradle\\caches\\transforms-3\\811f0353bbf0004a82c61fd9cb8aa3ea\\transformed\\appcompat-1.7.0-alpha02\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "30,31,32,33,34,35,36,53",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "1457,1527,1611,1695,1791,1893,1995,3951",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "1522,1606,1690,1786,1888,1990,2084,4035"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "com.sntthanh.notebasic.app-mergeDebugResources-77:/values-night-v8/values-night-v8.xml",
-            "map": [
-                {
-                    "source": "E:\\Note\\NoteBasic\\app\\src\\main\\res\\values-night\\strings.xml",
-                    "from": {
-                        "startLines": "13,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1",
-                        "startColumns": "4,-1,-1,-1,-1,-1,-1,-1,4,-1,-1,-1,-1",
-                        "startOffsets": "730,-1,-1,-1,-1,-1,-1,-1,791,-1,-1,-1,-1",
-                        "endColumns": "59,-1,-1,-1,-1,-1,-1,-1,45,-1,-1,-1,-1",
-                        "endOffsets": "785,-1,-1,-1,-1,-1,-1,-1,832,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,25,26",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "534,594,638,682,722,818,895,984,1027,1073,1117,1159,1209",
-                        "endColumns": "59,43,43,39,95,76,88,42,45,43,41,49,92",
-                        "endOffsets": "589,633,677,717,813,890,979,1022,1068,1112,1154,1204,1297"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\sntth\\.gradle\\caches\\transforms-3\\1d0dbfcef90cda565c748f8104a7e8bb\\transformed\\material-1.4.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,62",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2195,2283,2407,2509,2611,2727,2829,2943,3071,3187,3309,3445,3565,3699,3819,3931,4146,4270,4400,4522,4660,4794,4910",
-                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,123,129,121,137,133,115,119",
-                        "endOffsets": "2278,2402,2504,2606,2722,2824,2938,3066,3182,3304,3440,3560,3694,3814,3926,4052,4265,4395,4517,4655,4789,4905,5025"
-                    }
-                },
-                {
-                    "source": "E:\\Note\\NoteBasic\\app\\src\\main\\res\\values-night\\colors.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,97,136,176,218,257,298,336,375,416,455,494",
-                        "endColumns": "41,38,39,41,38,40,37,38,40,38,38,39",
-                        "endOffsets": "92,131,171,213,252,293,331,370,411,450,489,529"
-                    }
-                },
-                {
-                    "source": "E:\\Note\\NoteBasic\\app\\src\\main\\res\\values-night\\styles.xml",
-                    "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
                     },
                     "to": {
                         "startLines": "27",
@@ -161,9 +59,11 @@
                 {
                     "source": "C:\\Users\\sntth\\.gradle\\caches\\transforms-3\\811f0353bbf0004a82c61fd9cb8aa3ea\\transformed\\appcompat-1.7.0-alpha02\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
                     },
                     "to": {
                         "startLines": "32,33,34,35,36,37,38,55",
@@ -171,6 +71,23 @@
                         "startOffsets": "1563,1633,1717,1801,1897,1999,2101,4057",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "1628,1712,1796,1892,1994,2096,2190,4141"
+                    }
+                },
+                {
+                    "source": "C:\\Android Studio\\Project\\BasicNote\\app\\src\\main\\res\\values-night\\strings.xml",
+                    "from": {
+                        "startLines": "13,4,3,7,10,11,12,5,14,8,6,2,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "730,153,108,285,465,562,640,198,791,326,242,57,371",
+                        "endColumns": "59,43,43,39,95,76,88,42,45,43,41,49,92",
+                        "endOffsets": "785,192,147,320,556,634,724,236,832,365,279,102,459"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "534,594,638,682,722,818,895,984,1027,1073,1117,1159,1209",
+                        "endColumns": "59,43,43,39,95,76,88,42,45,43,41,49,92",
+                        "endOffsets": "589,633,677,717,813,890,979,1022,1068,1112,1154,1204,1297"
                     }
                 }
             ]

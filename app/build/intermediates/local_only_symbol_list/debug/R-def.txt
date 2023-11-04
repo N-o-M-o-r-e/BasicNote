@@ -35,6 +35,8 @@ color dark_dot
 color light_dot
 color navigation_view_item
 color red
+color switch_thumb_tint
+color switch_track_tint
 color text_color
 color white
 dimen unit
@@ -175,7 +177,6 @@ id dots_indicator
 id edtAnswer
 id edtName
 id imageButton
-id imageView
 id imgLogoApp
 id languageName
 id language_icon
@@ -198,6 +199,7 @@ id scrollView
 id spinnerView
 id statusBar
 id switchToPattern
+id switchTurnPass
 id title
 id toolbar
 id tvDes

@@ -34,9 +34,6 @@ class InfoUserActivity : BaseActivityWithoutDataBiding<ActivityInfoUserBinding>(
             }
 
         }
-        binding.imageView.setOnClickListener {
-            finish()
-        }
     }
 
 }

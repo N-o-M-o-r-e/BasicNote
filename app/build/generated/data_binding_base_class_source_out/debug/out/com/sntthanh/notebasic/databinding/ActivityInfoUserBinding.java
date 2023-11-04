@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,22 +26,18 @@ public abstract class ActivityInfoUserBinding extends ViewDataBinding {
   public final EditText edtName;
 
   @NonNull
-  public final ImageView imageView;
-
-  @NonNull
   public final ConstraintLayout statusBar;
 
   @NonNull
   public final TextView title;
 
   protected ActivityInfoUserBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      TextView btnContinue, TextView des, EditText edtName, ImageView imageView,
-      ConstraintLayout statusBar, TextView title) {
+      TextView btnContinue, TextView des, EditText edtName, ConstraintLayout statusBar,
+      TextView title) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnContinue = btnContinue;
     this.des = des;
     this.edtName = edtName;
-    this.imageView = imageView;
     this.statusBar = statusBar;
     this.title = title;
   }

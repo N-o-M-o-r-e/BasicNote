@@ -3,6 +3,7 @@ package com.sntthanh.notebasic.activities.tutorial
 import android.content.Intent
 import android.view.View
 import androidx.recyclerview.widget.GridLayoutManager
+import com.sntthanh.notebasic.activities.MainActivity
 import com.sntthanh.notebasic.activities.utils.Common
 import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding
@@ -55,33 +56,40 @@ class LanguageActivity :
     }
 
     private fun doneLanguage() {
-
-
         binding.btnDone.setOnClickListener {
             Common.setLanguagePosition(this, adapter!!.getSelectedPositionLanguage())
             HawkCommon.putHawkLanguage(adapter!!.getSelectedPositionLanguage())
 
-            if (!HawkCommon.getEventLanguage()) {
-                if (!HawkCommon.getEventAppOpen()) {
-                    startActivity(
-                        Intent(this@LanguageActivity, IntroActivity::class.java).addFlags(
-                            Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
-                        )
-                    )
-                } else {
-                    startActivity(
-                        Intent(this@LanguageActivity, IntroActivity::class.java).addFlags(
-                            Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
-                        )
-                    )
-                }
-            } else {
-                startActivity(
-                    Intent(this@LanguageActivity, IntroActivity::class.java).addFlags(
-                        Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
-                    )
-                )
+            val isSplash = HawkCommon.getEventLanguage()
+
+            if (isSplash){
+                startActivity(Intent(this@LanguageActivity, MainActivity::class.java)
+                    .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK))
+            }else{
+                startActivity(Intent(this@LanguageActivity, IntroActivity::class.java)
+                    .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK))
             }
+//            if (!HawkCommon.getEventLanguage()) {
+//                if (!HawkCommon.getEventAppOpen()) {
+//                    startActivity(
+//                        Intent(this@LanguageActivity, IntroActivity::class.java).addFlags(
+//                            Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+//                        )
+//                    )
+//                } else {
+//                    startActivity(
+//                        Intent(this@LanguageActivity, IntroActivity::class.java).addFlags(
+//                            Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+//                        )
+//                    )
+//                }
+//            } else {
+//                startActivity(
+//                    Intent(this@LanguageActivity, IntroActivity::class.java).addFlags(
+//                        Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+//                    )
+//                )
+//            }
 
         }
     }

@@ -43,10 +43,6 @@ class QuestionActivity :
     }
 
     override fun listeners() {
-        binding.imageButton.setOnClickListener {
-
-        }
-
 
         binding.btnOk.setOnClickListener {
 

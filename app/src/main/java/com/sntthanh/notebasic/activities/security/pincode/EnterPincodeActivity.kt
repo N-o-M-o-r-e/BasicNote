@@ -104,11 +104,7 @@ class EnterPincodeActivity :
             4-> {
                 binding.dot04.setBackgroundResource(R.drawable.background_view_dot_select)
                 if (listPass == HawkCommon.getHawkListPinCode()){
-                    if (intent.getBooleanExtra("SETTING", true)){
-                        goToNewActivity(CreatePincodeActivity::class.java)
-                    }else{
-                        startActivity(Intent(this, MainActivity::class.java))
-                    }
+                    eventEnterPinCode()
                     finish()
                 }else{
                     binding.tvDes.visibility = View.INVISIBLE
@@ -123,6 +119,15 @@ class EnterPincodeActivity :
 
                 }
             }
+        }
+    }
+
+    private fun eventEnterPinCode() {
+        val eventEnter = HawkCommon.getHawkEventEnterPassCode()
+        if (!eventEnter){
+            goToNewActivity(MainActivity::class.java, true)
+        }else{
+            goToNewActivity(CreatePincodeActivity::class.java, true)
         }
     }
 }

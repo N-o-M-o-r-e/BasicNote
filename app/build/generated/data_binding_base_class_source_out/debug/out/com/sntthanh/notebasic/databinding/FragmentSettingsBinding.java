@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.SwitchCompat;
 import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -65,6 +66,9 @@ public final class FragmentSettingsBinding implements ViewBinding {
   public final PreferenceBinding View;
 
   @NonNull
+  public final SwitchCompat switchTurnPass;
+
+  @NonNull
   public final TextView tvLanguage;
 
   private FragmentSettingsBinding(@NonNull NestedScrollView rootView,
@@ -75,7 +79,7 @@ public final class FragmentSettingsBinding implements ViewBinding {
       @NonNull PreferenceSeekbarBinding MaxLines, @NonNull TextView Rate,
       @NonNull TextView SendFeedback, @NonNull PreferenceBinding TextSize,
       @NonNull PreferenceBinding Theme, @NonNull PreferenceBinding View,
-      @NonNull TextView tvLanguage) {
+      @NonNull SwitchCompat switchTurnPass, @NonNull TextView tvLanguage) {
     this.rootView = rootView;
     this.AutoBackup = AutoBackup;
     this.ChangePasscode = ChangePasscode;
@@ -92,6 +96,7 @@ public final class FragmentSettingsBinding implements ViewBinding {
     this.TextSize = TextSize;
     this.Theme = Theme;
     this.View = View;
+    this.switchTurnPass = switchTurnPass;
     this.tvLanguage = tvLanguage;
   }
 
@@ -219,6 +224,12 @@ public final class FragmentSettingsBinding implements ViewBinding {
       }
       PreferenceBinding binding_View = PreferenceBinding.bind(View);
 
+      id = R.id.switchTurnPass;
+      SwitchCompat switchTurnPass = ViewBindings.findChildViewById(rootView, id);
+      if (switchTurnPass == null) {
+        break missingId;
+      }
+
       id = R.id.tvLanguage;
       TextView tvLanguage = ViewBindings.findChildViewById(rootView, id);
       if (tvLanguage == null) {
@@ -228,7 +239,7 @@ public final class FragmentSettingsBinding implements ViewBinding {
       return new FragmentSettingsBinding((NestedScrollView) rootView, binding_AutoBackup,
           ChangePasscode, binding_DateFormat, ExportBackup, GitHub, ImportBackup, Info, Libraries,
           binding_MaxItems, binding_MaxLines, Rate, SendFeedback, binding_TextSize, binding_Theme,
-          binding_View, tvLanguage);
+          binding_View, switchTurnPass, tvLanguage);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

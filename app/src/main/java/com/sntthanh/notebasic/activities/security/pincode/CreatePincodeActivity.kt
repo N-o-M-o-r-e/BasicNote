@@ -106,7 +106,7 @@ class CreatePincodeActivity :
             3-> binding.dot03.setBackgroundResource(R.drawable.background_view_dot_select)
             4-> {
                 binding.dot04.setBackgroundResource(R.drawable.background_view_dot_select)
-                Log.e("AAAAAAAAAAAAA", "checkList: "+listPass, )
+                Log.e("AAAAAAAAAAAAA", "checkList: $listPass", )
                 HawkCommon.putHawkListPinCode(listPass)
                 startActivity(Intent(this, ConfilmPincodeActivity::class.java))
             }

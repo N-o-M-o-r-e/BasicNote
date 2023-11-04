@@ -21,6 +21,7 @@ import com.sntthanh.notebasic.activities.info.InfoUserActivity
 import com.sntthanh.notebasic.activities.security.pincode.EnterPincodeActivity
 import com.sntthanh.notebasic.activities.security.question.AnswerActivity
 import com.sntthanh.notebasic.activities.tutorial.LanguageActivity
+import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.databinding.FragmentSettingsBinding
 import com.sntthanh.notebasic.databinding.PreferenceBinding
 import com.sntthanh.notebasic.databinding.PreferenceSeekbarBinding
@@ -74,7 +75,15 @@ class Settings : Fragment() {
             exportBackup()
         }
 
+        binding.switchTurnPass.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked) {
+                HawkCommon.putHawkEventTurnPass(true)
+            } else {
+                HawkCommon.putHawkEventTurnPass(false)
+            }
+        }
         binding.ChangePasscode.setOnClickListener {
+            HawkCommon.putHawkEventEnterPassCode(true)
             val intent = Intent(activity, EnterPincodeActivity::class.java)
             intent.putExtra("SETTING", true)
             startActivity(intent)
@@ -87,6 +96,7 @@ class Settings : Fragment() {
 
         binding.tvLanguage.setOnClickListener {
             val intent = Intent(activity, LanguageActivity::class.java)
+            HawkCommon.putEventLanguage(true)
             startActivity(intent)
         }
 

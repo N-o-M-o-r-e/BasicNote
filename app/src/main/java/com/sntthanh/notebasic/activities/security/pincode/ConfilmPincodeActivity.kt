@@ -11,6 +11,7 @@ import com.sntthanh.notebasic.activities.security.question.QuestionActivity
 import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding
 import com.sntthanh.notebasic.databinding.ActivityConfilmPincodeBinding
+import kotlin.math.log
 
 class ConfilmPincodeActivity : BaseActivityWithoutDataBiding<ActivityConfilmPincodeBinding>(ActivityConfilmPincodeBinding::inflate) {
     private var listPass = ArrayList<Int>()
@@ -107,8 +108,8 @@ class ConfilmPincodeActivity : BaseActivityWithoutDataBiding<ActivityConfilmPinc
             4-> {
                 binding.dot04.setBackgroundResource(R.drawable.background_view_dot_select)
                 if (listPass == HawkCommon.getHawkListPinCode()){
-                    startActivity(Intent(this, QuestionActivity::class.java))
-                    finish()
+                    enterConfilmPinCode()
+
                 }else{
                     binding.tvDes.visibility = View.INVISIBLE
                     binding.tvError.visibility = View.VISIBLE
@@ -121,6 +122,15 @@ class ConfilmPincodeActivity : BaseActivityWithoutDataBiding<ActivityConfilmPinc
 
                 }
             }
+        }
+    }
+
+    private fun enterConfilmPinCode() {
+        Log.e("AAAAA", "enterConfilmPinCode: "+HawkCommon.getHawkEventEnterPassCode(), )
+        if (HawkCommon.getHawkEventEnterPassCode()){
+            goToNewActivity(MainActivity::class.java, true)
+        }else{
+            goToNewActivity(QuestionActivity::class.java, true)
         }
     }
 }

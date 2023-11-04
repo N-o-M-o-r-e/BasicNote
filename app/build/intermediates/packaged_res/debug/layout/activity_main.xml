@@ -153,7 +153,7 @@
                 android:layout_height="60dp"
                 android:layout_marginBottom="120dp"
                 android:layout_above="@id/TakeNote"
-                android:background="@drawable/ic_add_note"
+                android:background="@drawable/ic_add_list"
                 app:elevation="2dp"
                 android:layout_marginEnd="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -166,7 +166,7 @@
                 android:layout_height="60dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginBottom="120dp"
-                android:background="@drawable/ic_add_list"
+                android:background="@drawable/ic_add_note"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@id/line3"
                 />

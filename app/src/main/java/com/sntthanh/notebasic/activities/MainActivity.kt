@@ -16,6 +16,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.sntthanh.notebasic.R
 import com.sntthanh.notebasic.activities.TakeNote
+import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding
 import com.sntthanh.notebasic.databinding.ActivityMainBinding
 import com.sntthanh.notebasic.viewmodels.BaseNoteModel
@@ -33,6 +34,7 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
 
     override fun initData() {
         setSupportActionBar(binding.Toolbar)
+        HawkCommon.putEventFirstApp(true)
     }
 
     override fun initView() {
@@ -48,6 +50,7 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
     override fun listeners() {
         binding.btnAdd.setOnClickListener {
             binding.viewAddItem.visibility = View.VISIBLE
+            navController.navigate(requireNotNull(R.id.Notes), null)
         }
 
         binding.viewAddItem.setOnClickListener {
@@ -81,8 +84,7 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
 
 
     private fun setupNavigation() {
-        val navHostFragment =
-            supportFragmentManager.findFragmentById(R.id.NavHostFragment) as NavHostFragment
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.NavHostFragment) as NavHostFragment
         navController = navHostFragment.navController
         configuration = AppBarConfiguration(binding.NavigationView.menu, binding.DrawerLayout)
         setupActionBarWithNavController(navController, configuration)
@@ -129,15 +131,15 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
         }
         binding.Labels.setOnClickListener {
             navController.navigate(requireNotNull(R.id.Labels), null)
-            binding.btnAdd.visibility = View.INVISIBLE
+            binding.btnAdd.visibility = View.VISIBLE
         }
         binding.Archived.setOnClickListener {
             navController.navigate(requireNotNull(R.id.Archived), null)
-            binding.btnAdd.visibility = View.INVISIBLE
+            binding.btnAdd.visibility = View.VISIBLE
         }
         binding.Settings.setOnClickListener {
             navController.navigate(requireNotNull(R.id.Settings), null)
-            binding.btnAdd.visibility = View.INVISIBLE
+            binding.btnAdd.visibility = View.VISIBLE
         }
     }
 

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sntthanh.notebasic.app-mergeDebugResources-77:/values-et/values-et.xml",
+            "outputFile": "com.sntthanh.notebasic.app-mergeDebugResources-2:/values-et/values-et.xml",
             "map": [
                 {
                     "source": "C:\\Users\\sntth\\.gradle\\caches\\transforms-3\\639909f98c6a745e70c1d6e670ff400e\\transformed\\navigation-ui-2.3.5\\res\\values-et\\values-et.xml",
