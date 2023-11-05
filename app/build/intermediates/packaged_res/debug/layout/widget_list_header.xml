@@ -16,7 +16,7 @@
         android:fontFamily="sans-serif-medium"
         android:paddingBottom="16dp"
         android:textAppearance="?attr/textAppearanceBody1"
-        android:textColor="?android:textColorPrimary" />
+        android:textColor="@color/Color_Text" />
 
     <TextView
         android:id="@+id/Date"
