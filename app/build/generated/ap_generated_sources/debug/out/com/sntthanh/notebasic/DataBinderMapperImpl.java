@@ -14,6 +14,7 @@ import com.sntthanh.notebasic.databinding.ActivityInfoUserBindingImpl;
 import com.sntthanh.notebasic.databinding.ActivityIntroBindingImpl;
 import com.sntthanh.notebasic.databinding.ActivityLanguageBindingImpl;
 import com.sntthanh.notebasic.databinding.ActivityQuestionBindingImpl;
+import com.sntthanh.notebasic.databinding.DrawerHeaderBindingImpl;
 import com.sntthanh.notebasic.databinding.FragmentIntro01BindingImpl;
 import com.sntthanh.notebasic.databinding.FragmentIntro02BindingImpl;
 import com.sntthanh.notebasic.databinding.FragmentIntro03BindingImpl;
@@ -44,13 +45,15 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYQUESTION = 8;
 
-  private static final int LAYOUT_FRAGMENTINTRO01 = 9;
+  private static final int LAYOUT_DRAWERHEADER = 9;
 
-  private static final int LAYOUT_FRAGMENTINTRO02 = 10;
+  private static final int LAYOUT_FRAGMENTINTRO01 = 10;
 
-  private static final int LAYOUT_FRAGMENTINTRO03 = 11;
+  private static final int LAYOUT_FRAGMENTINTRO02 = 11;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(11);
+  private static final int LAYOUT_FRAGMENTINTRO03 = 12;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(12);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_answer, LAYOUT_ACTIVITYANSWER);
@@ -61,6 +64,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_intro, LAYOUT_ACTIVITYINTRO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_language, LAYOUT_ACTIVITYLANGUAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.activity_question, LAYOUT_ACTIVITYQUESTION);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.drawer_header, LAYOUT_DRAWERHEADER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.fragment_intro_01, LAYOUT_FRAGMENTINTRO01);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.fragment_intro_02, LAYOUT_FRAGMENTINTRO02);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.sntthanh.notebasic.R.layout.fragment_intro_03, LAYOUT_FRAGMENTINTRO03);
@@ -122,6 +126,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityQuestionBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_question is invalid. Received: " + tag);
+        }
+        case  LAYOUT_DRAWERHEADER: {
+          if ("layout/drawer_header_0".equals(tag)) {
+            return new DrawerHeaderBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for drawer_header is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTINTRO01: {
           if ("layout/fragment_intro_01_0".equals(tag)) {
@@ -194,7 +204,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(11);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(12);
 
     static {
       sKeys.put("layout/activity_answer_0", com.sntthanh.notebasic.R.layout.activity_answer);
@@ -205,6 +215,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/activity_intro_0", com.sntthanh.notebasic.R.layout.activity_intro);
       sKeys.put("layout/activity_language_0", com.sntthanh.notebasic.R.layout.activity_language);
       sKeys.put("layout/activity_question_0", com.sntthanh.notebasic.R.layout.activity_question);
+      sKeys.put("layout/drawer_header_0", com.sntthanh.notebasic.R.layout.drawer_header);
       sKeys.put("layout/fragment_intro_01_0", com.sntthanh.notebasic.R.layout.fragment_intro_01);
       sKeys.put("layout/fragment_intro_02_0", com.sntthanh.notebasic.R.layout.fragment_intro_02);
       sKeys.put("layout/fragment_intro_03_0", com.sntthanh.notebasic.R.layout.fragment_intro_03);

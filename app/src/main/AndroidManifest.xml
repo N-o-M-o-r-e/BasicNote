@@ -22,6 +22,9 @@
         android:roundIcon="@mipmap/notally_round"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activities.info.CheckSetPassCodeActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.info.InfoUserActivity"
             android:exported="false" />
         <activity
@@ -29,7 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".activities.security.question.QuestionActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".activities.security.pincode.EnterPincodeActivity"
             android:exported="false" />

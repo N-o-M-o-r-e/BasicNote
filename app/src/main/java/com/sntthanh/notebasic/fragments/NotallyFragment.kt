@@ -56,7 +56,6 @@ abstract class NotallyFragment : Fragment(), ItemListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding?.ImageView?.setImageResource(getBackground())
-
         setupAdapter()
         setupRecyclerView()
         setupObserver()

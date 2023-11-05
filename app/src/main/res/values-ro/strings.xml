@@ -137,4 +137,5 @@
     <string name="intro03">Set a password to keep your notes private and secure</string>
     <string name="change_passcode">Change passcode</string>
     <string name="security">Security</string>
+    <string name="home">Home</string>
 </resources>

@@ -109,6 +109,8 @@
     <style name="Preference" parent="TextView.Clickable">
         <item name="android:padding">16dp</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:textColor">@color/text_color</item>
+
     </style>
 
     <style name="PreferenceHeader" parent="Widget.AppCompat.TextView">

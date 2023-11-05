@@ -1,158 +1,166 @@
 [
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\dialog_input.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\dialog_input.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\widget_list_header.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\widget_list_header.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\widget_list_header.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\widget_list_header.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_configure_widget.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_configure_widget.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_notally.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_notally.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_info_user.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_info_user.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_answer.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_answer.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_confilm_pincode.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_confilm_pincode.xml"
+        "merged": "com.sntthanh.notebasic.app-mergeDebugResources-78:/layout/widget_list_header.xml",
+        "source": "com.sntthanh.notebasic.app-main-81:/layout/widget_list_header.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_intro.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_intro.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\dialog_color.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\dialog_color.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_create_pin_code.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_create_pin_code.xml"
+        "merged": "com.sntthanh.notebasic.app-mergeDebugResources-78:/layout/widget_note.xml",
+        "source": "com.sntthanh.notebasic.app-main-81:/layout/widget_note.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\widget_note.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\widget_note.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\widget_preview.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\widget_preview.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\menu_item.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\menu_item.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\preference.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\preference.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_create_pin_code.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_create_pin_code.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\recycler_color.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\recycler_color.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\drawer_header.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\drawer_header.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\fragment_intro_02.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\fragment_intro_02.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\preference_seekbar.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\preference_seekbar.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\fragment_notes.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\fragment_notes.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_info_user.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_info_user.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_question.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_question.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\fragment_intro_02.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\fragment_intro_02.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_splash.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_question.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_question.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\fragment_settings.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\fragment_settings.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\recycler_list_item.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\recycler_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\recycler_list_item.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\recycler_list_item.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\fragment_settings.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\item_language.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\item_language.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\recycler_preview_image.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\recycler_preview_image.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\preference_seekbar.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\preference_seekbar.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\preference.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\preference.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\drawer_header.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\drawer_header.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\fragment_notes.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\fragment_notes.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_enter_pincode.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_enter_pincode.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\widget.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\widget.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\recycler_header.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\recycler_header.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\label.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\label.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\label.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\label.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\recycler_color.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\recycler_color.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\fragment_intro_01.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\fragment_intro_01.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\recycler_label.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\recycler_label.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\recycler_preview_image.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\recycler_preview_image.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\menu_item.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_language.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_language.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_view_image.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_view_image.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\dialog_color.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\dialog_color.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\fragment_intro_01.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\fragment_intro_01.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\widget.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\widget.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\item_language.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\item_language.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\recycler_base_note.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\recycler_base_note.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_intro.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_intro.xml"
     },
     {
-        "merged": "com.sntthanh.notebasic.app-mergeDebugResources-3:/layout/fragment_settings.xml",
-        "source": "com.sntthanh.notebasic.app-main-6:/layout/fragment_settings.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_language.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_language.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\widget_list_item.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\widget_list_item.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_enter_pincode.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_enter_pincode.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_answer.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_answer.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\dialog_input.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\dialog_input.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\recycler_label.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\recycler_label.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\recycler_header.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\recycler_header.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_notally.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_notally.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\recycler_base_note.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\recycler_base_note.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\dialog_do_you_want_set_passcode.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\dialog_do_you_want_set_passcode.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\fragment_intro_03.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\fragment_intro_03.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\fragment_intro_03.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\fragment_intro_03.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\widget_preview.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\widget_preview.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_real_time.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_real_time.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_real_time.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_real_time.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\widget_note.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\widget_note.xml"
     },
     {
-        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-3:\\layout\\activity_view_image.xml",
-        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-6:\\layout\\activity_view_image.xml"
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\widget_list_item.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\widget_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_confilm_pincode.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_confilm_pincode.xml"
+    },
+    {
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_configure_widget.xml",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_configure_widget.xml"
     }
 ]

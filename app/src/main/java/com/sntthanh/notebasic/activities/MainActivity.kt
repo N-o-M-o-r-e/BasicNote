@@ -128,18 +128,34 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
         binding.Notes.setOnClickListener {
             navController.navigate(requireNotNull(R.id.Notes), null)
             binding.btnAdd.visibility = View.VISIBLE
+            binding.Notes.setImageResource(R.drawable.ic_home_check)
+            binding.Labels.setImageResource(R.drawable.ic_labels)
+            binding.Archived.setImageResource(R.drawable.ic_archived)
+            binding.Settings.setImageResource(R.drawable.ic_settings)
         }
         binding.Labels.setOnClickListener {
             navController.navigate(requireNotNull(R.id.Labels), null)
             binding.btnAdd.visibility = View.VISIBLE
+            binding.Notes.setImageResource(R.drawable.ic_home)
+            binding.Labels.setImageResource(R.drawable.ic_labels_check)
+            binding.Archived.setImageResource(R.drawable.ic_archived)
+            binding.Settings.setImageResource(R.drawable.ic_settings)
         }
         binding.Archived.setOnClickListener {
             navController.navigate(requireNotNull(R.id.Archived), null)
             binding.btnAdd.visibility = View.VISIBLE
+            binding.Notes.setImageResource(R.drawable.ic_home)
+            binding.Labels.setImageResource(R.drawable.ic_labels)
+            binding.Archived.setImageResource(R.drawable.ic_archived_check)
+            binding.Settings.setImageResource(R.drawable.ic_settings)
         }
         binding.Settings.setOnClickListener {
             navController.navigate(requireNotNull(R.id.Settings), null)
             binding.btnAdd.visibility = View.VISIBLE
+            binding.Notes.setImageResource(R.drawable.ic_home)
+            binding.Labels.setImageResource(R.drawable.ic_labels)
+            binding.Archived.setImageResource(R.drawable.ic_archived)
+            binding.Settings.setImageResource(R.drawable.ic_settings_check)
         }
     }
 

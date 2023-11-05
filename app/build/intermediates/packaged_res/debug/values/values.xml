@@ -39,6 +39,7 @@
     <color name="Transparent">#00000000</color>
     <color name="White">#FFFFFF</color>
     <color name="black">#FF000000</color>
+    <color name="colorGray">#A5A5A5</color>
     <color name="dark_dot">#273B46</color>
     <color name="light_dot">#E6E6E6</color>
     <color name="red">#FF0000</color>
@@ -93,6 +94,7 @@
     <string name="grid">Grid</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hindi">Hindi</string>
+    <string name="home">Home</string>
     <string name="image_format_not_supported">Image format not supported</string>
     <string name="import_backup">Import backup</string>
     <string name="imported_backup">Imported backup</string>
@@ -228,6 +230,8 @@
     <style name="Preference" parent="TextView.Clickable">
         <item name="android:padding">16dp</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:textColor">@color/text_color</item>
+
     </style>
     <style name="PreferenceHeader" parent="Widget.AppCompat.TextView">
         <item name="android:paddingEnd">16dp</item>

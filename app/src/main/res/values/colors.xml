@@ -43,5 +43,7 @@
     <color name="Color_Choose">#D0D0D0</color>
     <color name="text_color">#1E2E36</color>
 
+    <color name="colorGray">#A5A5A5</color>
+
 
 </resources>

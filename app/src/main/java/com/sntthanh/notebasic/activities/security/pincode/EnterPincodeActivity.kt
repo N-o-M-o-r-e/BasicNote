@@ -14,7 +14,7 @@ class EnterPincodeActivity :
     BaseActivityWithoutDataBiding<ActivityEnterPincodeBinding>(ActivityEnterPincodeBinding::inflate) {
     private var listPass = ArrayList<Int>()
     override fun initData() {
-
+        Log.e("AAAAAAA", "list pass "+HawkCommon.getHawkListPinCode(), )
     }
 
     override fun initView() {

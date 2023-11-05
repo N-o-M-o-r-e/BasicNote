@@ -6,10 +6,12 @@ import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.documentfile.provider.DocumentFile
 import androidx.fragment.app.Fragment
@@ -18,8 +20,8 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.sntthanh.notebasic.MenuDialog
 import com.sntthanh.notebasic.R
 import com.sntthanh.notebasic.activities.info.InfoUserActivity
+import com.sntthanh.notebasic.activities.security.pincode.CreatePincodeActivity
 import com.sntthanh.notebasic.activities.security.pincode.EnterPincodeActivity
-import com.sntthanh.notebasic.activities.security.question.AnswerActivity
 import com.sntthanh.notebasic.activities.tutorial.LanguageActivity
 import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.databinding.FragmentSettingsBinding
@@ -75,22 +77,56 @@ class Settings : Fragment() {
             exportBackup()
         }
 
+        Log.e("AAAAAAAAAA", "checkSwitch: "+HawkCommon.getHawkEventTurnPass())
+
+        if (HawkCommon.getHawkEventTurnPass()){
+            binding.switchTurnPass.isChecked =true
+            binding.ChangePasscode.setTextColor(ContextCompat.getColor(requireActivity(), R.color.text_color))
+            binding.ChangePasscode.isEnabled = true
+//            binding.Info.setTextColor(ContextCompat.getColor(requireActivity(), R.color.text_color))
+//            binding.Info.isEnabled = true
+        }else{
+            binding.switchTurnPass.isChecked =false
+            binding.ChangePasscode.setTextColor(ContextCompat.getColor(requireActivity(), R.color.colorGray))
+            binding.ChangePasscode.isEnabled = false
+//            binding.Info.setTextColor(ContextCompat.getColor(requireActivity(), R.color.colorGray))
+//            binding.Info.isEnabled = false
+        }
+
         binding.switchTurnPass.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
+                binding.ChangePasscode.setTextColor(ContextCompat.getColor(requireActivity(), R.color.text_color))
+                binding.ChangePasscode.isEnabled = true
+//                binding.Info.setTextColor(ContextCompat.getColor(requireActivity(), R.color.text_color))
+//                binding.Info.isEnabled = true
                 HawkCommon.putHawkEventTurnPass(true)
+                if (HawkCommon.getHawkListPinCode().isEmpty()){
+                    val intent = Intent(requireActivity(), CreatePincodeActivity::class.java)
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
+                    startActivity(intent)
+                }
             } else {
                 HawkCommon.putHawkEventTurnPass(false)
+                binding.ChangePasscode.setTextColor(ContextCompat.getColor(requireActivity(), R.color.colorGray))
+                binding.ChangePasscode.isEnabled = false
+//                binding.Info.setTextColor(ContextCompat.getColor(requireActivity(), R.color.colorGray))
+//                binding.Info.isEnabled = false
             }
+            Log.e("AAAAAAAAA", "binding.switchTurnPass: "+HawkCommon.getHawkEventTurnPass(), )
         }
+
+
         binding.ChangePasscode.setOnClickListener {
             HawkCommon.putHawkEventEnterPassCode(true)
             val intent = Intent(activity, EnterPincodeActivity::class.java)
             intent.putExtra("SETTING", true)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(intent)
         }
 
         binding.Info.setOnClickListener {
             val intent = Intent(activity, InfoUserActivity::class.java)
+            intent.putExtra("SETTING_INFO", true)
             startActivity(intent)
         }
 
