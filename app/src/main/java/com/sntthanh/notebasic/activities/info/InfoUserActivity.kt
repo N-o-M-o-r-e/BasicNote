@@ -31,7 +31,8 @@ class InfoUserActivity : BaseActivityWithoutDataBiding<ActivityInfoUserBinding>(
             if (binding.edtName.text.isEmpty()){
                 Toast.makeText(this, "Please input your name.", Toast.LENGTH_SHORT).show()
             } else {
-                if (!intent.getBooleanExtra("SETTING_INFO", true)) {
+                HawkCommon.putHawkName(binding.edtName.text.toString())
+                if (!intent.getBooleanExtra("SETTING_INFO", true) || !HawkCommon.getEventFirstApp()) {
                     showDialogSetPasscode()
                 } else {
                     goToNewActivity(MainActivity::class.java, true)
@@ -53,7 +54,7 @@ class InfoUserActivity : BaseActivityWithoutDataBiding<ActivityInfoUserBinding>(
         }
         mBinding.btnOk.setOnClickListener {
             HawkCommon.putHawkEventTurnPass(true)
-            HawkCommon.putHawkName(binding.edtName.text.toString())
+
             Log.e("AAAAAAA", "listeners: " + HawkCommon.getHawkName())
             goToNewActivity(CreatePincodeActivity::class.java)
             dialog.dismiss()

@@ -2039,6 +2039,7 @@ drawable background_button_dialog_left
 drawable background_button_dialog_right
 drawable background_button_passcode
 drawable background_dialog
+drawable background_gradient
 drawable background_item_nav
 drawable background_language_uncheck
 drawable background_nav
@@ -2745,6 +2746,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleToolbar
 id title_template
 id toggle
 id toolbar

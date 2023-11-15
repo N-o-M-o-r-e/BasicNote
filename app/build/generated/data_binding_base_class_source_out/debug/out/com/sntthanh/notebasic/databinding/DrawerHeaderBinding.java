@@ -8,13 +8,19 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import com.google.android.material.appbar.MaterialToolbar;
 import com.sntthanh.notebasic.R;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class DrawerHeaderBinding extends ViewDataBinding {
-  protected DrawerHeaderBinding(Object _bindingComponent, View _root, int _localFieldCount) {
+  @NonNull
+  public final MaterialToolbar titleToolbar;
+
+  protected DrawerHeaderBinding(Object _bindingComponent, View _root, int _localFieldCount,
+      MaterialToolbar titleToolbar) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.titleToolbar = titleToolbar;
   }
 
   @NonNull

@@ -14,6 +14,8 @@ import androidx.navigation.navOptions
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.google.android.material.appbar.MaterialToolbar
+import com.google.android.material.navigation.NavigationView
 import com.sntthanh.notebasic.R
 import com.sntthanh.notebasic.activities.TakeNote
 import com.sntthanh.notebasic.activities.utils.HawkCommon
@@ -38,6 +40,10 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
     }
 
     override fun initView() {
+        val navigationView: NavigationView = binding.NavigationView
+        val headerView: View = navigationView.getHeaderView(0)
+        val titleToolbar: MaterialToolbar = headerView.findViewById(R.id.titleToolbar)
+        titleToolbar.title = "Hello,"+HawkCommon.getHawkName()
 
     }
 
@@ -50,7 +56,7 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
     override fun listeners() {
         binding.btnAdd.setOnClickListener {
             binding.viewAddItem.visibility = View.VISIBLE
-            navController.navigate(requireNotNull(R.id.Notes), null)
+//            navController.navigate(requireNotNull(R.id.Notes), null)
         }
 
         binding.viewAddItem.setOnClickListener {
@@ -161,7 +167,11 @@ class MainActivity : BaseActivityWithoutDataBiding<ActivityMainBinding>(Activity
 
 
     private fun handleDestinationChange(destination: NavDestination) {
-        if (destination.id == R.id.Notes) {
+        if (destination.id == R.id.Notes
+            ||destination.id == R.id.Archived
+            ||destination.id == R.id.Labels
+            ||destination.id == R.id.Settings
+            ||destination.id == R.id.Search ) {
             binding.TakeNote.visibility = View.VISIBLE
             binding.MakeList.visibility = View.VISIBLE
         } else {

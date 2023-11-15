@@ -16,16 +16,8 @@
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_answer.xml"
     },
     {
-        "merged": "com.sntthanh.notebasic.app-mergeDebugResources-78:/layout/widget_list_header.xml",
-        "source": "com.sntthanh.notebasic.app-main-81:/layout/widget_list_header.xml"
-    },
-    {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\dialog_color.xml",
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\dialog_color.xml"
-    },
-    {
-        "merged": "com.sntthanh.notebasic.app-mergeDebugResources-78:/layout/widget_note.xml",
-        "source": "com.sntthanh.notebasic.app-main-81:/layout/widget_note.xml"
     },
     {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\widget_preview.xml",
@@ -46,6 +38,10 @@
     {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\preference_seekbar.xml",
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\preference_seekbar.xml"
+    },
+    {
+        "merged": "com.sntthanh.notebasic.app-mergeDebugResources-78:/layout/drawer_header.xml",
+        "source": "com.sntthanh.notebasic.app-main-81:/layout/drawer_header.xml"
     },
     {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-mergeDebugResources-78:\\layout\\activity_info_user.xml",

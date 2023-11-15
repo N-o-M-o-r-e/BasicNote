@@ -104,4 +104,12 @@
     <string name="change_passcode">Change passcode</string>
     <string name="security">Security</string>
     <string name="home">Home</string>
+    <string name="what_s_your_name">What’s your name?</string>
+    <string name="what_do_you_want_us_to_call_you">What do you want us to call you?</string>
+    <string name="input_your_name">Input Your Name...</string>
+    <string name="next">Next</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="please_input_confirm_4_digit_pin_code_for_your_diary">Please input confirm 4-Digit Pin Code for your Diary</string>
+    <string name="please_wrong_password_please_re_enter">Please Wrong password, please re-enter</string>
+    <string name="switch_to_pattern">Switch to Pattern</string>
 </resources>

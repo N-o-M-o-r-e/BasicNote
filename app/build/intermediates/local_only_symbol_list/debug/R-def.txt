@@ -53,6 +53,7 @@ drawable background_button_dialog_left
 drawable background_button_dialog_right
 drawable background_button_passcode
 drawable background_dialog
+drawable background_gradient
 drawable background_item_nav
 drawable background_language_uncheck
 drawable background_nav
@@ -212,6 +213,7 @@ id statusBar
 id switchToPattern
 id switchTurnPass
 id title
+id titleToolbar
 id toolbar
 id tvDes
 id tvError

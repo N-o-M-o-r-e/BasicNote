@@ -44,10 +44,6 @@
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\menu_item.xml"
     },
     {
-        "merged": "com.sntthanh.notebasic.app-merged_res-79:/layout_widget_note.xml.flat",
-        "source": "com.sntthanh.notebasic.app-main-81:/layout/widget_note.xml"
-    },
-    {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-merged_res-79:\\drawable_background_view_dot.xml.flat",
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\drawable\\background_view_dot.xml"
     },
@@ -148,6 +144,10 @@
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\recycler_color.xml"
     },
     {
+        "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-merged_res-79:\\drawable_background_gradient.png.flat",
+        "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\drawable\\background_gradient.png"
+    },
+    {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-merged_res-79:\\layout_preference.xml.flat",
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\preference.xml"
     },
@@ -230,6 +230,10 @@
     {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-merged_res-79:\\drawable_save.xml.flat",
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\drawable\\save.xml"
+    },
+    {
+        "merged": "com.sntthanh.notebasic.app-merged_res-79:/layout_drawer_header.xml.flat",
+        "source": "com.sntthanh.notebasic.app-main-81:/layout/drawer_header.xml"
     },
     {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-merged_res-79:\\drawable_ic_arrow_bot.xml.flat",
@@ -446,10 +450,6 @@
     {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-merged_res-79:\\mipmap-mdpi_notally.png.flat",
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\mipmap-mdpi\\notally.png"
-    },
-    {
-        "merged": "com.sntthanh.notebasic.app-merged_res-79:/layout_widget_list_header.xml.flat",
-        "source": "com.sntthanh.notebasic.app-main-81:/layout/widget_list_header.xml"
     },
     {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-merged_res-79:\\drawable_ic_add_note.xml.flat",

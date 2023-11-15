@@ -23,12 +23,15 @@ class SplashActivity :
                 Log.e("AAAAAAAA", "initView Language: "+HawkCommon.getEventFirstApp() )
                 if (HawkCommon.getEventFirstApp()){
                     if (HawkCommon.getHawkEventTurnPass()){
-                        startActivity(Intent(this, EnterPincodeActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK))
+                        startActivity(Intent(this, EnterPincodeActivity::class.java))
+                        finish()
                     }else{
-                        startActivity(Intent(this, MainActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK))
+                        startActivity(Intent(this, MainActivity::class.java))
+                        finish()
                     }
                 }else{
-                    startActivity(Intent(this, LanguageActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK))
+                    startActivity(Intent(this, LanguageActivity::class.java))
+                    finish()
                 }
             }
         },3000)

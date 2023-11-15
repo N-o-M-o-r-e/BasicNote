@@ -63,33 +63,25 @@ class LanguageActivity :
             val isSplash = HawkCommon.getEventLanguage()
 
             if (isSplash){
-                startActivity(Intent(this@LanguageActivity, MainActivity::class.java)
-                    .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK))
+                startActivity(Intent(this@LanguageActivity, MainActivity::class.java))
+                finish()
             }else{
-                startActivity(Intent(this@LanguageActivity, IntroActivity::class.java)
-                    .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK))
+                startActivity(Intent(this@LanguageActivity, IntroActivity::class.java))
+                finish()
             }
-//            if (!HawkCommon.getEventLanguage()) {
-//                if (!HawkCommon.getEventAppOpen()) {
-//                    startActivity(
-//                        Intent(this@LanguageActivity, IntroActivity::class.java).addFlags(
-//                            Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
-//                        )
-//                    )
-//                } else {
-//                    startActivity(
-//                        Intent(this@LanguageActivity, IntroActivity::class.java).addFlags(
-//                            Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
-//                        )
-//                    )
-//                }
-//            } else {
-//                startActivity(
-//                    Intent(this@LanguageActivity, IntroActivity::class.java).addFlags(
-//                        Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
-//                    )
-//                )
-//            }
+            if (!HawkCommon.getEventLanguage()) {
+                if (!HawkCommon.getEventAppOpen()) {
+                    startActivity(Intent(this@LanguageActivity, IntroActivity::class.java))
+                    finish()
+                } else {
+                    startActivity(
+                        Intent(this@LanguageActivity, IntroActivity::class.java))
+                        finish()
+                }
+            } else {
+                startActivity(Intent(this@LanguageActivity, IntroActivity::class.java))
+                finish()
+            }
 
         }
     }

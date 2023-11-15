@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Basic Note</string>
+
+    <string name="notes">บันทึก</string>
+    <string name="labels">ป้ายชื่อ</string>
+    <string name="deleted">ถังขยะ</string>
+    <string name="archived">เก็บถาวร</string>
+    <string name="settings">การตั้งค่า</string>
+
+    <!-- Menu Options -->
+    <string name="share">แชร์</string>
+    <string name="filter">กรอง</string>
+    <string name="search">ค้นหา</string>
+    <string name="delete">ลบ</string>
+    <string name="restore">คืนค่า</string>
+    <string name="archive">เก็บถาวร</string>
+    <string name="unarchive">ยกเลิกการเก็บถาวร</string>
+    <string name="delete_all">ลบทั้งหมด</string>
+    <string name="change_color">เปลี่ยนสี</string>
+    <string name="delete_forever">ลบตลอดไป</string>
+
+    <!-- Pinning -->
+    <string name="pin">ตรึง</string>
+    <string name="unpin">ยกเลิกการตรึง</string>
+    <string name="pinned">ตรึงแล้ว</string>
+    <string name="others">อื่น ๆ</string>
+
+    <!-- Chooser dialog hints -->
+    <string name="view_note">ดูบันทึก...</string>
+
+    <!-- Dialogs -->
+    <string name="save">บันทึก</string>
+    <string name="edit">แก้ไข</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="open_link">เปิดลิงก์</string>
+    <string name="make_list">ทำรายการ</string>
+    <string name="take_note">บันทึก</string>
+    <string name="add_label">เพิ่มป้ายชื่อ</string>
+    <string name="export">ส่งออก</string>
+    <string name="view_file">ดูไฟล์</string>
+    <string name="save_to_device">บันทึกลงในอุปกรณ์</string>
+    <string name="edit_label">แก้ไขป้ายชื่อ</string>
+    <string name="label_exists">มีป้ายชื่อที่ใช้แล้ว</string>
+    <string name="delete_label">ลบป้ายชื่อ?</string>
+    <string name="create_new">ยังไม่มีป้ายชื่อ. ลองสร้างใหม่?</string>
+    <string name="delete_all_notes">ลบทุกบันทึก?</string>
+    <string name="delete_note_forever">ลบบันทึกตลอดไป?</string>
+    <string name="your_notes_associated">บันทึกของ bạnที่ใช้ป้ายชื่อนี้จะไม่ถูกลบ</string>
+
+    <!-- Lists and Notes -->
+    <string name="note">บันทึก</string>
+    <string name="item">รายการ</string>
+    <string name="date">วันที่</string>
+    <string name="title">หัวเรื่อง</string>
+    <string name="add_item">เพิ่มเนื้อหา</string>
+    <string name="drag_handle">ลากไหล่</string>
+    <string name="bold">ตัวหนา</string>
+    <string name="link">ลิงก์</string>
+    <string name="italic">ตัวเอียง</string>
+    <string name="strikethrough">ขีดฆ่า</string>
+    <string name="clear_formatting">ล้างการจัดรูปแบบ</string>
+
+    <!-- Miscellaneous -->
+    <string name="saved_to_device">บันทึกลงในอุปกรณ์แล้ว</string>
+    <string name="saved_to_notally">บันทึกลงใน Notally แล้ว</string>
+    <string name="empty_note">ไม่มีเนื้อหาในบันทึก</string>
+    <string name="empty_list">ไม่มีเนื้อหาในรายการ</string>
+    <string name="cant_open_link">ไม่สามารถเปิดลิงก์ได้</string>
+    <string name="invalid_backup">การสำรองข้อมูลไม่ถูกต้อง</string>
+    <string name="imported_backup">นำเข้าการสำรองข้อมูลแล้ว</string>
+    <string name="something_went_wrong">มีบางอย่างผิดพลาด. โปรดลองอีกครั้ง.</string>
+    <string name="install_an_email">ติดตั้งแอปอีเมลเพื่อส่งคำติชม</string>
+    <string name="install_a_browser">ติดตั้งเบราว์เซอร์เพื่อเปิดลิงก์นี้</string>
+
+    <!-- Settings Page -->
+    <string name="appearance">ลักษณะ</string>
+
+    <string name="view">รูปแบบ</string>
+    <string name="list">รายการ</string>
+    <string name="grid">ตาราง</string>
+
+    <string name="theme">ธีม</string>
+    <string name="dark">มืด</string>
+    <string name="light">สว่าง</string>
+    <string name="follow_system">ตามระบบ</string>
+
+    <string name="date_format">รูปแบบวันที่</string>
+    <string name="none">ไม่มี</string>
+
+    <string name="text_size">ขนาดตัวอักษร</string>
+    <string name="small">เล็ก</string>
+    <string name="medium">ปานกลาง</string>
+    <string name="large">ใหญ่</string>
+
+    <string name="content_density">ความหนาแน่นของเนื้อหา</string>
+    <string name="max_items_to_display">จำนวนรายการที่แสดงได้สูงสุด</string>
+    <string name="max_lines_to_display">จำนวนบรรทัดบันทึกที่แสดงได้สูงสุด</string>
+
+    <string name="backup">สำรองข้อมูล</string>
+
+    <!-- Auto backup -->
+    <string name="auto_backup">สำรองข้อมูลอัตโนมัติ</string>
+    <string name="tap_to_set_up">แตะเพื่อตั้งค่า</string>
+    <string name="notes_will_be">บันทึกจะถูกสำรองลงในหน่วยความจำของอุปกรณ์ทุกวัน.\n\nโปรดทราบว่าคุณต้องปิดโหมดประหยัดพลังก่อน.</string>
+    <string name="choose_folder">เลือกโฟลเดอร์</string>
+    <string name="disable_auto_backup">ปิดสำรองข้อมูลอัตโนมัติ</string>
+    <string name="choose_another_folder">เลือกโฟลเดอร์อื่น</string>
+    <string name="cant_find_folder">ไม่พบโฟลเดอร์. อาจเป็นเพราะถูกย้ายหรือลบ.</string>
+
+    <string name="export_backup">ส่งออกข้อมูล</string>
+    <string name="import_backup">นำเข้าข้อมูล</string>
+
+    <string name="about">เกี่ยวกับ</string>
+    <string name="libraries">ห้องสมุดที่ใช้</string>
+    <string name="rate">ให้คะแนนแอป</string>
+    <string name="send_feedback">ส่งคำติชม</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="chinese">Tiếng Trung</string>
+    <string name="russian">Tiếng Nga</string>
+    <string name="thai">ภาษาไทย</string>
+    <string name="hindi">Tiếng Hindi</string>
+    <string name="success">สำเร็จ</string>
+    <string name="wrong_answer_please_reply_again">ตอบผิด โปรดตอบอีกครั้ง!</string>
+    <string name="intro01">บันทึกงาน ความคิด และปัญหาที่ต้องการแก้ไข</string>
+    <string name="intro02">แสดงบันทึกโดยตรงบนหน้าจอโทรศัพท์ของคุณ</string>
+    <string name="intro03">ตั้งรหัสผ่านเพื่อรักษาความเป็นส่วนตัวและปลอดภัยของบันทึกของคุณ</string>
+    <string name="change_passcode">เปลี่ยนรหัสผ่าน</string>
+    <string name="security">ความปลอดภัย</string>
+    <string name="home">หน้าแรก</string>
+    <string name="what_s_your_name">What’s your name?</string>
+    <string name="what_do_you_want_us_to_call_you">What do you want us to call you?</string>
+    <string name="input_your_name">Input Your Name...</string>
+    <string name="next">Next</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="please_input_confirm_4_digit_pin_code_for_your_diary">Please input confirm 4-Digit Pin Code for your Diary</string>
+    <string name="please_wrong_password_please_re_enter">Please Wrong password, please re-enter</string>
+    <string name="switch_to_pattern">Switch to Pattern</string>
+
+</resources>
