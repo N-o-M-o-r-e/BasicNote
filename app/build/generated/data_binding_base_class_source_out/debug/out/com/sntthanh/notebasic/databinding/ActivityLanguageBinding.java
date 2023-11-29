@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,7 +21,7 @@ public abstract class ActivityLanguageBinding extends ViewDataBinding {
   public final ImageView btnBack;
 
   @NonNull
-  public final ImageView btnDone;
+  public final TextView btnDone;
 
   @NonNull
   public final RecyclerView scrollView;
@@ -29,7 +30,7 @@ public abstract class ActivityLanguageBinding extends ViewDataBinding {
   public final ConstraintLayout statusBar;
 
   protected ActivityLanguageBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ImageView btnBack, ImageView btnDone, RecyclerView scrollView, ConstraintLayout statusBar) {
+      ImageView btnBack, TextView btnDone, RecyclerView scrollView, ConstraintLayout statusBar) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnBack = btnBack;
     this.btnDone = btnDone;

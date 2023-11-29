@@ -109,13 +109,34 @@
     <string name="change_passcode">Изменить пароль</string>
     <string name="security">Безопасность</string>
     <string name="home">Главная</string>
-    <string name="what_s_your_name">What’s your name?</string>
-    <string name="what_do_you_want_us_to_call_you">What do you want us to call you?</string>
-    <string name="input_your_name">Input Your Name...</string>
-    <string name="next">Next</string>
-    <string name="confirm_password">Confirm password</string>
-    <string name="please_input_confirm_4_digit_pin_code_for_your_diary">Please input confirm 4-Digit Pin Code for your Diary</string>
-    <string name="please_wrong_password_please_re_enter">Please Wrong password, please re-enter</string>
-    <string name="switch_to_pattern">Switch to Pattern</string>
+    <string name="what_s_your_name">Как вас зовут?</string>
+    <string name="what_do_you_want_us_to_call_you">Как вы хотите, чтобы мы вас называли?</string>
+    <string name="input_your_name">Введите ваше имя...</string>
+    <string name="next">Далее</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="please_input_confirm_4_digit_pin_code_for_your_diary">Введите подтверждение 4-значного PIN-кода для вашего дневника</string>
+    <string name="please_wrong_password_please_re_enter">Пожалуйста, неверный пароль, введите еще раз</string>
+    <string name="switch_to_pattern">Переключиться на рисунок</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="apply">Применить</string>
+    <string name="check_it_now">Проверьте сейчас!</string>
+    <string name="type_your_answer">Введите ваш ответ</string>
+    <string name="set_passcode">Установите код доступа</string>
+    <string name="create_4_digit_pin_for_your_diary">Создайте 4-значный PIN-код для вашего дневника</string>
+    <string name="enter_passcode">Введите код доступа</string>
+    <string name="enter_4_digit_pin_for_your_diary">Введите 4-значный PIN-код для вашего дневника</string>
+    <string name="did_you_forget_your_password">Вы забыли пароль?</string>
+    <string name="info_user">Информация о пользователе</string>
+    <string name="continue_">Продолжить</string>
+    <string name="security_question">Вопрос безопасности</string>
+    <string name="ok">ОК</string>
+    <string name="do_you_want_to_set_a_security_password">Вы хотите установить пароль безопасности?</string>
+    <string name="helps_you_avoid_strangers_invading_your_private_notes">Помогает избежать вторжения незнакомцев в ваши личные заметки.</string>
+    <string name="skip">Пропустить</string>
+    <string name="language">Язык</string>
+    <string name="use_the_password_to_open_the_application">Используйте пароль для открытия приложения</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="ta_thanh_son_n_done_3_months_ago">Та Тхань Сон \n завершено 3 месяца назад</string>
+
 
 </resources>

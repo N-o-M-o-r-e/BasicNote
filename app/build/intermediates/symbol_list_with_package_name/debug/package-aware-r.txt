@@ -3063,6 +3063,7 @@ string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
 string appearance
+string apply
 string archive
 string archived
 string auto_backup
@@ -3078,6 +3079,7 @@ string change_passcode
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string check_it_now
 string chinese
 string chip_text
 string choose_another_folder
@@ -3086,8 +3088,11 @@ string clear_formatting
 string clear_text_end_icon_content_description
 string close_drawer
 string close_sheet
+string confirm_password
 string content_density
+string continue_
 string copy
+string create_4_digit_pin_for_your_diary
 string create_new
 string dark
 string date
@@ -3101,7 +3106,9 @@ string delete_forever
 string delete_label
 string delete_note_forever
 string deleted
+string did_you_forget_your_password
 string disable_auto_backup
+string do_you_want_to_set_a_security_password
 string drag_handle
 string dropdown_menu
 string edit
@@ -3109,6 +3116,8 @@ string edit_label
 string empty_list
 string empty_note
 string english
+string enter_4_digit_pin_for_your_diary
+string enter_passcode
 string error_icon_content_description
 string expand_button_title
 string export
@@ -3121,6 +3130,7 @@ string follow_system
 string github
 string grid
 string hello_blank_fragment
+string helps_you_avoid_strangers_invading_your_private_notes
 string hide_bottom_view_on_scroll_behavior
 string hindi
 string home
@@ -3130,6 +3140,8 @@ string import_backup
 string imported_backup
 string in_progress
 string indeterminate
+string info_user
+string input_your_name
 string install_a_browser
 string install_an_email
 string intro01
@@ -3142,6 +3154,7 @@ string item
 string item_view_role_description
 string label_exists
 string labels
+string language
 string large
 string libraries
 string light
@@ -3210,6 +3223,7 @@ string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string navigation_menu
+string next
 string none
 string not_selected
 string not_set
@@ -3217,6 +3231,7 @@ string note
 string notes
 string notes_will_be
 string off
+string ok
 string on
 string open_link
 string others
@@ -3227,6 +3242,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string pin
 string pinned
+string please_input_confirm_4_digit_pin_code_for_your_diary
+string please_wrong_password_please_re_enter
 string preference_copied
 string range_end
 string range_start
@@ -3240,12 +3257,16 @@ string saved_to_notally
 string search
 string search_menu_title
 string security
+string security_question
+string select_language
 string select_note
 string selected
 string send_feedback
+string set_passcode
 string settings
 string share
 string single_note
+string skip
 string small
 string something_went_wrong
 string status_bar_notification_info_overflow
@@ -3253,6 +3274,8 @@ string strikethrough
 string success
 string summary_collapsed_preference_list
 string switch_role
+string switch_to_pattern
+string ta_thanh_son_n_done_3_months_ago
 string tab
 string take_note
 string tap_to_set_up
@@ -3261,15 +3284,20 @@ string text_size
 string thai
 string theme
 string title
+string type_your_answer
 string unarchive
 string unpin
+string use_the_password_to_open_the_application
 string v7_preference_off
 string v7_preference_on
 string vietnamese
 string view
 string view_file
 string view_note
+string what_do_you_want_us_to_call_you
+string what_s_your_name
 string wrong_answer_please_reply_again
+string your_name
 string your_notes_associated
 style AlertDialog
 style AlertDialog_AppCompat

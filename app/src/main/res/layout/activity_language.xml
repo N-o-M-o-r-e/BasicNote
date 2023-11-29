@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Select Language"
+                android:text="@string/select_language"
                 android:textSize="20sp"
                 style="@style/NUNITO_BOLD"
                 android:textColor="@color/Black"
@@ -38,12 +38,19 @@
                 app:layout_constraintBottom_toBottomOf="@+id/btnBack"
                 app:layout_constraintStart_toEndOf="@+id/btnBack"/>
 
-            <ImageView
+            <TextView
                 android:id="@+id/btnDone"
-                android:layout_width="56dp"
-                android:layout_height="56dp"
-                android:padding="16dp"
-                android:src="@drawable/ic_tick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="6dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:elevation="8dp"
+                android:text="@string/apply"
+                android:background="@drawable/background_button"
+                style="@style/NUNITO_BOLD"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

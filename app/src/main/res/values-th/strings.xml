@@ -129,13 +129,34 @@
     <string name="change_passcode">เปลี่ยนรหัสผ่าน</string>
     <string name="security">ความปลอดภัย</string>
     <string name="home">หน้าแรก</string>
-    <string name="what_s_your_name">What’s your name?</string>
-    <string name="what_do_you_want_us_to_call_you">What do you want us to call you?</string>
-    <string name="input_your_name">Input Your Name...</string>
-    <string name="next">Next</string>
-    <string name="confirm_password">Confirm password</string>
-    <string name="please_input_confirm_4_digit_pin_code_for_your_diary">Please input confirm 4-Digit Pin Code for your Diary</string>
-    <string name="please_wrong_password_please_re_enter">Please Wrong password, please re-enter</string>
-    <string name="switch_to_pattern">Switch to Pattern</string>
+    <string name="what_s_your_name">ชื่อของคุณคืออะไร?</string>
+    <string name="what_do_you_want_us_to_call_you">คุณต้องการให้เราเรียกคุณว่าอะไร?</string>
+    <string name="input_your_name">กรอกชื่อของคุณ...</string>
+    <string name="next">ต่อไป</string>
+    <string name="confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="please_input_confirm_4_digit_pin_code_for_your_diary">กรุณากรอกรหัส PIN 4 หลักเพื่อยืนยันสำหรับไดอารี่ของคุณ</string>
+    <string name="please_wrong_password_please_re_enter">กรุณากรอกรหัสผ่านผิด กรุณากรอกใหม่</string>
+    <string name="switch_to_pattern">สลับไปยังรูปแบบ</string>
+    <string name="select_language">เลือกภาษา</string>
+    <string name="apply">นำไปใช้</string>
+    <string name="check_it_now">ตรวจสอบเดี๋ยวนี้!</string>
+    <string name="type_your_answer">พิมพ์คำตอบของคุณ</string>
+    <string name="set_passcode">ตั้งรหัสผ่าน</string>
+    <string name="create_4_digit_pin_for_your_diary">สร้างรหัส PIN 4 หลักสำหรับไดอารีของคุณ</string>
+    <string name="enter_passcode">ใส่รหัสผ่าน</string>
+    <string name="enter_4_digit_pin_for_your_diary">ใส่รหัส PIN 4 หลักสำหรับไดอารีของคุณ</string>
+    <string name="did_you_forget_your_password">คุณลืมรหัสผ่านของคุณหรือไม่?</string>
+    <string name="info_user">ข้อมูลผู้ใช้</string>
+    <string name="continue_">ดำเนินการต่อ</string>
+    <string name="security_question">คำถามด้านความปลอดภัย</string>
+    <string name="ok">ตกลง</string>
+    <string name="do_you_want_to_set_a_security_password">คุณต้องการตั้งรหัสผ่านความปลอดภัยหรือไม่?</string>
+    <string name="helps_you_avoid_strangers_invading_your_private_notes">ช่วยคุณหลีกเลี่ยงคนแปลกหน้าที่บุกรุกบันทึกส่วนตัวของคุณ</string>
+    <string name="skip">ข้าม</string>
+    <string name="language">ภาษา</string>
+    <string name="use_the_password_to_open_the_application">ใช้รหัสผ่านเพื่อเปิดแอปพลิเคชัน</string>
+    <string name="your_name">ชื่อของคุณ</string>
+    <string name="ta_thanh_son_n_done_3_months_ago">ท่า ธành ซน \n เสร็จสิ้นไปแล้ว 3 เดือนที่แล้ว</string>
+
 
 </resources>

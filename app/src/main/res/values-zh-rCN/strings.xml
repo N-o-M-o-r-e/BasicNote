@@ -129,13 +129,34 @@
     <string name="change_passcode">更改密码</string>
     <string name="security">安全</string>
     <string name="home">首页</string>
-    <string name="what_s_your_name">What’s your name?</string>
-    <string name="what_do_you_want_us_to_call_you">What do you want us to call you?</string>
-    <string name="input_your_name">Input Your Name...</string>
-    <string name="next">Next</string>
-    <string name="confirm_password">Confirm password</string>
-    <string name="please_input_confirm_4_digit_pin_code_for_your_diary">Please input confirm 4-Digit Pin Code for your Diary</string>
-    <string name="please_wrong_password_please_re_enter">Please Wrong password, please re-enter</string>
-    <string name="switch_to_pattern">Switch to Pattern</string>
+    <string name="what_s_your_name">你叫什么名字？</string>
+    <string name="what_do_you_want_us_to_call_you">你想让我们怎么称呼你？</string>
+    <string name="input_your_name">输入你的名字...</string>
+    <string name="next">下一步</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="please_input_confirm_4_digit_pin_code_for_your_diary">请输入确认你的日记的4位密码</string>
+    <string name="please_wrong_password_please_re_enter">密码错误，请重新输入</string>
+    <string name="switch_to_pattern">切换到图案</string>
+    <string name="select_language">选择语言</string>
+    <string name="apply">应用</string>
+    <string name="check_it_now">立即检查！</string>
+    <string name="type_your_answer">输入你的答案</string>
+    <string name="set_passcode">设置密码</string>
+    <string name="create_4_digit_pin_for_your_diary">为你的日记创建4位密码</string>
+    <string name="enter_passcode">输入密码</string>
+    <string name="enter_4_digit_pin_for_your_diary">输入你的日记的4位密码</string>
+    <string name="did_you_forget_your_password">你忘记密码了吗？</string>
+    <string name="info_user">用户信息</string>
+    <string name="continue_">继续</string>
+    <string name="security_question">安全问题</string>
+    <string name="ok">确定</string>
+    <string name="do_you_want_to_set_a_security_password">你想设置安全密码吗？</string>
+    <string name="helps_you_avoid_strangers_invading_your_private_notes">帮助你避免陌生人侵入你的私人笔记。</string>
+    <string name="skip">跳过</string>
+    <string name="language">语言</string>
+    <string name="use_the_password_to_open_the_application">使用密码打开应用</string>
+    <string name="your_name">你的名字</string>
+    <string name="ta_thanh_son_n_done_3_months_ago">Ta Thanh Son \n 3个月前完成</string>
+
 
 </resources>

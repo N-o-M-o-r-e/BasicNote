@@ -12,6 +12,10 @@
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\layout\\activity_intro.xml"
     },
     {
+        "merged": "com.sntthanh.notebasic.app-merged_res-79:/layout_fragment_settings.xml.flat",
+        "source": "com.sntthanh.notebasic.app-main-81:/layout/fragment_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-merged_res-79:\\mipmap-mdpi_notally_round.png.flat",
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\mipmap-mdpi\\notally_round.png"
     },
@@ -230,10 +234,6 @@
     {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-merged_res-79:\\drawable_save.xml.flat",
         "source": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-main-81:\\drawable\\save.xml"
-    },
-    {
-        "merged": "com.sntthanh.notebasic.app-merged_res-79:/layout_drawer_header.xml.flat",
-        "source": "com.sntthanh.notebasic.app-main-81:/layout/drawer_header.xml"
     },
     {
         "merged": "C:\\Users\\sntth\\.gradle\\daemon\\8.0\\com.sntthanh.notebasic.app-merged_res-79:\\drawable_ic_arrow_bot.xml.flat",

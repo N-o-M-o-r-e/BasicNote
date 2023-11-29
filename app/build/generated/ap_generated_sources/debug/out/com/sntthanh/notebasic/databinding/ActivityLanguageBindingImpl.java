@@ -33,7 +33,7 @@ public class ActivityLanguageBindingImpl extends ActivityLanguageBinding  {
     private ActivityLanguageBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.ImageView) bindings[2]
-            , (android.widget.ImageView) bindings[3]
+            , (android.widget.TextView) bindings[3]
             , (androidx.recyclerview.widget.RecyclerView) bindings[4]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[1]
             );

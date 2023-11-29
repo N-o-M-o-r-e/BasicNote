@@ -1,4 +1,4 @@
-com.sntthanh.notebasic.test.app-androidTest-0 E:\Note\NotaBasic\app\build\generated\res\resValues\androidTest\debug
-com.sntthanh.notebasic.test.app-mergeDebugAndroidTestResources-1 E:\Note\NotaBasic\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.sntthanh.notebasic.test.app-mergeDebugAndroidTestResources-2 E:\Note\NotaBasic\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.sntthanh.notebasic.test.app-merged_res-3 E:\Note\NotaBasic\app\build\intermediates\merged_res\debugAndroidTest
+com.sntthanh.notebasic.test.app-androidTest-0 E:\Note\NoteBasic\app\build\generated\res\resValues\androidTest\debug
+com.sntthanh.notebasic.test.app-mergeDebugAndroidTestResources-1 E:\Note\NoteBasic\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.sntthanh.notebasic.test.app-mergeDebugAndroidTestResources-2 E:\Note\NoteBasic\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.sntthanh.notebasic.test.app-merged_res-3 E:\Note\NoteBasic\app\build\intermediates\merged_res\debugAndroidTest

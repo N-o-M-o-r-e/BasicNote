@@ -121,4 +121,24 @@
     <string name="please_input_confirm_4_digit_pin_code_for_your_diary">Please input confirm 4-Digit Pin Code for your Diary</string>
     <string name="please_wrong_password_please_re_enter">Please Wrong password, please re-enter</string>
     <string name="switch_to_pattern">Switch to Pattern</string>
+    <string name="select_language">Select Language</string>
+    <string name="apply">Apply</string>
+    <string name="check_it_now">Check it Now!</string>
+    <string name="type_your_answer">Type your answer</string>
+    <string name="set_passcode">Set passcode</string>
+    <string name="create_4_digit_pin_for_your_diary">Create 4-Digit Pin for your Diary</string>
+    <string name="enter_passcode">Enter passcode</string>
+    <string name="enter_4_digit_pin_for_your_diary">Enter 4-Digit Pin for your Diary</string>
+    <string name="did_you_forget_your_password">Did you forget your password?</string>
+    <string name="info_user">Info User</string>
+    <string name="continue_">Continue</string>
+    <string name="security_question">Security Question</string>
+    <string name="ok">ok</string>
+    <string name="do_you_want_to_set_a_security_password">Do you want to set a security password?</string>
+    <string name="helps_you_avoid_strangers_invading_your_private_notes">Helps you avoid strangers invading your private notes.</string>
+    <string name="skip">Skip</string>
+    <string name="language">Language</string>
+    <string name="use_the_password_to_open_the_application">Use the password to open the application</string>
+    <string name="your_name">Your Name</string>
+    <string name="ta_thanh_son_n_done_3_months_ago">Ta Thanh Son \n done 3 months ago</string>
 </resources>

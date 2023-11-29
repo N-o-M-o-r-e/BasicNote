@@ -128,13 +128,35 @@
     <string name="change_passcode">Thay đổi mã bảo mật</string>
     <string name="security">Bảo mật</string>
     <string name="home">Trang chủ</string>
-    <string name="what_s_your_name">What’s your name?</string>
-    <string name="what_do_you_want_us_to_call_you">What do you want us to call you?</string>
-    <string name="input_your_name">Input Your Name...</string>
-    <string name="next">Next</string>
-    <string name="confirm_password">Confirm password</string>
-    <string name="please_input_confirm_4_digit_pin_code_for_your_diary">Please input confirm 4-Digit Pin Code for your Diary</string>
-    <string name="please_wrong_password_please_re_enter">Please Wrong password, please re-enter</string>
-    <string name="switch_to_pattern">Switch to Pattern</string>
+    <string name="what_s_your_name">Tên bạn là gì?</string>
+    <string name="what_do_you_want_us_to_call_you">Bạn muốn chúng tôi gọi bạn là gì?</string>
+    <string name="input_your_name">Nhập Tên Của Bạn...</string>
+    <string name="next">Tiếp Theo</string>
+    <string name="confirm_password">Xác nhận Mật khẩu</string>
+    <string name="please_input_confirm_4_digit_pin_code_for_your_diary">Vui lòng nhập mã PIN 4 chữ số để xác nhận \n cho sổ nhật ký của bạn</string>
+    <string name="please_wrong_password_please_re_enter">Mật khẩu sai, vui lòng nhập lại</string>
+    <string name="switch_to_pattern">Chuyển sang Mẫu</string>
+    <string name="select_language">Chọn Ngôn Ngữ</string>
+    <string name="apply">Áp dụng</string>
+    <string name="check_it_now">Kiểm Tra Ngay!</string>
+    <string name="type_your_answer">Nhập câu trả lời của bạn</string>
+    <string name="set_passcode">Đặt mã số</string>
+    <string name="create_4_digit_pin_for_your_diary">Tạo mã PIN 4 chữ số cho sổ nhật ký của bạn</string>
+    <string name="enter_passcode">Nhập mã số</string>
+    <string name="enter_4_digit_pin_for_your_diary">Nhập mã PIN 4 chữ số cho sổ nhật ký của bạn</string>
+    <string name="did_you_forget_your_password">Bạn đã quên mật khẩu?</string>
+    <string name="info_user">Thông tin Người dùng</string>
+    <string name="continue_">Tiếp tục</string>
+    <string name="security_question">Câu hỏi bảo mật</string>
+    <string name="ok">OK</string>
+    <string name="do_you_want_to_set_a_security_password">Bạn có muốn đặt một mật khẩu bảo mật không?</string>
+    <string name="helps_you_avoid_strangers_invading_your_private_notes">Giúp bạn tránh xa người lạ xâm phạm vào ghi chú riêng tư của bạn.</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="language">Ngôn Ngữ</string>
+    <string name="use_the_password_to_open_the_application">Sử dụng mật khẩu để mở ứng dụng</string>
+    <string name="your_name">Tên Của Bạn</string>
+    <string name="ta_thanh_son_n_done_3_months_ago">Ta Thanh Sơn \n đã hoàn thành cách đây 3 tháng</string>
+
+
 
 </resources>

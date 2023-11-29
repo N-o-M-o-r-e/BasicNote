@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
         android:paddingBottom="16dp"
-        android:text="August"
+        android:text="@string/app_name"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
         android:textColor="#000000" />
 
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="16dp"
-        android:text="Fri 24 Jul 2020"
+        android:text="Mon, 20 Nov 2023"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
         android:textColor="#99000000" />
 
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:lineSpacingMultiplier="1.1"
-        android:text="Salt air, and the rust on your door\nI never needed anything more\nWhispers of “Are you sure?”\n“Never have I ever before”"
+        android:text="@string/ta_thanh_son_n_done_3_months_ago"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
         android:textColor="#99000000" />
 

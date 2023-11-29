@@ -1,7 +1,7 @@
-#Wed Nov 01 10:13:23 ICT 2023
-base.1=E\:\\Note\\NotaBasic\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\6\\classes.dex
-path.1=6/classes.dex
-base.0=E\:\\Note\\NotaBasic\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
+#Thu Nov 23 10:55:02 ICT 2023
+base.0=E\:\\Note\\NoteBasic\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.1=E\:\\Note\\NoteBasic\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\6\\classes.dex
 path.0=0/classes.dex
+path.1=6/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
