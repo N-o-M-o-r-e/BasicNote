@@ -65,7 +65,7 @@ class BaseNoteAdapter(
         }
     }
 
-
+    //sort item data
     private object DiffCallback : DiffUtil.ItemCallback<Item>() {
 
         override fun areItemsTheSame(oldItem: Item, newItem: Item): Boolean {

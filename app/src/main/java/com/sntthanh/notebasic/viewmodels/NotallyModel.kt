@@ -18,13 +18,13 @@ import com.sntthanh.notebasic.Cache
 import com.sntthanh.notebasic.miscellaneous.applySpans
 import com.sntthanh.notebasic.preferences.Preferences
 import com.sntthanh.notebasic.room.BaseNote
-import com.sntthanh.notebasic.room.Color
-import com.sntthanh.notebasic.room.Folder
-import com.sntthanh.notebasic.room.Label
+import com.sntthanh.notebasic.room.model.Color
+import com.sntthanh.notebasic.room.model.Folder
+import com.sntthanh.notebasic.room.model.Label
 import com.sntthanh.notebasic.room.ListItem
 import com.sntthanh.notebasic.room.NotallyDatabase
 import com.sntthanh.notebasic.room.SpanRepresentation
-import com.sntthanh.notebasic.room.Type
+import com.sntthanh.notebasic.room.model.Type
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

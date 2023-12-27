@@ -2,7 +2,7 @@ package com.sntthanh.notebasic.activities.tutorial
 
 import android.content.Intent
 import android.util.Log
-import com.sntthanh.notebasic.activities.MainActivity
+import com.sntthanh.notebasic.activities.home.MainActivity
 import com.sntthanh.notebasic.activities.security.pincode.EnterPincodeActivity
 import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding

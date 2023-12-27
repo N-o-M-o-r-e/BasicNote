@@ -9,6 +9,7 @@ import androidx.work.PeriodicWorkRequest
 import androidx.work.WorkManager
 import com.orhanobut.hawk.Hawk
 import com.sntthanh.notebasic.activities.utils.HawkCommon
+import com.sntthanh.notebasic.backup.AutoBackupWorker
 import com.sntthanh.notebasic.preferences.Preferences
 import com.sntthanh.notebasic.preferences.Theme
 import java.util.Locale

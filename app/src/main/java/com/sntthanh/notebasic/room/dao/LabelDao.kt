@@ -5,7 +5,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.sntthanh.notebasic.room.Label
+import com.sntthanh.notebasic.room.model.Label
 
 @Dao
 interface LabelDao {

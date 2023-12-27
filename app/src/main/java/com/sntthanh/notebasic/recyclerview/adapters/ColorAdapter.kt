@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.sntthanh.notebasic.databinding.RecyclerColorBinding
 import com.sntthanh.notebasic.recyclerview.ItemListener
 import com.sntthanh.notebasic.recyclerview.viewholders.ColorVH
-import com.sntthanh.notebasic.room.Color
+import com.sntthanh.notebasic.room.model.Color
 
 class ColorAdapter(private val listener: ItemListener) : RecyclerView.Adapter<ColorVH>() {
 

@@ -1,6 +1,7 @@
 package com.sntthanh.notebasic.room
 
 import androidx.room.TypeConverter
+import com.sntthanh.notebasic.room.model.Image
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject

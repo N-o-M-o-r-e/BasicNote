@@ -1,12 +1,12 @@
 package com.sntthanh.notebasic.legacy
 
 import com.sntthanh.notebasic.room.BaseNote
-import com.sntthanh.notebasic.room.Color
-import com.sntthanh.notebasic.room.Folder
-import com.sntthanh.notebasic.room.Label
+import com.sntthanh.notebasic.room.model.Color
+import com.sntthanh.notebasic.room.model.Folder
+import com.sntthanh.notebasic.room.model.Label
 import com.sntthanh.notebasic.room.ListItem
 import com.sntthanh.notebasic.room.SpanRepresentation
-import com.sntthanh.notebasic.room.Type
+import com.sntthanh.notebasic.room.model.Type
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
 import java.io.File

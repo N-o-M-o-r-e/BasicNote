@@ -154,8 +154,8 @@
 85
 86        <activity
 86-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:74:9-81:20
-87            android:name="com.sntthanh.notebasic.activities.MainActivity"
-87-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:75:13-52
+87            android:name="com.sntthanh.notebasic.activities.home.MainActivity"
+87-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:75:13-57
 88            android:exported="true"
 88-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:76:13-36
 89            android:theme="@style/MainActivity" >
@@ -169,14 +169,14 @@
 93        </activity>
 94        <activity
 94-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:82:9-84:58
-95            android:name="com.sntthanh.notebasic.activities.MakeList"
-95-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:83:13-48
+95            android:name="com.sntthanh.notebasic.activities.create_note.MakeList"
+95-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:83:13-60
 96            android:windowSoftInputMode="adjustResize" />
 96-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:84:13-55
 97        <activity
 97-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:85:9-96:20
-98            android:name="com.sntthanh.notebasic.activities.TakeNote"
-98-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:86:13-48
+98            android:name="com.sntthanh.notebasic.activities.create_note.TakeNote"
+98-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:86:13-60
 99            android:exported="true"
 99-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:87:13-36
 100            android:windowSoftInputMode="adjustResize" >
@@ -198,8 +198,8 @@
 108        </activity>
 109        <activity
 109-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:97:9-103:20
-110            android:name="com.sntthanh.notebasic.activities.ConfigureWidget"
-110-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:98:13-55
+110            android:name="com.sntthanh.notebasic.activities.widget.ConfigureWidget"
+110-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:98:13-62
 111            android:exported="false" >
 111-->E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:99:13-37
 112            <intent-filter>

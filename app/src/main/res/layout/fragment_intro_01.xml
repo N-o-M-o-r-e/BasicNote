@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/Color_Background"
-        tools:context=".fragments.Intro_01_Fragment">
+        tools:context=".fragment.intro.Intro_01_Fragment">
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottieAnimationView"

@@ -3,7 +3,7 @@ package com.sntthanh.notebasic.activities.tutorial
 import android.content.Intent
 import android.view.View
 import androidx.recyclerview.widget.GridLayoutManager
-import com.sntthanh.notebasic.activities.MainActivity
+import com.sntthanh.notebasic.activities.home.MainActivity
 import com.sntthanh.notebasic.activities.utils.Common
 import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding
@@ -60,29 +60,30 @@ class LanguageActivity :
             Common.setLanguagePosition(this, adapter!!.getSelectedPositionLanguage())
             HawkCommon.putHawkLanguage(adapter!!.getSelectedPositionLanguage())
 
-            val isSplash = HawkCommon.getEventLanguage()
 
-            if (isSplash){
-                startActivity(Intent(this@LanguageActivity, MainActivity::class.java))
-                finish()
-            }else{
-                startActivity(Intent(this@LanguageActivity, IntroActivity::class.java))
-                finish()
-            }
+//            val isSplash = HawkCommon.getEventLanguage()
+//
+//            if (isSplash){
+//                startActivity(Intent(this@LanguageActivity, MainActivity::class.java))
+//                finish()
+//            }else{
+//                startActivity(Intent(this@LanguageActivity, IntroActivity::class.java))
+//                finish()
+//            }
+
             if (!HawkCommon.getEventLanguage()) {
                 if (!HawkCommon.getEventAppOpen()) {
                     startActivity(Intent(this@LanguageActivity, IntroActivity::class.java))
                     finish()
                 } else {
                     startActivity(
-                        Intent(this@LanguageActivity, IntroActivity::class.java))
+                        Intent(this@LanguageActivity, MainActivity::class.java))
                         finish()
                 }
             } else {
-                startActivity(Intent(this@LanguageActivity, IntroActivity::class.java))
+                startActivity(Intent(this@LanguageActivity, MainActivity::class.java))
                 finish()
             }
-
         }
     }
 

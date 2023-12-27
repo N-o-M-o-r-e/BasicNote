@@ -1,10 +1,9 @@
 package com.sntthanh.notebasic.activities.security.pincode
 
-import android.content.Intent
 import android.util.Log
 import android.view.View
 import com.sntthanh.notebasic.R
-import com.sntthanh.notebasic.activities.MainActivity
+import com.sntthanh.notebasic.activities.home.MainActivity
 import com.sntthanh.notebasic.activities.security.question.AnswerActivity
 import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding

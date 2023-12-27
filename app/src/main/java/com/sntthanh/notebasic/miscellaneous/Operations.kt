@@ -21,8 +21,8 @@ import com.sntthanh.notebasic.R
 import com.sntthanh.notebasic.databinding.DialogInputBinding
 import com.sntthanh.notebasic.databinding.LabelBinding
 import com.sntthanh.notebasic.preferences.TextSize
-import com.sntthanh.notebasic.room.Color
-import com.sntthanh.notebasic.room.Label
+import com.sntthanh.notebasic.room.model.Color
+import com.sntthanh.notebasic.room.model.Label
 import com.sntthanh.notebasic.room.ListItem
 import java.io.File
 import java.io.FileOutputStream

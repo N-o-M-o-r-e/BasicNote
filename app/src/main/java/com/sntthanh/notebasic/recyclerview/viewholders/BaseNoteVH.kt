@@ -14,8 +14,8 @@ import com.sntthanh.notebasic.preferences.DateFormat
 import com.sntthanh.notebasic.preferences.TextSize
 import com.sntthanh.notebasic.recyclerview.ItemListener
 import com.sntthanh.notebasic.room.BaseNote
-import com.sntthanh.notebasic.room.Color
-import com.sntthanh.notebasic.room.Type
+import com.sntthanh.notebasic.room.model.Color
+import com.sntthanh.notebasic.room.model.Type
 import org.ocpsoft.prettytime.PrettyTime
 import java.text.SimpleDateFormat
 import java.util.Date

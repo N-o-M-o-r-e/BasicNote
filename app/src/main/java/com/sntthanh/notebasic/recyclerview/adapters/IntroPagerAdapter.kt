@@ -3,9 +3,9 @@ package com.sntthanh.notebasic.recyclerview.adapters
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.sntthanh.notebasic.fragments.Intro_01_Fragment
-import com.sntthanh.notebasic.fragments.Intro_02_Fragment
-import com.sntthanh.notebasic.fragments.Intro_03_Fragment
+import com.sntthanh.notebasic.fragment.intro.Intro_01_Fragment
+import com.sntthanh.notebasic.fragment.intro.Intro_02_Fragment
+import com.sntthanh.notebasic.fragment.intro.Intro_03_Fragment
 
 
 class IntroPagerAdapter(fragmentActivity: FragmentActivity) :

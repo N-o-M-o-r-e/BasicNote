@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.util.Log
 import android.view.MotionEvent
 import android.widget.Toast
-import com.sntthanh.notebasic.activities.MainActivity
+import com.sntthanh.notebasic.activities.home.MainActivity
 import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding
 import com.sntthanh.notebasic.databinding.ActivityQuestionBinding

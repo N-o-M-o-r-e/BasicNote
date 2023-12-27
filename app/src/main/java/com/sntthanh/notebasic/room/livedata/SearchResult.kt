@@ -3,7 +3,7 @@ package com.sntthanh.notebasic.room.livedata
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import com.sntthanh.notebasic.room.BaseNote
-import com.sntthanh.notebasic.room.Folder
+import com.sntthanh.notebasic.room.model.Folder
 import com.sntthanh.notebasic.room.Item
 import com.sntthanh.notebasic.room.dao.BaseNoteDao
 import kotlinx.coroutines.CoroutineScope

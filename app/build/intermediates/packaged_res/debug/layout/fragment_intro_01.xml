@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/Color_Background"
-        tools:context=".fragments.Intro_01_Fragment" android:tag="layout/fragment_intro_01_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+        tools:context=".fragment.intro.Intro_01_Fragment" android:tag="layout/fragment_intro_01_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottieAnimationView"

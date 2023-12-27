@@ -5,8 +5,8 @@ import androidx.lifecycle.MediatorLiveData
 import androidx.room.*
 import androidx.sqlite.db.SupportSQLiteQuery
 import com.sntthanh.notebasic.room.BaseNote
-import com.sntthanh.notebasic.room.Color
-import com.sntthanh.notebasic.room.Folder
+import com.sntthanh.notebasic.room.model.Color
+import com.sntthanh.notebasic.room.model.Folder
 import com.sntthanh.notebasic.room.LabelsInBaseNote
 import com.sntthanh.notebasic.room.ListItem
 

@@ -3,7 +3,7 @@ package com.sntthanh.notebasic.room.dao
 import androidx.room.Dao
 import androidx.room.Transaction
 import com.sntthanh.notebasic.room.BaseNote
-import com.sntthanh.notebasic.room.Label
+import com.sntthanh.notebasic.room.model.Label
 import com.sntthanh.notebasic.room.LabelsInBaseNote
 import com.sntthanh.notebasic.room.NotallyDatabase
 

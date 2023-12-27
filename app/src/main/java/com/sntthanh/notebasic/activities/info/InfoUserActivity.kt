@@ -5,7 +5,7 @@ import android.graphics.drawable.ColorDrawable
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.sntthanh.notebasic.activities.MainActivity
+import com.sntthanh.notebasic.activities.home.MainActivity
 import com.sntthanh.notebasic.activities.security.pincode.CreatePincodeActivity
 import com.sntthanh.notebasic.activities.utils.HawkCommon
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding

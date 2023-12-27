@@ -125,7 +125,7 @@ public final class NotallyDatabase_Impl extends NotallyDatabase {
         final TableInfo _infoLabel = new TableInfo("Label", _columnsLabel, _foreignKeysLabel, _indicesLabel);
         final TableInfo _existingLabel = TableInfo.read(_db, "Label");
         if (! _infoLabel.equals(_existingLabel)) {
-          return new RoomOpenHelper.ValidationResult(false, "Label(com.sntthanh.notebasic.room.Label).\n"
+          return new RoomOpenHelper.ValidationResult(false, "Label(com.sntthanh.notebasic.room.model.Label).\n"
                   + " Expected:\n" + _infoLabel + "\n"
                   + " Found:\n" + _existingLabel);
         }

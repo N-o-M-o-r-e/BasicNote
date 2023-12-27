@@ -4,8 +4,8 @@ import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
 import com.sntthanh.notebasic.room.BaseNote
-import com.sntthanh.notebasic.room.Folder
-import com.sntthanh.notebasic.room.Label
+import com.sntthanh.notebasic.room.model.Folder
+import com.sntthanh.notebasic.room.model.Label
 import java.io.File
 
 // Backwards compatibility from v3.2 to v3.3

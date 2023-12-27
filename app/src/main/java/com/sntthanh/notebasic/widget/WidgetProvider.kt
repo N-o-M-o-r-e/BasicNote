@@ -9,9 +9,9 @@ import android.content.Intent
 import android.net.Uri
 import android.widget.RemoteViews
 import com.sntthanh.notebasic.R
-import com.sntthanh.notebasic.activities.ConfigureWidget
-import com.sntthanh.notebasic.activities.MakeList
-import com.sntthanh.notebasic.activities.TakeNote
+import com.sntthanh.notebasic.activities.widget.ConfigureWidget
+import com.sntthanh.notebasic.activities.create_note.MakeList
+import com.sntthanh.notebasic.activities.create_note.TakeNote
 import com.sntthanh.notebasic.miscellaneous.Constants
 import com.sntthanh.notebasic.preferences.Preferences
 import com.sntthanh.notebasic.room.NotallyDatabase

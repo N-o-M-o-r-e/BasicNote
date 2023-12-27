@@ -17,7 +17,7 @@ import com.sntthanh.notebasic.Cache
 import com.sntthanh.notebasic.R
 import com.sntthanh.notebasic.legacy.Migrations
 import com.sntthanh.notebasic.legacy.XMLUtils
-import com.sntthanh.notebasic.miscellaneous.Export
+import com.sntthanh.notebasic.backup.Export
 import com.sntthanh.notebasic.miscellaneous.IO
 import com.sntthanh.notebasic.miscellaneous.Operations
 import com.sntthanh.notebasic.miscellaneous.applySpans
@@ -26,14 +26,14 @@ import com.sntthanh.notebasic.preferences.ListInfo
 import com.sntthanh.notebasic.preferences.Preferences
 import com.sntthanh.notebasic.preferences.SeekbarInfo
 import com.sntthanh.notebasic.room.BaseNote
-import com.sntthanh.notebasic.room.Color
+import com.sntthanh.notebasic.room.model.Color
 import com.sntthanh.notebasic.room.Converters
-import com.sntthanh.notebasic.room.Folder
+import com.sntthanh.notebasic.room.model.Folder
 import com.sntthanh.notebasic.room.Header
 import com.sntthanh.notebasic.room.Item
-import com.sntthanh.notebasic.room.Label
+import com.sntthanh.notebasic.room.model.Label
 import com.sntthanh.notebasic.room.NotallyDatabase
-import com.sntthanh.notebasic.room.Type
+import com.sntthanh.notebasic.room.model.Type
 import com.sntthanh.notebasic.room.livedata.Content
 import com.sntthanh.notebasic.room.livedata.SearchResult
 import com.sntthanh.notebasic.widget.WidgetProvider
@@ -155,7 +155,7 @@ class BaseNoteModel(private val app: Application) : AndroidViewModel(app) {
         }
     }
 
-
+//Backup
     fun exportBackup(uri: Uri) {
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
@@ -177,14 +177,13 @@ class BaseNoteModel(private val app: Application) : AndroidViewModel(app) {
 
 
     /**
-     * Lots of things can go wrong, instead of trying to account for all of them,
-     * display a generic message and allow the user to send a report
+        backup data to Zip
      */
     private fun importZipBackup(uri: Uri) {
         viewModelScope.launch(backupExceptionHandler) {
             val stream = app.contentResolver.openInputStream(uri)
             requireNotNull(stream) { "inputStream opened by contentResolver is null" }
-
+            //coroutine
             withContext(Dispatchers.IO) {
                 val backupDir = getBackupPath()
                 val destination = File(backupDir, "TEMP.zip")
@@ -208,7 +207,7 @@ class BaseNoteModel(private val app: Application) : AndroidViewModel(app) {
 
                 val labels = convertCursorToList(labelCursor, ::convertCursorToLabel)
                 val baseNotes = convertCursorToList(baseNoteCursor, ::convertCursorToBaseNote)
-
+                //import backup data.
                 commonDao.importBackup(baseNotes, labels)
             }
             Toast.makeText(app, R.string.imported_backup, Toast.LENGTH_LONG).show()

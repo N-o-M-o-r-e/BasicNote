@@ -3,6 +3,9 @@ package com.sntthanh.notebasic.room
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
+import com.sntthanh.notebasic.room.model.Color
+import com.sntthanh.notebasic.room.model.Folder
+import com.sntthanh.notebasic.room.model.Type
 
 @Entity(indices = [Index(value = ["id", "folder", "pinned", "timestamp", "labels"])])
 data class BaseNote(

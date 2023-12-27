@@ -2,7 +2,6 @@ package com.sntthanh.notebasic.activities.tutorial
 
 import android.content.Intent
 import androidx.viewpager2.widget.ViewPager2
-import com.sntthanh.notebasic.activities.MainActivity
 import com.sntthanh.notebasic.activities.info.InfoUserActivity
 import com.sntthanh.notebasic.base.BaseActivityWithoutDataBiding
 import com.sntthanh.notebasic.databinding.ActivityIntroBinding

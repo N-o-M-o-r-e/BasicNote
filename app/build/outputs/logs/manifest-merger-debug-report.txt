@@ -289,34 +289,34 @@ ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:60:9-62:40
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:62:13-37
 	android:name
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:61:13-45
-activity#com.sntthanh.notebasic.activities.MainActivity
+activity#com.sntthanh.notebasic.activities.home.MainActivity
 ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:74:9-81:20
 	android:exported
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:76:13-36
 	android:theme
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:77:13-48
 	android:name
-		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:75:13-52
+		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:75:13-57
 meta-data#android.app.shortcuts
 ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:78:13-80:53
 	android:resource
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:80:17-50
 	android:name
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:79:17-53
-activity#com.sntthanh.notebasic.activities.MakeList
+activity#com.sntthanh.notebasic.activities.create_note.MakeList
 ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:82:9-84:58
 	android:windowSoftInputMode
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:84:13-55
 	android:name
-		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:83:13-48
-activity#com.sntthanh.notebasic.activities.TakeNote
+		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:83:13-60
+activity#com.sntthanh.notebasic.activities.create_note.TakeNote
 ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:85:9-96:20
 	android:windowSoftInputMode
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:88:13-55
 	android:exported
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:87:13-36
 	android:name
-		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:86:13-48
+		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:86:13-60
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
 ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:89:13-95:29
 action#android.intent.action.SEND
@@ -331,12 +331,12 @@ data
 ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:94:17-55
 	android:mimeType
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:94:23-52
-activity#com.sntthanh.notebasic.activities.ConfigureWidget
+activity#com.sntthanh.notebasic.activities.widget.ConfigureWidget
 ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:97:9-103:20
 	android:exported
 		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:99:13-37
 	android:name
-		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:98:13-55
+		ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:98:13-62
 intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
 ADDED from E:\Note\NoteBasic\app\src\main\AndroidManifest.xml:100:13-102:29
 action#android.appwidget.action.APPWIDGET_CONFIGURE

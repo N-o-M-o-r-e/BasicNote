@@ -84,7 +84,7 @@
         </provider>
 
         <activity
-            android:name="com.sntthanh.notebasic.activities.MainActivity"
+            android:name="com.sntthanh.notebasic.activities.home.MainActivity"
             android:exported="true"
             android:theme="@style/MainActivity" >
             <meta-data
@@ -92,10 +92,10 @@
                 android:resource="@xml/shortcuts" />
         </activity>
         <activity
-            android:name="com.sntthanh.notebasic.activities.MakeList"
+            android:name="com.sntthanh.notebasic.activities.create_note.MakeList"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.sntthanh.notebasic.activities.TakeNote"
+            android:name="com.sntthanh.notebasic.activities.create_note.TakeNote"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" >
             <intent-filter>
@@ -107,7 +107,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sntthanh.notebasic.activities.ConfigureWidget"
+            android:name="com.sntthanh.notebasic.activities.widget.ConfigureWidget"
             android:exported="false" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />

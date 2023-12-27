@@ -9,7 +9,7 @@ import android.widget.RemoteViewsService
 import com.sntthanh.notebasic.R
 import com.sntthanh.notebasic.room.BaseNote
 import com.sntthanh.notebasic.room.NotallyDatabase
-import com.sntthanh.notebasic.room.Type
+import com.sntthanh.notebasic.room.model.Type
 import com.sntthanh.notebasic.viewmodels.BaseNoteModel
 
 class WidgetFactory(private val app: Application, private val id: Long) :

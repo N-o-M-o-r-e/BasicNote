@@ -14,15 +14,9 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
-import com.sntthanh.notebasic.activities.TakeNote
+import com.sntthanh.notebasic.activities.create_note.TakeNote
 import com.sntthanh.notebasic.room.SpanRepresentation
 
-/**
- * For some reason, this method crashes sometimes with an
- * IndexOutOfBoundsException that I've not been able to replicate.
- * When this happens, to prevent the entire app from crashing and becoming
- * unusable, the exception is suppressed.
- */
 fun String.applySpans(representations: List<SpanRepresentation>): Editable {
     val editable = Editable.Factory.getInstance().newEditable(this)
     representations.forEach { (bold, link, italic, monospace, strikethrough, start, end) ->

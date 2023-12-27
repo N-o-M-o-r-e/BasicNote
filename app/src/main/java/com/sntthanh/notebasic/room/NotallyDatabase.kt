@@ -8,6 +8,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 import com.sntthanh.notebasic.room.dao.BaseNoteDao
 import com.sntthanh.notebasic.room.dao.CommonDao
 import com.sntthanh.notebasic.room.dao.LabelDao
+import com.sntthanh.notebasic.room.model.Label
 
 @TypeConverters(Converters::class)
 @Database(entities = [BaseNote::class, Label::class], version = 2)

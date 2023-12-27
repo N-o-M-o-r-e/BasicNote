@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/Notes"
-        android:name="com.sntthanh.notebasic.fragments.Notes"
+        android:name="com.sntthanh.notebasic.fragment.category.Notes"
         android:label="@string/home">
 
         <action
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/Labels"
-        android:name="com.sntthanh.notebasic.fragments.Labels"
+        android:name="com.sntthanh.notebasic.fragment.category.Labels"
         android:label="@string/labels">
 
         <action
@@ -34,26 +34,26 @@
 
     <fragment
         android:id="@+id/Deleted"
-        android:name="com.sntthanh.notebasic.fragments.Deleted"
+        android:name="com.sntthanh.notebasic.fragment.category.Deleted"
         android:label="@string/deleted" />
 
     <fragment
         android:id="@+id/Archived"
-        android:name="com.sntthanh.notebasic.fragments.Archived"
+        android:name="com.sntthanh.notebasic.fragment.category.Archived"
         android:label="@string/archived" />
 
     <fragment
         android:id="@+id/Settings"
-        android:name="com.sntthanh.notebasic.fragments.Settings"
+        android:name="com.sntthanh.notebasic.fragment.Settings"
         android:label="@string/settings" />
 
     <fragment
         android:id="@+id/Search"
-        android:name="com.sntthanh.notebasic.fragments.Search" />
+        android:name="com.sntthanh.notebasic.fragment.category.Search" />
 
     <fragment
         android:id="@+id/DisplayLabel"
-        android:name="com.sntthanh.notebasic.fragments.DisplayLabel"
+        android:name="com.sntthanh.notebasic.fragment.category.DisplayLabel"
         android:label="{SelectedLabel}" />
 
 </navigation>

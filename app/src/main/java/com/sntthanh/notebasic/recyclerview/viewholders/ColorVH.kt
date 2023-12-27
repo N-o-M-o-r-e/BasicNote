@@ -4,7 +4,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.sntthanh.notebasic.databinding.RecyclerColorBinding
 import com.sntthanh.notebasic.miscellaneous.Operations
 import com.sntthanh.notebasic.recyclerview.ItemListener
-import com.sntthanh.notebasic.room.Color
+import com.sntthanh.notebasic.room.model.Color
 
 class ColorVH(private val binding: RecyclerColorBinding, listener: ItemListener) :
     RecyclerView.ViewHolder(binding.root) {

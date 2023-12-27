@@ -10,7 +10,7 @@ import androidx.room.RoomSQLiteQuery;
 import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
-import com.sntthanh.notebasic.room.Label;
+import com.sntthanh.notebasic.room.model.Label;
 import java.lang.Class;
 import java.lang.Exception;
 import java.lang.Object;
