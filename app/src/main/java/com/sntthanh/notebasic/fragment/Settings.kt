@@ -161,7 +161,7 @@ class Settings : Fragment() {
         }
 
         binding.GitHub.setOnClickListener {
-            openLink("https://github.com/OmGodse/Notally")
+            openLink("")
         }
 
         binding.Libraries.setOnClickListener {
@@ -169,7 +169,7 @@ class Settings : Fragment() {
         }
 
         binding.Rate.setOnClickListener {
-            openLink("https://play.google.com/store/apps/details?id=com.omgodse.notally")
+            openLink("")
         }
 
         binding.SendFeedback.setOnClickListener {
@@ -205,7 +205,7 @@ class Settings : Fragment() {
         val intent = Intent(Intent.ACTION_CREATE_DOCUMENT)
         intent.type = "application/zip"
         intent.addCategory(Intent.CATEGORY_OPENABLE)
-        intent.putExtra(Intent.EXTRA_TITLE, "Notally Backup")
+        intent.putExtra(Intent.EXTRA_TITLE, "NoteBasic Backup")
         startActivityForResult(intent, REQUEST_EXPORT_BACKUP)
     }
 
@@ -222,8 +222,8 @@ class Settings : Fragment() {
         val intent = Intent(Intent.ACTION_SEND)
         intent.selector = Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:"))
 
-        intent.putExtra(Intent.EXTRA_EMAIL, arrayOf("omgodseapps@gmail.com"))
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Notally [Feedback]")
+        intent.putExtra(Intent.EXTRA_EMAIL, arrayOf(""))
+        intent.putExtra(Intent.EXTRA_SUBJECT, "")
 
         val app = requireContext().applicationContext as Application
         val log = Operations.getLog(app)
@@ -250,10 +250,10 @@ class Settings : Fragment() {
             .setTitle(R.string.libraries)
             .setItems(libraries) { _, which ->
                 when (which) {
-                    0 -> openLink("https://github.com/ocpsoft/prettytime")
-                    1 -> openLink("https://github.com/rambler-digital-solutions/swipe-layout-android")
-                    2 -> openLink("https://developer.android.com/jetpack/androidx/releases/work")
-                    3 -> openLink("https://github.com/material-components/material-components-android")
+                    0 -> openLink("")
+                    1 -> openLink("")
+                    2 -> openLink("")
+                    3 -> openLink("")
                 }
             }
             .setNegativeButton(R.string.cancel, null)
